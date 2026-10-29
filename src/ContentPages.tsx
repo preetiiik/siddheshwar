@@ -6,6 +6,7 @@ import { productGroups } from './product-data';
 import About from './About';
 import SpacesPage from './Spaces';
 import Certificates from './Certificates';
+import CertificationsPage from './CertificationsPage';
 import { AutomationServiceCards, AutomationServiceDetail } from './HomeAutomation';
 import { ProductCategoryCards, ProductCategoryDetail } from './Products';
 import { ProjectCards, ProjectDetail } from './Projects';
@@ -23,6 +24,7 @@ function Copy({ text }: { text: string }) {
 export function ContentPage({ path }: { path: string }) {
   if (path === '/spaces' || path.startsWith('/spaces/')) return <SpacesPage slug={path === '/spaces' ? undefined : path.slice('/spaces/'.length)} />;
   if (path === '/about') return <About />;
+  if (path === '/certifications') return <CertificationsPage />;
   if (path === '/privacy-policy') return <section className="bg-[#f8fafc] px-6 pb-24 pt-48 md:px-12"><div className="mx-auto max-w-3xl"><a href="/" className="inline-flex items-center gap-2 text-sm text-[#1e3a8a] underline underline-offset-4">Back to home</a><h1 className="luxury-heading mt-8 text-5xl font-semibold text-[#1e3a8a]">Privacy Policy</h1><div className="mt-10 space-y-8 text-sm leading-8 text-slate-600"><section><h2 className="text-xl font-semibold text-[#1e3a8a]">Information you provide</h2><p>The consultation form currently operates as a demonstration. Submitting it displays a confirmation on this page; it does not send your details to a backend or email service.</p></section><section><h2 className="text-xl font-semibold text-[#1e3a8a]">External content and links</h2><p>This website loads fonts and images from third-party providers. Your browser connects to those providers when loading this content. External websites, including links in our footer, follow their own privacy policies.</p></section><section><h2 className="text-xl font-semibold text-[#1e3a8a]">Questions and updates</h2><p>For privacy questions, please visit our <a href="/contact" className="text-[#1e3a8a] underline underline-offset-4">contact page</a>. This policy should be updated when enquiry handling or other data collection features are enabled.</p></section></div></div></section>;
   if (path.startsWith('/home-automation/')) return <AutomationServiceDetail slug={path.slice('/home-automation/'.length)} />;
   if (path.startsWith('/products/')) return <ProductCategoryDetail slug={path.slice('/products/'.length)} />;
