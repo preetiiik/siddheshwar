@@ -336,7 +336,7 @@ nav[aria-label] details > div > a:focus-visible {
 .collage-footer-brand > p { margin: 0; font: 500 23px/1.12 'Manrope', sans-serif; letter-spacing: -.04em; }
 .collage-footer-brand > p > span { color: #3b65a3; }
 .collage-footer-links { display: grid; grid-template-columns: 1fr 1.3fr 1.2fr; gap: 28px; }
-.collage-footer-links h3 { margin: 0 0 21px; color: #526b8c; font-size: 8px; font-weight: 500; letter-spacing: .08em; }
+.collage-footer-links h3 { margin: 0 0 21px; color: #1e3a8a; font-size: 13px; font-weight: 700; letter-spacing: .12em; }
 .collage-footer-links a { display: block; width: fit-content; margin-top: 12px; color: #475569; font-size: 11px; line-height: 1.5; transition: color .2s, transform .2s; }
 .collage-footer-links a:hover { color: #1d4ed8; transform: translateX(3px); }
 .collage-footer-legal { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 25px; margin: 0 42px; padding: 20px 0 25px; border-top: 1px solid #cbd5e1; color: #64748b; font-size: 9px; line-height: 1.7; }
@@ -364,7 +364,7 @@ nav[aria-label] details > div > a:focus-visible {
  .collage-footer-links { gap: 15px; grid-template-columns: 1fr 1.2fr; }
  .collage-footer-links nav:last-child { grid-column: 1 / -1; }
  .collage-footer-links nav:last-child a { display: inline-block; margin-right: 18px; }
- .collage-footer-links h3 { font-size: 7px; margin-bottom: 15px; }
+ .collage-footer-links h3 { font-size: 12px; margin-bottom: 15px; }
  .collage-footer-links a { font-size: 10px; }
  .collage-footer-legal { margin: 0 22px; font-size: 7px; padding-bottom: 20px; align-items: flex-start; }
 }
@@ -746,3 +746,8 @@ nav[aria-label] details > div > a:focus-visible {
 @media(max-width:1100px) { .space-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media(max-width:767px) { .space-grid { grid-template-columns: 1fr; } }
 @media(prefers-reduced-motion:reduce) { .space-card-image > img, .space-card-copy > span svg, .spaces-view-all { transition: none; } .space-card:hover .space-card-image > img, .space-card:focus-visible .space-card-image > img, .space-card:hover .space-card-copy > span svg { transform: none; } }
+
+.collage-footer-links a.footer-solutions-cta { display: inline-flex; align-items: center; gap: 10px; margin-top: 22px; padding-bottom: 6px; color: #1e3a8a; font-weight: 700; border-bottom: 1px solid #7d9cc9; }
+.footer-solutions-cta svg { transition: transform .25s; }
+.footer-solutions-cta:hover svg { transform: translate(2px,-2px); }
+@media(prefers-reduced-motion:reduce) { .footer-solutions-cta svg { transition: none; } .footer-solutions-cta:hover svg { transform: none; } }
