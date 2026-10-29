@@ -1,0 +1,1302 @@
+=== PAGE 1 ===
+Smart Touch Switches 
+ 
+ Description 
+Smart Touch Switches provide a modern and convenient way to control home appliances. 
+Available in 1, 2, 3, 4 and 5-switch variations, they combine normal switching with fan dimming 
+functionality. These switches support mobile app control and real-time power consumption 
+monitoring, making everyday appliance management easier. 
+ 
+Key Features 
+- Available in 1, 2, 3, 4 and 5-switch variations 
+- Built-in fan dimmer control 
+- Integrated sensor strip 
+- Control compatible appliances through a smart home app 
+- Real-time power consumption monitoring 
+- Convenient control of multiple home appliances 
+ 
+ Appliances You Can Control 
+- LED Lights 
+- Tube Lights 
+- Bulbs 
+- Sockets 
+- Fans 
+ 
+ Technical Specifications 
+- *Power Rating:* 6A 
+- *Input Voltage:* 230V / 50Hz 
+ 
+
+
+=== PAGE 2 ===
+ Applications 
+Smart homes, apartments, villas, bedrooms, living rooms and offices. 
+ 
+ 
+ 
+ 
+## KNX Smart Touch Panels 
+ 
+**Smart Control for Modern Living** 
+ 
+KNX Smart Touch Panels provide a convenient and centralized way to control multiple home and 
+building automation functions. Featuring an intuitive touch interface and elegant design, these 
+panels simplify everyday control of lighting, curtains, climate and personalized room settings. 
+ 
+### Key Features 
+- Touchscreen-based smart control 
+- Centralized lighting control 
+- Curtain and blind automation 
+- Temperature and HVAC control 
+- Personalized lighting scenes 
+- Integration with compatible KNX devices 
+- Modern wall-mounted design  
+Applications- Smart homes and luxury villas 
+- Apartments 
+- Hotels and hospitality spaces 
+- Corporate offices 
+- Commercial buildings 
+
+
+=== PAGE 3 ===
+ 
+ 
+ 
+ 
+## Smart Dimmer Modules 
+ 
+*Perfect Lighting for Every Mood* 
+ 
+Smart Dimmer Modules allow users to adjust the brightness of compatible lighting fixtures, 
+creating a comfortable atmosphere for different activities. From bright lighting for work to soft 
+illumination for relaxation, these modules provide flexible lighting control for modern homes 
+and commercial spaces. 
+ 
+### Key Features 
+- Adjustable lighting brightness 
+- Smooth dimming with compatible lights and drivers 
+- Personalized lighting scenes 
+- Integration with compatible automation systems 
+- Centralized or app-based control on supported models 
+- Convenient lighting management 
+ 
+### Applications 
+- Living rooms and bedrooms 
+- Luxury villas and apartments 
+- Hotels and restaurants 
+- Offices and conference rooms 
+- Home theatres 
+
+
+=== PAGE 4 ===
+- Architectural lighting installations 
+ 
+ 
+ 
+ 
+## Motorized Curtain & Blind Controllers 
+ 
+Motorized Curtain & Blind Controllers enable automatic opening, closing and adjustment of 
+compatible curtains and blinds. These controllers integrate with smart home automation 
+systems to provide convenient control over natural light and privacy. 
+ 
+### Key Features 
+- Automatic opening and closing 
+- Smart scheduling and timer control 
+- Wall switch and touch panel operation 
+- Integration with compatible automation systems 
+- Group and scene control 
+- Adjustable curtain positioning on supported models 
+ 
+*Applications:* Homes, Villas, Apartments, Hotels, Offices and Conference Rooms.Motorized 
+Drapery Track 
+ 
+ 
+ 
+ 
+## KNX Switching Actuators 
+ 
+
+
+=== PAGE 5 ===
+*Smart and Reliable Electrical Control* 
+ 
+KNX Switching Actuators are advanced automation modules designed to control lighting and 
+electrical circuits in residential and commercial buildings. They provide centralized ON/OFF 
+switching, allowing multiple electrical loads to be managed efficiently through a KNX 
+automation system. 
+ 
+### Key Features 
+ 
+- Multi-channel switching for electrical circuits 
+- Individual and group control of connected loads 
+- Seamless KNX system integration 
+- Automated scheduling and scene management 
+- Manual switching on supported models 
+- DIN-rail mounting for electrical panels 
+ 
+### Applications 
+ 
+Smart Homes | Luxury Villas | Offices | Hotels | Commercial Buildings 
+ 
+ 
+ 
+ 
+## Smart Climate & HVAC Controllers 
+ 
+*Advanced Climate Management for Modern Spaces* 
+ 
+
+
+=== PAGE 6 ===
+Smart Climate & HVAC Controllers provide intelligent control over indoor temperature, heating, 
+ventilation and air conditioning systems. Designed for modern homes and commercial 
+environments, they allow users to manage room temperatures, adjust cooling settings and 
+automate climate operations through compatible smart control systems. 
+ 
+### Key Features 
+ 
+- *Temperature Control:* Adjust and maintain preferred indoor temperatures. 
+- *HVAC Integration:* Compatible with supported split AC, VRF and centralized HVAC systems. 
+- *Zone-Based Control:* Manage temperatures independently across different rooms or zones. 
+- *Smart Scheduling:* Automate climate settings according to daily routines. 
+- *Climate Modes:* Configure comfort, day, night and energy-saving modes on supported 
+systems. 
+- *Centralized Management:* Control compatible HVAC equipment through smart panels or 
+automation interfaces. 
+ 
+### Applications 
+ 
+Luxury Homes | Villas | Apartments | Hotels | Offices | Commercial Buildings 
+ 
+ 
+ 
+ 
+ 
+## Motion & Presence Sensors 
+ 
+*Smart Detection. Effortless Automation.* 
+
+
+=== PAGE 7 ===
+ 
+Motion & Presence Sensors enable intelligent lighting control by detecting movement and 
+occupancy within a space. These sensors automatically activate lighting when needed and 
+switch it off when areas are unoccupied, providing greater convenience, improved energy 
+efficiency and a seamless automation experience. 
+ 
+### Key Features 
+ 
+- *Intelligent Motion Detection:* Automatically triggers connected lighting when movement is 
+detected. 
+- *Occupancy-Based Control:* Maintains lighting based on detected room presence. 
+- *Daylight Detection:* Uses ambient light levels to optimize lighting operation on supported 
+models. 
+- *Automatic ON/OFF:* Reduces unnecessary energy consumption through automated 
+switching. 
+- *Adjustable Detection Settings:* Configurable sensitivity, detection range and time delays on 
+compatible models. 
+- *Automation Integration:* Supports integration with compatible KNX and smart building 
+control systems. 
+ 
+### Applications 
+ 
+Luxury Homes | Villas | Offices | Hotels | Corridors | Staircases | Meeting Rooms | Commercial 
+Spaces 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 8 ===
+ 
+DALI Lighting Controllers 
+ 
+Intelligent Lighting Control with Precision and Flexibility 
+ 
+DALI (Digital Addressable Lighting Interface) Controllers are designed to manage and control 
+lighting fixtures in modern buildings. They enable individual and group lighting control, precise 
+brightness adjustments, colour control and customized lighting scenes, providing flexible and 
+energy-efficient lighting management. 
+ 
+Key Features 
+ 
+- Individual & Group Control: Control lighting fixtures separately or together. 
+- Precise Dimming:Adjust brightness according to lighting requirements. 
+- Colour Control: Manage light colour through compatible lighting equipment. 
+- Lighting Scenes:Create customized lighting settings for different activities. 
+- Flexible Integration: Connect compatible lighting devices within a DALI lighting system. 
+- Energy Efficiency: Optimize lighting usage to reduce unnecessary energy consumption. 
+Applications 
+ 
+Residential Spaces | Commercial Buildings | Hotels | Healthcare Facilities | Offices | 
+Architectural Lighting 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 9 ===
+ 
+Smart Energy Management Controllers 
+ 
+Intelligent Energy Monitoring for Smarter, More Efficient Buildings 
+ 
+Smart Energy Management Controllers provide an advanced solution for monitoring, managing, 
+and optimizing electricity consumption in modern residential and commercial spaces. Designed 
+to integrate with compatible building automation systems, these controllers enable real-time 
+energy monitoring, intelligent load management, and automated energy control, helping 
+improve operational efficiency and reduce unnecessary power consumption. 
+ 
+ Key Features 
+ 
+- Real-Time Energy Monitoring:Track electricity consumption and power usage through 
+compatible energy meters. 
+- Intelligent Load Management: Monitor and manage connected electrical loads for efficient 
+power utilization. 
+- Energy Consumption Analysis:Analyze energy usage patterns to identify opportunities for 
+improved efficiency. 
+- Automated Energy Control: Schedule and automate connected electrical equipment based on 
+predefined requirements. 
+- Centralized Monitoring: Access energy consumption information through compatible control 
+panels and monitoring interfaces. 
+- Smart System Integration: Integrate with compatible KNX and building management systems 
+for coordinated energy control. 
+- Energy Efficiency:Optimize electricity usage and minimize unnecessary energy consumption. 
+ 
+Applications 
+ 
+
+
+=== PAGE 10 ===
+Smart Homes | Luxury Villas | Residential Apartments | Hotels & Resorts | Corporate Offices | 
+Commercial Buildings | Industrial Facilities 
+ 
+ 
+ 
+ 
+ 
+ 
+Hotel Room Automation Controllers 
+ 
+Intelligent Room Control for a Seamless Hospitality Experience 
+ 
+Hotel Room Automation Controllers offer an advanced solution for managing and automating 
+essential room functions in modern hospitality environments. Designed to enhance guest 
+comfort and operational efficiency, these controllers enable centralized control of lighting, air 
+conditioning, motorized curtains, and other connected systems. With intelligent automation 
+and energy-saving capabilities, they help hotels deliver a personalized, convenient, and efficient 
+guest experience. 
+ 
+ Key Features 
+ 
+- Centralized Room Management: Control multiple room functions through a unified 
+automation system. 
+- Intelligent Lighting Control:Manage lighting levels, automated schedules, and customized room 
+scenes. 
+- Smart Climate Management: Integrate with compatible HVAC systems for efficient 
+temperature control and enhanced guest comfort. 
+- Automated Curtain Control:Operate motorized curtains and blinds for convenient light and 
+privacy management. 
+
+
+=== PAGE 11 ===
+- Occupancy-Based Automation: Automatically adjust connected room functions based on 
+occupancy detection. 
+- Energy-Efficient Operation: Minimize unnecessary power consumption through intelligent 
+automation and energy-saving modes. 
+- Hotel System Integration: Connect with compatible hotel management and building 
+automation systems for streamlined room operations. 
+ 
+ Applications 
+ 
+Luxury Hotels | Boutique Hotels | Resorts | Serviced Apartments | Premium Guest Suites | 
+Hospitality Properties 
+ 
+ 
+ 
+ 
+ 
+Downlights 
+ 
+Designed to Illuminate. Crafted to Complement. 
+ 
+Bring precision and elegance to every interior with modern LED Downlights. Combining compact 
+design with efficient lighting performance, these fixtures deliver focused or evenly distributed 
+illumination while maintaining a clean architectural finish. Ideal for creating comfortable, 
+functional, and visually appealing spaces. 
+ 
+ Product Highlights 
+ 
+Precision Illumination 
+
+
+=== PAGE 12 ===
+ 
+Carefully designed optics provide controlled light distribution for general, task, and accent 
+lighting applications. 
+ 
+Energy-Efficient Performance 
+ 
+Advanced LED technology delivers effective brightness while helping minimize electricity 
+consumption. 
+ 
+Seamless Ceiling Integration 
+ 
+Compact and minimalist designs complement modern ceiling layouts without overpowering the 
+interior. 
+ 
+Comfortable Lighting Experience 
+ 
+Available in different color temperatures and low-glare configurations to create the desired 
+ambience. 
+ 
+Flexible Lighting Solutions 
+ 
+A choice of wattages, beam angles, and mounting configurations supports different lighting 
+requirements. 
+ 
+Reliable & Durable 
+ 
+Quality construction and effective heat management support consistent performance and 
+extended service life. 
+
+
+=== PAGE 13 ===
+ 
+ Ideal For 
+ 
+Residential Interiors • Luxury Villas • Hotels • Restaurants • Retail Stores • Offices • Commercial 
+Spaces 
+ 
+ 
+ 
+ 
+ 
+Recessed Downlights 
+ 
+Seamless Design. Brilliant Illumination. 
+ 
+Recessed Downlights are modern lighting fixtures installed directly into the ceiling, creating a 
+clean and minimal appearance. Designed to provide efficient and evenly distributed 
+illumination, these lights blend seamlessly with the ceiling while enhancing the overall 
+ambience of residential and commercial interiors. 
+ 
+ Product Highlights 
+ 
+1. Flush Ceiling Design 
+ 
+Installed within the ceiling for a neat, seamless finish without visible hanging fixtures. 
+ 
+2. Energy-Efficient LED Lighting 
+ 
+
+
+=== PAGE 14 ===
+Delivers effective brightness with reduced energy consumption and minimal maintenance. 
+ 
+3. Comfortable Illumination 
+ 
+Provides soft, balanced lighting with options for different beam angles and color temperatures. 
+ 
+4. Space-Saving Installation 
+ 
+Compact construction makes recessed downlights ideal for modern false ceilings and interiors. 
+ 
+5. Versatile Lighting Applications 
+ 
+Suitable for general lighting, task lighting, and highlighting specific areas of a room. 
+ 
+6. Long-Lasting Performance 
+ 
+Designed for consistent illumination with effective heat management and reliable LED 
+performance. 
+ 
+Ideal Applications 
+ 
+Living Rooms | Bedrooms | Kitchens | Hallways | Hotels | Restaurants | Retail Showrooms | 
+Offices | Commercial Spaces 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 15 ===
+ 
+Surface Downlights 
+ 
+Smart Lighting Solutions for Every Ceiling 
+ 
+Enhance your interiors with stylish and functional Surface Downlights. Designed to mount 
+directly onto ceilings, these modern LED fixtures offer powerful illumination without the need 
+for recessed installation. Their compact structure and contemporary finish make them an 
+excellent choice for both residential and commercial spaces. 
+Why Choose Surface Downlights? 
+ 
+Easy Ceiling Installation 
+ 
+Mounts directly onto compatible ceiling surfaces without requiring large cutouts or concealed 
+fixture housings. 
+ 
+Clean & Contemporary Design 
+ 
+Available in elegant cylindrical and square profiles that complement modern interiors. 
+ 
+Bright & Efficient Lighting 
+ 
+LED technology provides effective illumination while consuming less energy than traditional 
+lighting solutions. 
+ 
+Customizable Lighting Experience 
+ 
+
+
+=== PAGE 16 ===
+Different wattages, beam angles, and color temperature options help create the desired lighting 
+effect. 
+ 
+Designed for Versatility 
+ 
+Surface Downlights can be used to illuminate entire rooms, brighten specific work areas, or 
+highlight architectural details. Their surface-mounted construction makes them especially useful 
+in spaces with concrete ceilings or limited ceiling depth. 
+ 
+Where They Work Best 
+ 
+- Residential Spaces: Living rooms, bedrooms, kitchens, and hallways. 
+- Commercial Interiors: Offices, meeting rooms, and reception areas. 
+- Retail Environments: Showrooms, boutiques, and display sections. 
+- Hospitality Spaces:Hotels, cafés, restaurants, and corridors. 
+ 
+A perfect balance of modern aesthetics, installation flexibility, and dependable illumination. 
+ 
+ 
+ 
+ 
+ 
+COB Downlights 
+ 
+Focused Brilliance. Exceptional Clarity. 
+ 
+
+
+=== PAGE 17 ===
+COB (Chip on Board) Downlights are advanced LED lighting fixtures designed to deliver 
+concentrated, uniform illumination with excellent visual clarity. Featuring multiple LED chips 
+integrated into a single module, these lights provide a powerful and consistent light output, 
+making them ideal for highlighting architectural details, interiors, and display areas. 
+ 
+ What Makes COB Downlights Special? 
+ 
+Precision-Focused Lighting 
+ 
+Designed to direct light onto specific areas, creating attractive highlights and enhancing 
+architectural features. 
+ 
+High-Quality Illumination 
+ 
+COB LED technology produces a uniform light source, helping reduce visible individual LED 
+points. 
+ 
+Enhanced Colour Rendering 
+ 
+Available with high colour-rendering options to showcase furniture, artwork, merchandise, and 
+interior finishes more naturally. 
+ 
+Energy-Efficient Performance 
+ 
+Delivers strong illumination with efficient LED technology and reduced energy consumption. 
+ 
+Modern & Compact Design 
+ 
+
+
+=== PAGE 18 ===
+Sleek fixtures integrate beautifully into contemporary ceiling designs while maintaining a 
+refined appearance. 
+ 
+*Multiple Beam Angle Options* 
+ 
+Available with different beam spreads for focused accent lighting or wider illumination, 
+depending on the fixture. 
+ 
+ Perfect for Highlighting Every Detail 
+ 
+COB Downlights are particularly effective in spaces where lighting needs to do more than 
+provide brightness. They create visual depth, emphasize textures, and draw attention to 
+important design elements. 
+ 
+Recommended Applications 
+ 
+- Residential Interiors: Living rooms, bedrooms, feature walls, and decorative spaces. 
+- Retail & Showrooms: Product displays, fashion boutiques, jewellery stores, and exhibition 
+areas. 
+- Hospitality: Hotels, restaurants, reception areas, and premium interiors. 
+- Commercial Spaces: Offices, galleries, display counters, and architectural features. 
+ 
+Illuminate with precision. Highlight with elegance. 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 19 ===
+ 
+Adjustable Spotlights 
+ 
+Direct the Light. Highlight Every Detail. 
+ 
+Adjustable Spotlights are versatile lighting fixtures designed to provide precise and directional 
+illumination. Featuring tiltable or rotatable light heads, these fixtures allow you to control 
+where the light falls, making them ideal for highlighting artwork, architectural details, furniture, 
+and decorative elements. Their sleek design and flexible functionality make them a perfect 
+addition to modern residential and commercial interiors. 
+ 
+ Why Choose Adjustable Spotlights? 
+ 
+1. Directional Lighting Control 
+ 
+Adjustable light heads allow illumination to be directed toward specific areas, objects, or 
+architectural features. 
+ 
+2. Precision Accent Lighting 
+ 
+Ideal for highlighting artwork, wall textures, display products, and decorative interiors. 
+ 
+3. Flexible Beam Positioning 
+ 
+Tilting and rotating mechanisms offer convenient lighting adjustments to suit changing 
+requirements. 
+ 
+4. Energy-Efficient LED Technology 
+
+
+=== PAGE 20 ===
+ 
+Provides effective illumination with reduced power consumption and long-lasting performance. 
+ 
+5. Sleek Architectural Design 
+ 
+Compact, modern fixtures complement contemporary ceiling designs without distracting from 
+the interior. 
+ 
+6. Customizable Lighting Options 
+ 
+Available in different beam angles, wattages, finishes, and colour temperatures, depending on 
+the model. 
+ 
+Lighting That Adapts to Your Space 
+ 
+Unlike fixed lighting fixtures, Adjustable Spotlights offer greater flexibility by allowing light to be 
+repositioned whenever required. Whether illuminating a feature wall, highlighting a product 
+display, or creating a focused lighting effect, they bring precision and versatility to interior 
+lighting. 
+ 
+ Ideal Applications 
+ 
+- Residential Spaces: Living rooms, bedrooms, feature walls, and artwork displays. 
+- Retail Environments: Fashion boutiques, jewellery showrooms, and product displays. 
+- Hospitality Spaces: Hotels, restaurants, cafés, and reception areas. 
+- Commercial Interiors: Offices, galleries, exhibition spaces, and display counters. 
+ 
+
+
+=== PAGE 21 ===
+Flexible illumination that brings every detail into focus. 
+ 
+ 
+ 
+ 
+ 
+ 
+Wall Lights 
+ 
+Transform Ordinary Walls into Beautifully Illuminated Spaces 
+ 
+Wall Lights are stylish lighting fixtures designed to enhance interiors through decorative, 
+ambient, and accent illumination. Mounted directly onto walls, these fixtures create beautiful 
+lighting effects, highlight architectural features, and add warmth and character to residential 
+and commercial environments. 
+ 
+ Why Choose Wall Lights? 
+ 
+1. Elegant Architectural Lighting 
+ 
+Enhances walls, textures, and interior features while adding a sophisticated decorative touch. 
+ 
+2. Beautiful Lighting Effects 
+ 
+Creates soft, diffused, upward, or downward illumination to establish the desired ambience. 
+ 
+3. Space-Saving Design 
+
+
+=== PAGE 22 ===
+ 
+Wall-mounted fixtures provide effective lighting without occupying floor or ceiling space. 
+ 
+4. Energy-Efficient LED Technology 
+ 
+Modern LED options deliver comfortable illumination while helping reduce electricity 
+consumption. 
+ 
+5. Versatile Designs & Finishes 
+ 
+Available in minimalist, contemporary, and decorative styles to complement different interiors. 
+ 
+6. Functional & Decorative Lighting 
+ 
+Suitable for hallway illumination, bedside lighting, feature walls, and architectural accents. 
+ 
+ Lighting That Complements Your Space 
+ 
+From creating a welcoming entrance to adding warmth to living spaces, Wall Lights combine 
+practical illumination with decorative appeal. Their versatile designs make them an excellent 
+choice for both modern homes and commercial interiors. 
+ 
+Ideal Applications 
+ 
+Living Rooms | Bedrooms | Hallways | Staircases | Feature Walls | Hotels | Restaurants | 
+Reception Areas | Offices | Commercial Spaces 
+ 
+
+
+=== PAGE 23 ===
+Add depth, warmth, and elegance to every wall. 
+ 
+ 
+ 
+ 
+ 
+ 
+Wall Sconces 
+ 
+Elegant Wall Lighting for Warm and Inviting Spaces 
+ 
+Enhance your interiors with stylish Wall Sconces that combine decorative beauty with functional 
+lighting. Designed to provide soft, comfortable illumination, these wall-mounted lights create a 
+welcoming atmosphere while adding elegance to your space. 
+ 
+ Key Features 
+ 
+- Elegant Designs: Stylish fixtures that complement modern and classic interiors. 
+- Warm Ambient Lighting: Creates a relaxing and comfortable atmosphere. 
+- Space-Saving:Wall-mounted design keeps floors and tables clutter-free. 
+- Decorative Appeal: Adds character and sophistication to walls. 
+- Versatile Applications : Suitable for both residential and commercial spaces. 
+ 
+ Ideal Applications 
+ 
+Bedrooms | Living Rooms | Hallways | Hotels | Restaurants | Lounge Areas 
+ 
+
+
+=== PAGE 24 ===
+Illuminate Your Walls with Style and Elegance. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Up-Down Wall Lights 
+ 
+Modern Lighting That Adds Depth and Elegance to Every Wall 
+ 
+Transform ordinary walls into beautiful architectural features with Up-Down Wall Lights. 
+Designed to project light both upward and downward, these stylish fixtures create attractive 
+lighting patterns while enhancing the overall ambience of your space. 
+ 
+ Key Features 
+ 
+- *Dual-Direction Lighting:* Illuminates both upward and downward for a balanced lighting 
+effect. 
+- *Modern & Minimalist Design:* Sleek fixtures that complement contemporary interiors and 
+exteriors. 
+- *Beautiful Lighting Patterns:* Creates attractive light beams that highlight wall textures and 
+architectural details. 
+- *Energy-Efficient LED Technology:* Provides effective illumination with low energy 
+consumption. 
+- *Space-Saving Design:* Compact wall-mounted fixtures that blend seamlessly into the 
+surroundings. 
+
+
+=== PAGE 25 ===
+- *Versatile Applications:* Suitable for decorative and ambient lighting in residential and 
+commercial spaces. 
+ 
+### Ideal Applications 
+ 
+Living Rooms | Bedrooms | Hallways | Staircases | Building Facades | Hotels | Restaurants | 
+Entrance Areas 
+ 
+Enhance Every Wall with Beautiful Lighting 
+ 
+Up-Down Wall Lights combine modern design with functional illumination, adding warmth, 
+depth, and a sophisticated finishing touch to your interiors and exteriors. 
+ 
+Light Up. Light Down. Elevate Your Space. 
+ 
+ 
+ 
+ 
+ 
+ 
+3. LED Wall Lights 
+ 
+Smart, Stylish Lighting for Modern Spaces 
+ 
+Enhance your interiors with modern LED Wall Lights that combine elegant design, energy 
+efficiency, and comfortable illumination. These sleek wall-mounted fixtures create a warm and 
+inviting atmosphere while adding a sophisticated touch to your walls. 
+
+
+=== PAGE 26 ===
+ 
+Key Features 
+ 
+- Modern & Sleek Design: Minimalist lighting fixtures that complement contemporary interiors. 
+- Energy-Efficient Lighting: LED technology provides effective illumination while consuming less 
+electricity. 
+- Soft & Comfortable Glow:Creates pleasant ambient lighting for a relaxing atmosphere. 
+- Long-Lasting Performance: Designed for durability and reduced maintenance. 
+- Space-Saving Installation: Wall-mounted fixtures that keep your space clean and uncluttered. 
+- Decorative Lighting Effects: Highlights wall textures, architectural features, and interior details. 
+ 
+ Ideal Applications 
+ 
+Living Rooms | Bedrooms | Hallways | Staircases | Hotels | Restaurants | Offices | Reception 
+Areas 
+ 
+ Illuminate Your Space with Modern Elegance 
+ 
+LED Wall Lights offer the perfect combination of style and functionality, transforming ordinary 
+walls into attractive design elements with beautiful illumination. 
+ 
+Modern Design. Beautiful Glow. Lasting Elegance. 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 27 ===
+ 
+4. Picture Lights 
+ 
+Highlight Your Artwork with Elegant Illumination 
+ 
+Bring your artwork, photographs, and decorative displays to life with beautifully designed 
+Picture Lights. These specially designed lighting fixtures provide focused illumination, enhancing 
+the colours, textures, and details of your favourite pieces while adding a sophisticated touch to 
+your interiors. 
+ 
+ Key Features 
+ 
+- Focused Illumination:Directs light onto paintings, photographs, and decorative displays. 
+- Elegant & Minimalist Design: Sleek fixtures that complement modern and traditional interiors. 
+- Enhanced Visual Appeal: Highlights the colours, textures, and fine details of artwork. 
+- Energy-Efficient LED Options: Offers effective illumination with reduced electricity 
+consumption. 
+- Adjustable Lighting Options: Selected models allow you to direct light for better coverage. 
+- Premium Finishes: Available in stylish finishes that blend beautifully with interior décor. 
+ 
+ Ideal Applications 
+ 
+Living Rooms | Art Galleries | Bedrooms | Hallways | Hotels | Museums | Offices | Showrooms 
+ 
+Bring Every Detail into Focus 
+ 
+
+
+=== PAGE 28 ===
+Picture Lights add beauty and depth to your walls by drawing attention to your most treasured 
+artwork and decorative elements. Whether highlighting a family portrait or a statement 
+painting, they create an elegant and inviting atmosphere. 
+ 
+Highlight the Art. Enhance the Space. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+# Decorative Lights 
+ 
+**Beautiful Lighting That Brings Elegance to Every Space** 
+ 
+Transform your interiors with our stunning collection of Decorative Lights, designed to combine 
+style, elegance, and functionality. From luxurious chandeliers to modern pendant lights and 
+designer ceiling fixtures, our lighting solutions enhance the beauty of every room while creating 
+a warm and inviting atmosphere. 
+ 
+### Key Features 
+ 
+- **Elegant & Stylish Designs:** Enhances interiors with modern, classic, and luxurious lighting 
+styles. 
+- **Beautiful Ambient Lighting:** Creates a warm, comfortable, and welcoming environment. 
+
+
+=== PAGE 29 ===
+- **Statement Lighting Fixtures:** Adds character and creates attractive focal points. 
+- **Wide Range of Options:** Includes Chandeliers, Pendant Lights, Hanging Lights, and 
+Designer Ceiling Lights. 
+- **Premium Finishes:** Available in various designs, materials, and finishes to complement 
+different interiors. 
+- **Energy-Efficient Options:** Modern LED solutions provide effective illumination with 
+reduced energy consumption. 
+ 
+### Ideal Applications 
+ 
+Living Rooms | Dining Areas | Bedrooms | Hotels | Restaurants | Cafés | Offices | Showrooms | 
+Reception Areas 
+ 
+### Illuminate Your Space with Elegance 
+ 
+Decorative Lights do more than brighten a room. They enhance your interior design, highlight 
+architectural beauty, and create memorable spaces with the perfect balance of style and 
+illumination. 
+ 
+**Where Beautiful Design Meets Brilliant Lighting.** 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 30 ===
+1. Chandeliers 
+ 
+Timeless Elegance That Illuminates Every Space 
+ 
+Add a touch of luxury and sophistication to your interiors with our beautiful collection of 
+Chandeliers. Designed to create a stunning visual impact, these decorative lighting fixtures 
+combine elegant craftsmanship with beautiful illumination, transforming ordinary spaces into 
+extraordinary interiors. 
+ 
+Key Features 
+ 
+- Elegant & Luxurious Designs: Beautifully crafted fixtures that enhance the overall appearance 
+of your interiors. 
+- Statement Lighting: Creates an attractive focal point that adds character and grandeur to any 
+room. 
+- Beautiful Ambient Illumination: Provides warm and inviting lighting for a comfortable 
+atmosphere. 
+- Wide Range of Styles: Available in modern, contemporary, classic, and decorative designs. 
+- Premium Finishes: Stylish materials and finishes that complement different interior themes. 
+- Energy-Efficient Options:  Compatible models offer LED lighting for effective illumination with 
+reduced energy consumption. 
+ 
+ Ideal Applications 
+ 
+Living Rooms | Dining Areas | Luxury Bedrooms | Hotel Lobbies | Banquet Halls | Restaurants | 
+Reception Areas | Villas 
+ 
+Create a Lasting Impression 
+
+
+=== PAGE 31 ===
+ 
+Chandeliers are more than lighting fixtures. They are statement pieces that enhance the beauty 
+of your interiors, creating a perfect balance of luxury, style, and functionality. 
+ 
+Elevate Your Interiors with Timeless Brilliance. 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Pendant Lights 
+ 
+Modern Elegance That Brings Style to Every Space 
+ 
+Enhance your interiors with our stylish collection of Pendant Lights, designed to combine 
+modern aesthetics with beautiful illumination. Suspended elegantly from the ceiling, these 
+lighting fixtures add warmth, character, and sophistication while creating an attractive focal 
+point in any room. 
+ 
+Key Features 
+ 
+- Stylish & Modern Designs:Sleek and elegant lighting fixtures that complement contemporary 
+and traditional interiors. 
+- Focused Illumination: Provides effective lighting for dining tables, kitchen islands, and specific 
+areas. 
+- Decorative Appeal: Adds visual interest and enhances the overall beauty of your interiors. 
+- Versatile Styles: Available in minimalist, industrial, classic, and designer patterns. 
+
+
+=== PAGE 32 ===
+- Adjustable Hanging Heights: Selected models offer flexible installation heights to suit different 
+spaces. 
+- Energy-Efficient Options: Compatible LED models provide effective illumination with lower 
+energy consumption. 
+ 
+Ideal Applications 
+ 
+Dining Areas | Kitchen Islands | Living Rooms | Bedrooms | Cafés | Restaurants | Hotels | 
+Reception Areas | Commercial Spaces 
+ 
+ Illuminate with Style and Purpose 
+ 
+Pendant Lights offer the perfect balance of decorative beauty and functional lighting. Whether 
+installed individually or arranged in a group, they create a welcoming atmosphere while 
+enhancing the character of your interiors. 
+ 
+Elegant Designs. Focused Lighting. Beautiful Spaces. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Hanging Lights 
+ 
+
+
+=== PAGE 33 ===
+Beautiful Lighting That Adds Charm to Every Interior 
+ 
+Bring warmth, elegance, and creativity to your interiors with our exclusive collection of Hanging 
+Lights. Designed to enhance the beauty of your space, these decorative ceiling-suspended 
+fixtures create an inviting atmosphere while adding a unique touch of style and sophistication. 
+ 
+ Key Features 
+ 
+- **Elegant & Decorative Designs:** Beautifully designed fixtures that enhance the visual 
+appeal of any interior. 
+- **Warm & Inviting Illumination:** Creates a comfortable and welcoming atmosphere. 
+- **Versatile Design Options:** Available in contemporary, traditional, industrial, and artistic 
+styles. 
+- **Attractive Ceiling Décor:** Adds character and creates a stylish focal point in your space. 
+- **Flexible Hanging Arrangements:** Selected models can be installed individually or in 
+decorative clusters. 
+- **Energy-Efficient Options:** Compatible LED lighting solutions offer effective illumination 
+with reduced energy consumption. 
+ 
+ Ideal Applications 
+ 
+Living Rooms | Dining Areas | Bedrooms | Cafés | Restaurants | Hotels | Staircases | Reception 
+Areas | Commercial Spaces 
+ 
+Add a Touch of Elegance from Above 
+ 
+Hanging Lights combine decorative beauty with practical illumination, transforming ordinary 
+ceilings into attractive design features. Whether used as a single statement piece or arranged in 
+a creative combination, they bring personality and charm to every interior. 
+
+
+=== PAGE 34 ===
+ 
+Hang in Style. Shine with Elegance. 
+ 
+ 
+ 
+ 
+ 
+4. Designer Ceiling Lights 
+ 
+Creative Lighting That Transforms Your Ceiling into a Statement 
+ 
+Elevate your interiors with our exclusive collection of Designer Ceiling Lights, where modern 
+innovation meets artistic elegance. Designed to enhance the beauty of your ceiling, these stylish 
+lighting fixtures combine unique patterns, sophisticated finishes, and beautiful illumination to 
+create an impressive atmosphere in every space. 
+ 
+ Key Features 
+ 
+- Unique & Artistic Designs: Creative lighting fixtures that add personality and elegance to your 
+interiors. 
+- Modern & Contemporary Styles: Sleek designs that complement minimalist, luxurious, and 
+modern spaces. 
+- Beautiful Ambient Illumination: Provides comfortable and balanced lighting for a welcoming 
+atmosphere. 
+- Premium Finishes: Available in a variety of attractive materials, colours, and finishes to match 
+different interior themes. 
+- Space-Efficient Designs: Selected flush-mounted and semi-flush-mounted models are suitable 
+for rooms with limited ceiling height. 
+
+
+=== PAGE 35 ===
+- **Energy-Efficient LED Options:** Offers effective illumination with reduced energy 
+consumption and long-lasting performance. 
+ 
+Ideal Applications 
+ 
+Living Rooms | Bedrooms | Dining Areas | Luxury Apartments | Villas | Hotels | Restaurants | 
+Offices | Reception Areas | Showrooms 
+ 
+ Redefine Your Interiors with Beautiful Lighting 
+ 
+Designer Ceiling Lights go beyond ordinary illumination by transforming ceilings into attractive 
+architectural features. Whether you prefer a minimalist design or a bold decorative statement, 
+these fixtures bring together creativity, elegance, and functionality. 
+ 
+Inspired Designs. Beautiful Ceilings. Brilliant Spaces. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Outdoor Lights 
+ 
+Illuminate Your Outdoors with Style, Safety & Elegance 
+ 
+
+
+=== PAGE 36 ===
+Enhance the beauty and functionality of your outdoor spaces with our collection of Outdoor 
+Lights. Designed to illuminate gardens, pathways, building exteriors, and landscapes, these 
+lighting solutions combine modern design with practical illumination to create safe, welcoming, 
+and visually appealing environments. 
+ 
+ Key Features 
+ 
+- Elegant & Modern Designs: Enhances the appearance of outdoor spaces with stylish lighting 
+fixtures. 
+- Weather-Resistant Options: Designed for outdoor use, with suitable protection against rain, 
+dust, and changing weather conditions. 
+- Energy-Efficient LED Lighting: Provides effective illumination while reducing electricity 
+consumption. 
+- Enhanced Safety & Visibility: Illuminates pathways, entrances, and outdoor areas for safer 
+movement after dark. 
+- Beautiful Landscape Lighting: Highlights greenery, architectural details, and decorative outdoor 
+features. 
+- **Durable Performance:** Selected models offer robust construction for reliable outdoor 
+lighting. 
+ 
+ Our Outdoor Lighting Collection 
+ 
+1. Garden Lights: Decorative lighting that enhances gardens, plants, and outdoor seating areas. 
+ 
+2. Bollard Lights: Stylish ground-mounted fixtures ideal for pathways, walkways, and landscaped 
+spaces. 
+ 
+3. Outdoor Wall Lights: Wall-mounted lighting that enhances building exteriors, entrances, and 
+balconies. 
+
+
+=== PAGE 37 ===
+ 
+4. Landscape Spotlights: Focused lighting designed to highlight trees, plants, sculptures, and 
+architectural features. 
+ 
+ Ideal Applications 
+ 
+Home Gardens | Villas | Building Exteriors | Pathways | Resorts | Hotels | Parks | Commercial 
+Landscapes | Outdoor Seating Areas 
+ 
+ Transform Your Outdoors After Sunset 
+ 
+Outdoor Lights bring together beauty, functionality, and safety, turning ordinary outdoor areas 
+into beautifully illuminated spaces. 
+ 
+Beautiful Outdoors. Brilliant Lighting. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Garden Lights 
+ 
+
+
+=== PAGE 38 ===
+Illuminate Your Outdoors with Beauty and Elegance 
+ 
+Transform your garden into a beautiful and welcoming space with our stylish collection of 
+Garden Lights. Designed to enhance outdoor landscapes, these lighting solutions provide gentle 
+illumination while highlighting plants, pathways, and decorative garden features. 
+ 
+Key Features 
+ 
+- Elegant Outdoor Designs: Enhances the beauty of gardens and landscaped spaces. 
+- Warm & Inviting Illumination: Creates a relaxing and welcoming outdoor atmosphere. 
+- Weather-Resistant Options: Selected fixtures are designed to withstand outdoor 
+environmental conditions. 
+- Energy-Efficient LED Technology: Provides effective illumination with lower energy 
+consumption. 
+- Landscape Enhancement: Highlights plants, pathways, flower beds, and decorative features. 
+- Versatile Installation :Suitable for residential gardens, commercial landscapes, and outdoor 
+recreational spaces. 
+ 
+ Ideal Applications 
+ 
+Home Gardens | Villas | Resorts | Parks | Walkways | Landscaped Areas | Outdoor Seating 
+Spaces 
+ 
+ Bring Your Garden to Life 
+ 
+Garden Lights combine decorative beauty with functional illumination, transforming outdoor 
+spaces into attractive environments that can be enjoyed after sunset. 
+ 
+
+
+=== PAGE 39 ===
+Beautiful Gardens. Brilliant Evenings. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Bollard Lights 
+ 
+Elegant Pathway Lighting for Safe and Beautiful Outdoor Spaces 
+ 
+Enhance your outdoor spaces with our modern collection of Bollard Lights, designed to provide 
+stylish and functional illumination. These ground-mounted lighting fixtures are ideal for lighting 
+pathways, gardens, walkways, and landscaped areas while adding a sophisticated touch to 
+outdoor environments. 
+ 
+ Key Features 
+ 
+- Modern & Elegant Designs: Sleek lighting fixtures that complement contemporary outdoor 
+landscapes. 
+- Safe Pathway Illumination: Improves visibility along walkways, entrances, and garden paths. 
+- Weather-Resistant Construction: Outdoor-rated models are designed to withstand rain, dust, 
+and changing weather conditions. 
+- Energy-Efficient LED Technology:  Provides effective illumination with lower electricity 
+consumption. 
+- Durable & Reliable Performance:     Robust construction suitable for long-term outdoor use. 
+
+
+=== PAGE 40 ===
+- **Beautiful Landscape Enhancement:** Adds decorative appeal while creating a warm and 
+welcoming atmosphere. 
+ 
+ Ideal Applications 
+ 
+Garden Pathways | Walkways | Villas | Resorts | Parks | Residential Complexes | Commercial 
+Landscapes | Building Entrances 
+ 
+ Illuminate Every Path with Elegance 
+ 
+Bollard Lights combine modern design with practical illumination, making outdoor spaces safer, 
+more attractive, and welcoming after sunset. 
+ 
+Light Every Path. Enhance Every Landscape. 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Outdoor Wall Lights 
+ 
+Stylish Exterior Lighting That Enhances Beauty and Safety 
+ 
+Illuminate your outdoor spaces with our elegant collection of Outdoor Wall Lights, designed to 
+combine modern aesthetics with functional lighting. These wall-mounted fixtures enhance 
+building exteriors, entrances, balconies, and outdoor areas while creating a warm, welcoming, 
+and secure environment. 
+
+
+=== PAGE 41 ===
+ 
+ Key Features 
+ 
+- Modern & Elegant Designs: Stylish fixtures that complement contemporary and traditional 
+building exteriors. 
+- Beautiful Ambient Illumination: Creates attractive lighting effects that enhance outdoor walls 
+and architectural features. 
+- Weather-Resistant Construction: Outdoor-rated models offer protection against rain, dust, and 
+changing weather conditions. 
+- Energy-Efficient LED Technology: Provides effective illumination while reducing electricity 
+consumption. 
+- Enhanced Safety & Visibility: Improves lighting around entrances, balconies, and outdoor 
+pathways. 
+- Durable & Reliable Performance : Designed for long-lasting performance with minimal 
+maintenance. 
+ 
+Ideal Applications 
+ 
+Building Exteriors | Home Entrances | Balconies | Villas | Hotels | Resorts | Outdoor Corridors | 
+Commercial Buildings | Terrace Areas 
+ 
+Enhance Your Exteriors with Beautiful Lighting 
+ 
+Outdoor Wall Lights offer the perfect combination of style, functionality, and safety. Whether 
+highlighting architectural details or illuminating entrances, these fixtures create an elegant and 
+welcoming atmosphere after sunset. 
+ 
+Illuminate Your Walls. Elevate Your Outdoors. 
+ 
+
+
+=== PAGE 42 ===
+ 
+ 
+ 
+4. Landscape Spotlights 
+ 
+Highlight the Beauty of Your Outdoors with Focused Illumination 
+ 
+Bring your outdoor landscapes to life with our premium collection of Landscape Spotlights. 
+Designed to highlight trees, plants, sculptures, and architectural features, these lighting fixtures 
+provide focused illumination that enhances the beauty and depth of your outdoor spaces. 
+ Key Features 
+ 
+- Focused & Directional Lighting: Highlights specific landscape features with precise illumination. 
+- Elegant Outdoor Lighting: Enhances the appearance of gardens, trees, sculptures, and 
+architectural elements. 
+- Adjustable Lighting Angles: Selected models allow flexible positioning to direct light where 
+needed. 
+- Weather-Resistant Construction: Outdoor-rated fixtures are designed to withstand rain, dust, 
+and changing weather conditions. 
+- Energy-Efficient LED Technology: Provides effective illumination with reduced electricity 
+consumption. 
+- Durable & Long-Lasting Performance: Robust construction suitable for outdoor environments. 
+ 
+ Ideal Applications 
+ 
+Home Gardens | Landscape Areas | Villas | Resorts | Parks | Building Facades | Outdoor 
+Sculptures | Commercial Landscapes | Pathways 
+ 
+
+
+=== PAGE 43 ===
+Bring Your Landscape to Life After Sunset 
+ 
+Landscape Spotlights combine focused illumination with elegant design, transforming ordinary 
+outdoor features into stunning visual highlights. Whether illuminating a beautiful tree, a garden 
+sculpture, or an architectural detail, they create depth, character, and a welcoming outdoor 
+atmosphere. 
+ 
+Highlight Every Detail. Illuminate Every Landscape. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

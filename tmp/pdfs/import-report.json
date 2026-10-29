@@ -1,0 +1,336 @@
+[
+  {
+    "id": "smart-touch-switches",
+    "title": "Smart Touch Switches",
+    "features": 6,
+    "applications": 6,
+    "pages": [
+      1,
+      2
+    ],
+    "closing": ""
+  },
+  {
+    "id": "knx-smart-touch-panels",
+    "title": "KNX Smart Touch Panels",
+    "features": 7,
+    "applications": 5,
+    "pages": [
+      2
+    ],
+    "closing": ""
+  },
+  {
+    "id": "smart-dimmer-modules",
+    "title": "Smart Dimmer Modules",
+    "features": 6,
+    "applications": 6,
+    "pages": [
+      3,
+      4
+    ],
+    "closing": ""
+  },
+  {
+    "id": "motorized-curtain-blind-controllers",
+    "title": "Motorized Curtain & Blind Controllers",
+    "features": 6,
+    "applications": 6,
+    "pages": [
+      4
+    ],
+    "closing": ""
+  },
+  {
+    "id": "knx-switching-actuators",
+    "title": "KNX Switching Actuators",
+    "features": 6,
+    "applications": 5,
+    "pages": [
+      4,
+      5
+    ],
+    "closing": ""
+  },
+  {
+    "id": "smart-climate-hvac-controllers",
+    "title": "Smart Climate & HVAC Controllers",
+    "features": 6,
+    "applications": 6,
+    "pages": [
+      5,
+      6
+    ],
+    "closing": ""
+  },
+  {
+    "id": "motion-presence-sensors",
+    "title": "Motion & Presence Sensors",
+    "features": 6,
+    "applications": 8,
+    "pages": [
+      6,
+      7
+    ],
+    "closing": ""
+  },
+  {
+    "id": "dali-lighting-controllers",
+    "title": "DALI Lighting Controllers",
+    "features": 6,
+    "applications": 6,
+    "pages": [
+      8
+    ],
+    "closing": ""
+  },
+  {
+    "id": "smart-energy-management-controllers",
+    "title": "Smart Energy Management Controllers",
+    "features": 7,
+    "applications": 7,
+    "pages": [
+      9,
+      10
+    ],
+    "closing": ""
+  },
+  {
+    "id": "hotel-room-automation-controllers",
+    "title": "Hotel Room Automation Controllers (GRMS)",
+    "features": 7,
+    "applications": 6,
+    "pages": [
+      10,
+      11
+    ],
+    "closing": ""
+  },
+  {
+    "id": "downlights",
+    "title": "Downlights",
+    "features": 6,
+    "applications": 7,
+    "pages": [
+      11,
+      12,
+      13
+    ],
+    "closing": ""
+  },
+  {
+    "id": "recessed",
+    "title": "Recessed Downlights",
+    "features": 6,
+    "applications": 9,
+    "pages": [
+      13,
+      14
+    ],
+    "closing": ""
+  },
+  {
+    "id": "surface",
+    "title": "Surface Downlights",
+    "features": 4,
+    "applications": 4,
+    "pages": [
+      15,
+      16
+    ],
+    "closing": "A perfect balance of modern aesthetics, installation flexibility, and dependable illumination."
+  },
+  {
+    "id": "cob",
+    "title": "COB Downlights",
+    "features": 6,
+    "applications": 4,
+    "pages": [
+      16,
+      17,
+      18
+    ],
+    "closing": "Illuminate with precision. Highlight with elegance."
+  },
+  {
+    "id": "adjustable-spotlights",
+    "title": "Adjustable Spotlights",
+    "features": 6,
+    "applications": 4,
+    "pages": [
+      19,
+      20,
+      21
+    ],
+    "closing": "Flexible illumination that brings every detail into focus."
+  },
+  {
+    "id": "wall-lights",
+    "title": "Wall Lights",
+    "features": 6,
+    "applications": 10,
+    "pages": [
+      21,
+      22,
+      23
+    ],
+    "closing": "Add depth, warmth, and elegance to every wall."
+  },
+  {
+    "id": "wall-sconces",
+    "title": "Wall Sconces",
+    "features": 5,
+    "applications": 6,
+    "pages": [
+      23,
+      24
+    ],
+    "closing": "Illuminate Your Walls with Style and Elegance."
+  },
+  {
+    "id": "up-down",
+    "title": "Up-Down Wall Lights",
+    "features": 6,
+    "applications": 8,
+    "pages": [
+      24,
+      25
+    ],
+    "closing": "Light Up. Light Down. Elevate Your Space."
+  },
+  {
+    "id": "led-wall",
+    "title": "LED Wall Lights",
+    "features": 6,
+    "applications": 8,
+    "pages": [
+      25,
+      26
+    ],
+    "closing": "Modern Design. Beautiful Glow. Lasting Elegance."
+  },
+  {
+    "id": "picture-lights",
+    "title": "Picture Lights",
+    "features": 6,
+    "applications": 8,
+    "pages": [
+      27,
+      28
+    ],
+    "closing": "Highlight the Art. Enhance the Space."
+  },
+  {
+    "id": "decorative-lights",
+    "title": "Decorative Lights",
+    "features": 6,
+    "applications": 9,
+    "pages": [
+      28,
+      29
+    ],
+    "closing": "Where Beautiful Design Meets Brilliant Lighting."
+  },
+  {
+    "id": "chandeliers",
+    "title": "Chandeliers",
+    "features": 6,
+    "applications": 8,
+    "pages": [
+      30,
+      31
+    ],
+    "closing": "Elevate Your Interiors with Timeless Brilliance."
+  },
+  {
+    "id": "pendants",
+    "title": "Pendant Lights",
+    "features": 6,
+    "applications": 9,
+    "pages": [
+      31,
+      32
+    ],
+    "closing": "Elegant Designs. Focused Lighting. Beautiful Spaces."
+  },
+  {
+    "id": "hanging",
+    "title": "Hanging Lights",
+    "features": 6,
+    "applications": 9,
+    "pages": [
+      32,
+      33,
+      34
+    ],
+    "closing": "Hang in Style. Shine with Elegance."
+  },
+  {
+    "id": "designer-ceiling-lights",
+    "title": "Designer Ceiling Lights",
+    "features": 6,
+    "applications": 10,
+    "pages": [
+      34,
+      35
+    ],
+    "closing": "Inspired Designs. Beautiful Ceilings. Brilliant Spaces."
+  },
+  {
+    "id": "outdoor-lights",
+    "title": "Outdoor Lights",
+    "features": 6,
+    "applications": 9,
+    "pages": [
+      35,
+      36,
+      37
+    ],
+    "closing": "Beautiful Outdoors. Brilliant Lighting."
+  },
+  {
+    "id": "garden",
+    "title": "Garden Lights",
+    "features": 6,
+    "applications": 7,
+    "pages": [
+      37,
+      38,
+      39
+    ],
+    "closing": "Beautiful Gardens. Brilliant Evenings."
+  },
+  {
+    "id": "bollard",
+    "title": "Bollard Lights",
+    "features": 6,
+    "applications": 8,
+    "pages": [
+      39,
+      40
+    ],
+    "closing": "Light Every Path. Enhance Every Landscape."
+  },
+  {
+    "id": "outdoor-wall",
+    "title": "Outdoor Wall Lights",
+    "features": 6,
+    "applications": 9,
+    "pages": [
+      40,
+      41
+    ],
+    "closing": "Illuminate Your Walls. Elevate Your Outdoors."
+  },
+  {
+    "id": "landscape-spotlights",
+    "title": "Landscape Spotlights",
+    "features": 6,
+    "applications": 9,
+    "pages": [
+      42,
+      43
+    ],
+    "closing": "Highlight Every Detail. Illuminate Every Landscape."
+  }
+]

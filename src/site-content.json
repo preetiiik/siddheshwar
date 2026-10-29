@@ -1,0 +1,607 @@
+[
+  {
+    "path": "/",
+    "name": "Home",
+    "headline": "Your Home. Your World. Reimagined.",
+    "intro": [
+      "Experience the future of intelligent living with advanced home automation solutions that bring comfort, convenience, security, and control together.",
+      "From smart lighting and automated curtains to climate management and entertainment, transform your everyday environment into a seamlessly connected experience."
+    ],
+    "sections": [
+      {
+        "title": "About Preview",
+        "paragraphs": [
+          "Technology That Understands Your Lifestyle.",
+          "At Siddheshwar Smart Technologies, we believe intelligent technology should make life simpler, more comfortable, and more connected.",
+          "Our solutions combine smart automation, modern lighting technologies, and integrated controls to create spaces that respond to your lifestyle.",
+          "CTA: Discover Our Story"
+        ],
+        "cards": []
+      },
+      {
+        "title": "Our Expertise",
+        "paragraphs": [
+          "- Smart Lighting Automation\n- Curtain & Blind Automation\n- Climate & AC Automation\n- Smart Scene Automation\n- Motion-Based Automation\n- Energy-Saving Home Automation\n- Centralized Home Control"
+        ],
+        "cards": []
+      },
+      {
+        "title": "Smart Living Experience",
+        "paragraphs": [
+          "One Touch. Endless Possibilities.",
+          "Good Morning: Wake up to gradually brightening lights, opening curtains, and comfortable room temperatures.",
+          "Movie Time: Dim the lights, close the curtains, and activate your entertainment system.",
+          "Away Mode: Switch off selected lights and appliances while activating compatible security features.",
+          "Good Night: Create a peaceful atmosphere with automated lighting, curtains, and climate settings."
+        ],
+        "cards": []
+      },
+      {
+        "title": "Why Choose Us?",
+        "paragraphs": [
+          "Technology Designed Around You.",
+          "- Personalized Automation Planning\n- Intelligent System Integration\n- Convenient Centralized Control\n- Energy-Conscious Solutions\n- Modern Technology Standards\n- Flexible and Scalable Systems"
+        ],
+        "cards": []
+      },
+      {
+        "title": "Final CTA",
+        "paragraphs": [
+          "Your Smart Home Journey Starts Here.",
+          "Experience intelligent automation designed to make everyday living effortless.",
+          "CTA: Book Your Consultation"
+        ],
+        "cards": []
+      }
+    ],
+    "cta": "Explore Automation"
+  },
+  {
+    "path": "/about",
+    "name": "About Us",
+    "headline": "Creating Intelligent Spaces for Better Living.",
+    "intro": [
+      "Technology should work naturally with the way you live.",
+      "At Siddheshwar Smart Technologies, our focus is on transforming residential and commercial spaces through thoughtfully planned automation, intelligent lighting, and integrated control systems."
+    ],
+    "sections": [
+      {
+        "title": "Who We Are",
+        "paragraphs": [
+          "Siddheshwar Smart Technologies focuses on intelligent automation solutions designed to enhance comfort, convenience, and efficiency.",
+          "Our approach combines modern technologies with user-friendly controls to create personalized automation experiences for residential and commercial environments."
+        ],
+        "cards": []
+      },
+      {
+        "title": "Our Vision",
+        "paragraphs": [
+          "To create intelligent environments where technology, comfort, and efficiency work seamlessly together."
+        ],
+        "cards": []
+      },
+      {
+        "title": "Our Mission",
+        "paragraphs": [
+          "To simplify everyday living through thoughtfully designed automation systems and integrated technologies."
+        ],
+        "cards": []
+      },
+      {
+        "title": "Our Approach",
+        "paragraphs": [
+          "Understand: Identify your lifestyle, requirements, and project goals.",
+          "Design: Plan suitable automation solutions for your space.",
+          "Integrate: Bring compatible technologies together into one connected system.",
+          "Support: Help maintain a convenient and reliable automation experience."
+        ],
+        "cards": []
+      }
+    ],
+    "cta": "Book a Consultation"
+  },
+  {
+    "path": "/home-automation",
+    "name": "Home Automation",
+    "headline": "A Smarter Home Begins With Intelligent Control.",
+    "intro": [
+      "Bring every element of your home together through integrated automation.",
+      "From lighting and curtains to climate, entertainment, and security, enjoy convenient control designed around your lifestyle."
+    ],
+    "sections": [
+      {
+        "title": "Our Home Automation Services",
+        "paragraphs": [],
+        "cards": [
+          {
+            "title": "Smart Lighting Automation",
+            "paragraphs": [
+              "Control lighting with dimming, schedules and personalized scenes.",
+              "Features: Dimming, lighting schedules, scene control."
+            ]
+          },
+          {
+            "title": "Curtain & Blind Automation",
+            "paragraphs": [
+              "Manage motorized curtains and blinds with convenient controls and schedules.",
+              "Features: Motorized control, scheduled opening, scene integration."
+            ]
+          },
+          {
+            "title": "Climate & AC Automation",
+            "paragraphs": [
+              "Coordinate compatible air conditioning and climate controls for everyday comfort.",
+              "Features: Temperature control, climate scheduling, scene integration."
+            ]
+          },
+          {
+            "title": "Smart Scene Automation",
+            "paragraphs": [
+              "Bring lighting, curtains and climate together in scenes tailored to your routine.",
+              "Features: Personalized scenes, one-touch control, scheduled routines."
+            ]
+          },
+          {
+            "title": "Motion-Based Automation",
+            "paragraphs": [
+              "Use motion and presence detection to trigger compatible lighting and home controls.",
+              "Features: Motion detection, presence sensing, automatic lighting."
+            ]
+          },
+          {
+            "title": "Energy-Saving Home Automation",
+            "paragraphs": [
+              "Reduce unnecessary operation with schedules, occupancy controls and energy monitoring.",
+              "Features: Occupancy control, energy monitoring, smart schedules."
+            ]
+          },
+          {
+            "title": "Centralized Home Control",
+            "paragraphs": [
+              "Manage compatible home systems from a coordinated control interface.",
+              "Features: Touch panel control, mobile control, integrated scenes."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Benefits",
+        "paragraphs": [
+          "- Greater Convenience\n- Personalized Comfort\n- Integrated Control\n- Improved Security Awareness\n- Energy-Efficient Operation\n- Flexible Automation",
+          "CTA: Transform Your Home"
+        ],
+        "cards": []
+      }
+    ],
+    "cta": "Transform Your Home"
+  },
+  {
+    "path": "/solutions",
+    "name": "Solutions",
+    "headline": "Intelligent Solutions for Every Space.",
+    "intro": [
+      "Every environment has different requirements. Our proposed automation solutions bring together compatible technologies to create intelligent, responsive, and comfortable spaces."
+    ],
+    "sections": [
+      {
+        "title": "Our Solutions",
+        "paragraphs": [],
+        "cards": [
+          {
+            "title": "Smart Residential Automation",
+            "paragraphs": [
+              "Complete automation for luxury villas, apartments, and independent residences. Integrate lighting, curtains, climate, security, and entertainment into one connected environment."
+            ]
+          },
+          {
+            "title": "Luxury Villa Automation",
+            "paragraphs": [
+              "Integrated automation designed around luxury villas, with coordinated lighting, climate, curtains and personalized scenes."
+            ]
+          },
+          {
+            "title": "Commercial & Office Automation",
+            "paragraphs": [
+              "Smart automation for offices, showrooms, retail spaces, and commercial properties. Manage lighting, climate, scheduling, and compatible building systems."
+            ]
+          },
+          {
+            "title": "Hospitality & Hotel Automation",
+            "paragraphs": [
+              "Intelligent guest-room controls for hotels, resorts, and serviced apartments. Create personalized experiences through lighting, climate, curtain, and room automation."
+            ]
+          },
+          {
+            "title": "Lighting Management System (LMS)",
+            "paragraphs": [
+              "Intelligent lighting control using compatible DALI, sensors, dimming, and scheduling technologies."
+            ]
+          },
+          {
+            "title": "Building Automation Integration",
+            "paragraphs": [
+              "Centralized monitoring and management of supported lighting, HVAC, and building services."
+            ]
+          },
+          {
+            "title": "Energy Management System (EMS)",
+            "paragraphs": [
+              "Monitor energy consumption, analyze usage patterns, and support energy-conscious operations."
+            ]
+          },
+          {
+            "title": "Custom Automation Solutions",
+            "paragraphs": [
+              "Personalized integrations for smart glass, motorized TV lifts, gates, irrigation, landscape lighting, and other supported systems."
+            ]
+          }
+        ]
+      }
+    ],
+    "cta": "Explore Our Solutions"
+  },
+  {
+    "path": "/products",
+    "name": "Products",
+    "headline": "Intelligent Products. Seamless Experiences.",
+    "intro": [
+      "Explore a range of automation and control product categories designed for intelligent homes and connected buildings."
+    ],
+    "sections": [
+      {
+        "title": "Product Categories",
+        "paragraphs": [],
+        "cards": [
+          {
+            "title": "Smart Touch Switches",
+            "paragraphs": [
+              "- Smart Touch Switches",
+              "Touch control for compatible lighting and connected devices."
+            ]
+          },
+          {
+            "title": "KNX Smart Touch Panels",
+            "paragraphs": [
+              "- KNX Smart Touch Panels",
+              "Touch interfaces for compatible KNX home and building systems."
+            ]
+          },
+          {
+            "title": "Smart Dimmer Modules",
+            "paragraphs": [
+              "- Smart Dimmer Modules",
+              "Adjust brightness for compatible dimmable lighting."
+            ]
+          },
+          {
+            "title": "Motorized Curtain & Blind Controllers",
+            "paragraphs": [
+              "- Motorized Curtain & Blind Controllers",
+              "Control compatible curtain and blind motors."
+            ]
+          },
+          {
+            "title": "KNX Switching Actuators",
+            "paragraphs": [
+              "- KNX Switching Actuators",
+              "Switch compatible electrical circuits within KNX installations."
+            ]
+          },
+          {
+            "title": "Smart Climate & HVAC Controllers",
+            "paragraphs": [
+              "- Smart Climate & HVAC Controllers",
+              "Coordinate compatible heating, ventilation and air conditioning."
+            ]
+          },
+          {
+            "title": "Motion & Presence Sensors",
+            "paragraphs": [
+              "- Motion & Presence Sensors",
+              "Detect occupancy to support automatic lighting and control."
+            ]
+          },
+          {
+            "title": "DALI Lighting Controllers",
+            "paragraphs": [
+              "- DALI Lighting Controllers",
+              "Manage compatible digital lighting installations."
+            ]
+          },
+          {
+            "title": "Smart Energy Management Controllers",
+            "paragraphs": [
+              "- Smart Energy Management Controllers",
+              "Coordinate energy monitoring and control for compatible equipment."
+            ]
+          },
+          {
+            "title": "Hotel Room Automation Controllers (GRMS)",
+            "paragraphs": [
+              "- Hotel Room Automation Controllers (GRMS)",
+              "Integrate compatible guest room lighting, climate and occupancy controls."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Product Detail Page Format",
+        "paragraphs": [
+          "Every product should have:",
+          "- Product Name\n- Product Image\n- Product Overview\n- Key Features\n- Technical Specifications\n- Compatible Systems\n- Applications\n- Related Products\n- Enquiry Button",
+          "CTA: Enquire About Products"
+        ],
+        "cards": []
+      }
+    ],
+    "cta": "Enquire About Products"
+  },
+  {
+    "path": "/lighting",
+    "name": "Lighting",
+    "headline": "Lighting That Adapts to Every Moment.",
+    "intro": [
+      "Discover intelligent lighting solutions that combine aesthetics, comfort, and advanced control technologies."
+    ],
+    "sections": [
+      {
+        "title": "Lighting Management System (LMS)",
+        "paragraphs": [
+          "A Lighting Management System enables compatible lighting fixtures, sensors, and controllers to operate together.",
+          "Lighting can be adjusted according to occupancy, natural daylight, schedules, and predefined scenes."
+        ],
+        "cards": []
+      },
+      {
+        "title": "Our Lighting Solutions",
+        "paragraphs": [],
+        "cards": [
+          {
+            "title": "Smart Dimming",
+            "paragraphs": [
+              "Adjust lighting brightness according to different activities and environments."
+            ]
+          },
+          {
+            "title": "Lighting Scenes",
+            "paragraphs": [
+              "Create personalized settings for relaxing, working, dining, and entertainment."
+            ]
+          },
+          {
+            "title": "Occupancy-Based Lighting",
+            "paragraphs": [
+              "Automate lighting through compatible motion and occupancy sensors."
+            ]
+          },
+          {
+            "title": "Daylight Harvesting",
+            "paragraphs": [
+              "Adjust artificial lighting based on available natural daylight."
+            ]
+          },
+          {
+            "title": "Automated Scheduling",
+            "paragraphs": [
+              "Set lighting routines for different times of the day."
+            ]
+          },
+          {
+            "title": "Tunable White Lighting",
+            "paragraphs": [
+              "Adjust the color temperature of compatible lighting fixtures."
+            ]
+          },
+          {
+            "title": "RGB & RGBW Lighting",
+            "paragraphs": [
+              "Create dynamic colors and decorative lighting effects."
+            ]
+          },
+          {
+            "title": "DALI Lighting Control",
+            "paragraphs": [
+              "Enable digital control and management of compatible lighting devices."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Applications",
+        "paragraphs": [
+          "- Residential Lighting\n- Commercial Lighting\n- Architectural Lighting\n- Hospitality Lighting\n- Retail Lighting\n- Outdoor Lighting",
+          "CTA: Discover Smart Lighting"
+        ],
+        "cards": []
+      }
+    ],
+    "cta": "Discover Smart Lighting"
+  },
+  {
+    "path": "/certifications",
+    "name": "Certifications",
+    "headline": "Built on Standards. Driven by Reliability.",
+    "intro": [
+      "Reliable automation begins with appropriate technology, compatible products, and professional system planning."
+    ],
+    "sections": [
+      {
+        "title": "Technology Standards",
+        "paragraphs": [],
+        "cards": [
+          {
+            "title": "DALI Technology",
+            "paragraphs": [
+              "A digital lighting communication protocol for controlling compatible lighting devices."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Company Certifications",
+        "paragraphs": [
+          "This section will display Siddheshwar Smart Technologies' verified professional certifications and training credentials.",
+          "Each certificate card will contain:",
+          "- Certificate Image\n- Certification Name\n- Issuing Organization\n- Credential Number, Where Available\n- Verification Details\n- Validity, Where Applicable"
+        ],
+        "cards": []
+      },
+      {
+        "title": "Technology Partners",
+        "paragraphs": [
+          "Display officially confirmed manufacturer and technology partner logos."
+        ],
+        "cards": []
+      },
+      {
+        "title": "Quality & Integration",
+        "paragraphs": [
+          "Our proposed technology approach emphasizes compatibility, thoughtful planning, intuitive control, and practical long-term usability.",
+          "CTA: Discover Our Technology"
+        ],
+        "cards": []
+      }
+    ],
+    "cta": "Discover Our Technology"
+  },
+  {
+    "path": "/projects",
+    "name": "Projects",
+    "headline": "Intelligent Spaces. Inspired Experiences.",
+    "intro": [
+      "Explore how smart automation and intelligent lighting can transform residential and commercial environments."
+    ],
+    "sections": [
+      {
+        "title": "Project Categories",
+        "paragraphs": [],
+        "cards": [
+          {
+            "title": "Luxury Villas",
+            "paragraphs": [
+              "Integrated lighting, curtains, climate, entertainment, and security automation."
+            ]
+          },
+          {
+            "title": "Premium Apartments",
+            "paragraphs": [
+              "Smart lighting, curtain control, and personalized room automation."
+            ]
+          },
+          {
+            "title": "Offices & Workspaces",
+            "paragraphs": [
+              "Lighting, climate, meeting-room, and building automation."
+            ]
+          },
+          {
+            "title": "Hotels & Hospitality",
+            "paragraphs": [
+              "Guest-room automation, lighting management, and integrated room controls."
+            ]
+          },
+          {
+            "title": "Retail & Showrooms",
+            "paragraphs": [
+              "Intelligent lighting and automation for modern commercial environments."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Individual Project Page",
+        "paragraphs": [
+          "- Project Name\n- Project Location\n- Project Type\n- Project Overview\n- Automation Solutions Used\n- Products Integrated\n- Project Images\n- Key Highlights",
+          "CTA: Discuss Your Project"
+        ],
+        "cards": []
+      }
+    ],
+    "cta": "Discuss Your Project"
+  },
+  {
+    "path": "/why-choose-us",
+    "name": "Why Choose Us",
+    "headline": "Smart Technology. Thoughtful Integration.",
+    "intro": [
+      "Discover automation solutions designed to bring comfort, convenience, and intelligence into everyday environments."
+    ],
+    "sections": [
+      {
+        "title": "Our Strengths",
+        "paragraphs": [],
+        "cards": [
+          {
+            "title": "Personalized Planning",
+            "paragraphs": [
+              "Automation solutions planned around individual property requirements and preferences."
+            ]
+          },
+          {
+            "title": "Intelligent Integration",
+            "paragraphs": [
+              "Compatible technologies connected into coordinated systems."
+            ]
+          },
+          {
+            "title": "User-Friendly Controls",
+            "paragraphs": [
+              "Convenient operation through switches, touch panels, applications, and supported voice assistants."
+            ]
+          },
+          {
+            "title": "Scalable Technology",
+            "paragraphs": [
+              "Flexible system architecture designed to accommodate changing requirements."
+            ]
+          },
+          {
+            "title": "Energy-Conscious Solutions",
+            "paragraphs": [
+              "Smart scheduling, sensors, and monitoring to help manage unnecessary energy consumption."
+            ]
+          },
+          {
+            "title": "Customer-Focused Approach",
+            "paragraphs": [
+              "Thoughtful solution planning and attention to practical usability.",
+              "CTA: Experience Intelligent Living"
+            ]
+          }
+        ]
+      }
+    ],
+    "cta": "Experience Intelligent Living"
+  },
+  {
+    "path": "/contact",
+    "name": "Contact Us",
+    "headline": "Let's Make Your Space Smarter.",
+    "intro": [
+      "Planning a new home, renovating an existing property, or exploring automation for a commercial environment?",
+      "Connect with Siddheshwar Smart Technologies to discuss intelligent solutions tailored to your requirements."
+    ],
+    "sections": [
+      {
+        "title": "Contact Form",
+        "paragraphs": [
+          "- Full Name\n- Mobile Number\n- Email Address\n- Project Location\n- Property Type\n- Interested Service\n- Project Requirements",
+          "CTA: Request a Consultation"
+        ],
+        "cards": []
+      },
+      {
+        "title": "Contact Details",
+        "paragraphs": [
+          "Company: Siddheshwar Smart Technologies",
+          "Phone: [Add Phone Number]",
+          "Email: [Add Email Address]",
+          "Address: [Add Office Address]",
+          "Business Hours: [Add Business Hours]"
+        ],
+        "cards": []
+      }
+    ],
+    "cta": "Request a Consultation"
+  }
+]

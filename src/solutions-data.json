@@ -1,0 +1,402 @@
+[
+  {
+    "id": "complete-smart-home-automation",
+    "slug": "complete-smart-home-automation",
+    "title": "Complete Smart Home Automation",
+    "category": "Residential",
+    "shortDescription": "Intelligent control of lighting, curtains, climate and connected electrical systems for modern living.",
+    "fullDescription": "Intelligent control of lighting, curtains, climate and connected electrical systems for modern living.\n\nThe layout starts with how each room is used and how you want to control it. Lighting, room interfaces and compatible connected equipment can be planned together around daily routines. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1600&q=85",
+    "benefits": [
+      "Convenient centralized control",
+      "Personalized automation scenes",
+      "Improved everyday comfort",
+      "Coordinated control of compatible systems"
+    ],
+    "applications": [
+      "Apartments",
+      "luxury villas",
+      "independent homes"
+    ],
+    "relatedProductIds": [
+      "smart-touch-switches",
+      "knx-smart-touch-panels",
+      "knx-switching-actuators",
+      "motorized-curtain-blind-controllers",
+      "smart-climate-hvac-controllers"
+    ],
+    "featured": true,
+    "featuredOrder": 0,
+    "headline": "Your Home. Thoughtfully Connected.",
+    "homeSummary": "Intelligent control of lighting, curtains, climate and connected systems for modern living.",
+    "aliases": [
+      "smart-residential-automation",
+      "luxury-villa-automation",
+      "smart-home-automation"
+    ]
+  },
+  {
+    "id": "intelligent-lighting-automation",
+    "slug": "intelligent-lighting-automation",
+    "title": "Intelligent Lighting Automation",
+    "category": "Lighting",
+    "shortDescription": "Automated lighting scenes, dimming and schedules designed for comfort and convenience.",
+    "fullDescription": "Automated lighting scenes, dimming and schedules designed for comfort and convenience.\n\nThe lighting approach considers the architecture, daily activities and desired atmosphere. Fixture selection, zones and control methods are planned together so the lighting serves both the space and its users. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=85",
+    "benefits": [
+      "Personalized lighting scenes",
+      "Automated lighting schedules",
+      "Flexible brightness control",
+      "Reduced unnecessary lighting use"
+    ],
+    "applications": [
+      "Homes",
+      "offices",
+      "hotels",
+      "commercial spaces"
+    ],
+    "relatedProductIds": [
+      "smart-dimmer-modules",
+      "dali-lighting-controllers",
+      "motion-presence-sensors",
+      "smart-touch-switches"
+    ],
+    "featured": true,
+    "featuredOrder": 1,
+    "headline": "Light That Follows Your Day.",
+    "homeSummary": "Automated lighting scenes, dimming and schedules for comfort and convenience.",
+    "aliases": []
+  },
+  {
+    "id": "luxury-architectural-lighting",
+    "slug": "luxury-architectural-lighting",
+    "title": "Luxury Architectural Lighting",
+    "category": "Lighting",
+    "shortDescription": "Premium architectural and decorative lighting solutions for elegant interiors and exteriors.",
+    "fullDescription": "Premium architectural and decorative lighting solutions for elegant interiors and exteriors.\n\nThe lighting approach considers the architecture, daily activities and desired atmosphere. Fixture selection, zones and control methods are planned together so the lighting serves both the space and its users. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=85",
+    "benefits": [
+      "Enhanced interior aesthetics",
+      "Layered lighting design",
+      "Better visual comfort",
+      "Lighting tailored to architectural features"
+    ],
+    "applications": [
+      "Luxury homes",
+      "villas",
+      "premium apartments",
+      "hospitality interiors"
+    ],
+    "relatedProductIds": [
+      "downlights",
+      "wall-lights",
+      "decorative-lights"
+    ],
+    "featured": true,
+    "featuredOrder": 2,
+    "headline": "Light as Part of the Architecture.",
+    "homeSummary": "Premium architectural and decorative lighting for elegant interiors and exteriors.",
+    "aliases": []
+  },
+  {
+    "id": "curtain-blind-automation",
+    "slug": "curtain-blind-automation",
+    "title": "Curtain & Blind Automation",
+    "category": "Residential",
+    "shortDescription": "Automated curtain and blind control using schedules, smart panels and compatible sensors.",
+    "fullDescription": "Automated curtain and blind control using schedules, smart panels and compatible sensors.\n\nThe layout starts with how each room is used and how you want to control it. Lighting, room interfaces and compatible connected equipment can be planned together around daily routines. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=85",
+    "benefits": [
+      "Convenient curtain operation",
+      "Scheduled opening and closing",
+      "Improved privacy",
+      "Coordinated daylight control"
+    ],
+    "applications": [
+      "Bedrooms",
+      "living rooms",
+      "villas",
+      "hotels"
+    ],
+    "relatedProductIds": [
+      "motorized-curtain-blind-controllers",
+      "knx-smart-touch-panels",
+      "knx-switching-actuators"
+    ],
+    "featured": false,
+    "featuredOrder": -1,
+    "headline": "Daylight and Privacy, Effortlessly Managed.",
+    "homeSummary": "Automatically open and close curtains and blinds using schedules and smart controls.",
+    "aliases": []
+  },
+  {
+    "id": "climate-hvac-automation",
+    "slug": "climate-hvac-automation",
+    "title": "Climate & HVAC Automation",
+    "category": "Residential",
+    "shortDescription": "Intelligent control of compatible air-conditioning and climate systems.",
+    "fullDescription": "Intelligent control of compatible air-conditioning and climate systems.\n\nThe layout starts with how each room is used and how you want to control it. Lighting, room interfaces and compatible connected equipment can be planned together around daily routines. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=85",
+    "benefits": [
+      "Convenient temperature management",
+      "Personalized climate settings",
+      "Occupancy-based control where supported",
+      "Reduced unnecessary operation"
+    ],
+    "applications": [
+      "Homes",
+      "offices",
+      "hotels",
+      "commercial buildings"
+    ],
+    "relatedProductIds": [
+      "smart-climate-hvac-controllers",
+      "knx-smart-touch-panels",
+      "motion-presence-sensors"
+    ],
+    "featured": false,
+    "featuredOrder": -1,
+    "headline": "Comfort That Works Around You.",
+    "homeSummary": "Manage room temperature and compatible air-conditioning systems automatically.",
+    "aliases": []
+  },
+  {
+    "id": "smart-scene-mood-lighting",
+    "slug": "smart-scene-mood-lighting",
+    "title": "Smart Scene & Mood Lighting",
+    "category": "Lighting",
+    "shortDescription": "Create personalized lighting environments for relaxation, entertainment, dining and everyday living.",
+    "fullDescription": "Create personalized lighting environments for relaxation, entertainment, dining and everyday living.\n\nThe lighting approach considers the architecture, daily activities and desired atmosphere. Fixture selection, zones and control methods are planned together so the lighting serves both the space and its users. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1600&q=85",
+    "benefits": [
+      "One-touch scene activation",
+      "Personalized ambience",
+      "Coordinated lighting groups",
+      "Flexible settings for different activities"
+    ],
+    "applications": [
+      "Living rooms",
+      "bedrooms",
+      "home theatres",
+      "restaurants"
+    ],
+    "relatedProductIds": [
+      "smart-dimmer-modules",
+      "knx-smart-touch-panels",
+      "dali-lighting-controllers",
+      "decorative-lights"
+    ],
+    "featured": false,
+    "featuredOrder": -1,
+    "headline": "One Touch. The Right Atmosphere.",
+    "homeSummary": "Create personalized scenes such as Relax, Movie Night, Dining and Good Night.",
+    "aliases": []
+  },
+  {
+    "id": "commercial-office-automation",
+    "slug": "commercial-office-automation",
+    "title": "Commercial & Office Automation",
+    "category": "Commercial",
+    "shortDescription": "Integrated lighting, climate and electrical automation for smarter workplaces.",
+    "fullDescription": "Integrated lighting, climate and electrical automation for smarter workplaces.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=85",
+    "benefits": [
+      "Centralized control",
+      "Automated lighting schedules",
+      "Improved operational convenience",
+      "Reduced unnecessary energy use"
+    ],
+    "applications": [
+      "Corporate offices",
+      "meeting rooms",
+      "retail spaces",
+      "commercial buildings"
+    ],
+    "relatedProductIds": [
+      "knx-switching-actuators",
+      "dali-lighting-controllers",
+      "motion-presence-sensors",
+      "smart-climate-hvac-controllers"
+    ],
+    "featured": true,
+    "featuredOrder": 3,
+    "headline": "A Smarter Way to Work.",
+    "homeSummary": "Integrated lighting, climate and electrical automation for smarter workplaces.",
+    "aliases": [
+      "commercial-and-office-automation",
+      "commercial-automation"
+    ]
+  },
+  {
+    "id": "hotel-hospitality-automation",
+    "slug": "hotel-hospitality-automation",
+    "title": "Hotel & Hospitality Automation",
+    "category": "Commercial",
+    "shortDescription": "Intelligent guest-room automation designed for comfort, convenience and operational efficiency.",
+    "fullDescription": "Intelligent guest-room automation designed for comfort, convenience and operational efficiency.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=85",
+    "benefits": [
+      "Convenient guest-room controls",
+      "Personalized room settings",
+      "Coordinated lighting and climate",
+      "Occupancy-based operation where supported"
+    ],
+    "applications": [
+      "Hotels",
+      "resorts",
+      "premium guest rooms",
+      "serviced apartments"
+    ],
+    "relatedProductIds": [
+      "hotel-room-automation-controllers",
+      "knx-smart-touch-panels",
+      "motorized-curtain-blind-controllers",
+      "smart-climate-hvac-controllers"
+    ],
+    "featured": true,
+    "featuredOrder": 4,
+    "headline": "Thoughtful Comfort for Every Guest.",
+    "homeSummary": "Intelligent guest-room automation designed for comfort and operational efficiency.",
+    "aliases": [
+      "hospitality-and-hotel-automation",
+      "hospitality-automation"
+    ]
+  },
+  {
+    "id": "energy-management-optimization",
+    "slug": "energy-management-optimization",
+    "title": "Energy Management & Optimization",
+    "category": "Commercial",
+    "shortDescription": "Monitor electricity usage and automate selected loads to reduce unnecessary consumption.",
+    "fullDescription": "Monitor electricity usage and automate selected loads to reduce unnecessary consumption.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=1600&q=85",
+    "benefits": [
+      "Better energy visibility",
+      "Automated load control",
+      "Reduced unnecessary electrical usage",
+      "More informed operational decisions"
+    ],
+    "applications": [
+      "Homes",
+      "offices",
+      "hotels",
+      "commercial buildings"
+    ],
+    "relatedProductIds": [
+      "smart-energy-management-controllers",
+      "knx-switching-actuators",
+      "motion-presence-sensors"
+    ],
+    "featured": false,
+    "featuredOrder": -1,
+    "headline": "A Clearer View of Energy Use.",
+    "homeSummary": "Monitor electricity usage and automate selected loads to reduce unnecessary consumption.",
+    "aliases": [
+      "energy-management-system-ems",
+      "energy-management"
+    ]
+  },
+  {
+    "id": "outdoor-landscape-lighting",
+    "slug": "outdoor-landscape-lighting",
+    "title": "Outdoor & Landscape Lighting",
+    "category": "Lighting",
+    "shortDescription": "Thoughtfully designed lighting for gardens, pathways, building façades and outdoor living spaces.",
+    "fullDescription": "Thoughtfully designed lighting for gardens, pathways, building façades and outdoor living spaces.\n\nThe lighting approach considers the architecture, daily activities and desired atmosphere. Fixture selection, zones and control methods are planned together so the lighting serves both the space and its users. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1600&q=85",
+    "benefits": [
+      "Enhanced outdoor aesthetics",
+      "Improved pathway visibility",
+      "Scheduled lighting control",
+      "Flexible architectural illumination"
+    ],
+    "applications": [
+      "Villas",
+      "gardens",
+      "resorts",
+      "pathways",
+      "building exteriors"
+    ],
+    "relatedProductIds": [
+      "outdoor-lights",
+      "dali-lighting-controllers",
+      "knx-switching-actuators"
+    ],
+    "featured": false,
+    "featuredOrder": -1,
+    "headline": "Bring Your Outdoor Spaces to Light.",
+    "homeSummary": "Illuminate gardens, pathways, fa?ades and outdoor living spaces with optional automated controls.",
+    "aliases": []
+  },
+  {
+    "id": "lighting-management-system",
+    "slug": "lighting-management-system",
+    "title": "Lighting Management System (LMS)",
+    "category": "Commercial",
+    "shortDescription": "Centralized lighting management for zones, schedules, dimming and occupancy-based operation.",
+    "fullDescription": "Centralized lighting management for zones, schedules, dimming and occupancy-based operation.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=85",
+    "benefits": [
+      "Centralized lighting control",
+      "Flexible lighting zones",
+      "Automated schedules",
+      "Occupancy-based lighting where supported"
+    ],
+    "applications": [
+      "Offices",
+      "hotels",
+      "retail environments",
+      "large residential projects"
+    ],
+    "relatedProductIds": [
+      "dali-lighting-controllers",
+      "smart-dimmer-modules",
+      "motion-presence-sensors",
+      "knx-smart-touch-panels"
+    ],
+    "featured": false,
+    "featuredOrder": -1,
+    "headline": "Every Zone. One Lighting Strategy.",
+    "homeSummary": "Centrally manage lighting zones, schedules, dimming and occupancy-based lighting.",
+    "aliases": [
+      "lighting-management-system-lms",
+      "lighting-management"
+    ]
+  },
+  {
+    "id": "building-automation-integration",
+    "slug": "building-automation-integration",
+    "title": "Building Automation & Integration",
+    "category": "Commercial",
+    "shortDescription": "Coordinate compatible lighting, climate and electrical systems across larger buildings.",
+    "fullDescription": "Coordinate compatible lighting, climate and electrical systems across larger buildings.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=85",
+    "benefits": [
+      "Coordinated building systems",
+      "Centralized management",
+      "Flexible control configurations",
+      "Improved operational visibility"
+    ],
+    "applications": [
+      "Commercial buildings",
+      "offices",
+      "hotels",
+      "large residential developments"
+    ],
+    "relatedProductIds": [
+      "knx-switching-actuators",
+      "smart-climate-hvac-controllers",
+      "smart-energy-management-controllers",
+      "knx-smart-touch-panels"
+    ],
+    "featured": true,
+    "featuredOrder": 5,
+    "headline": "Connected Systems. Coordinated Control.",
+    "homeSummary": "Centralized control and integration of compatible building systems.",
+    "aliases": [
+      "custom-automation-solutions",
+      "building-automation",
+      "building-management"
+    ]
+  }
+]

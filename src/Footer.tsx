@@ -1,0 +1,11 @@
+import { ArrowUpRight, ArrowUp } from 'lucide-react';
+
+const groups = [
+  { title: 'EXPLORE', links: [['Home', '/'], ['About Us', '/about'], ['Products', '/products'], ['Certifications', '/certifications']] },
+  { title: 'SOLUTIONS', links: [['Home Automation', '/home-automation'], ['Commercial & Office Automation', '/solutions/commercial-and-office-automation'], ['Hospitality & Hotel Automation', '/solutions/hospitality-and-hotel-automation'], ['Smart Lighting', '/lighting']] },
+  { title: 'LET’S CONNECT', links: [['Contact Us', '/contact'],  ['Meet Our Team', '/about#our-team'], ['All Solutions', '/solutions']] },
+];
+
+export default function Footer() {
+  return <footer className="collage-footer"><div className="collage-footer-card"><div className="collage-footer-top"><div className="collage-footer-invitation"><h2>Let’s make your<br />space smarter.<br /><span>Together.</span></h2><a href="/contact">Start a conversation <ArrowUpRight size={17} /></a></div><p className="collage-footer-intro">Every connected space starts with a conversation. Bring us your ideas and discover how thoughtful automation can make everyday living more comfortable, convenient and effortless.</p></div><div className="collage-footer-bottom"><div className="collage-footer-brand"><a href="/" aria-label="Siddheshwar home" className="collage-footer-logo"><div><img src="/logo.png" alt="Siddheshwar" width={1212} height={601} /><img src="/logo.png" alt="" aria-hidden="true" width={1212} height={601} className="brightness-0 [clip-path:inset(68%_0_0_0)]" /></div></a><p>Intelligent.<br />Connected.<br /><span>Effortless living.</span></p></div><div className="collage-footer-links">{groups.map(group => <nav key={group.title} aria-label={`${group.title} footer links`}><h3>{group.title}</h3>{group.links.map(([label, href]) => <a key={label} href={href}>{label}</a>)}</nav>)}</div></div><div className="collage-footer-legal"><p>© {new Date().getFullYear()} Siddheshwar Smart Technologies. All Rights Reserved.</p><a href="#top" onClick={event => { event.preventDefault(); window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }}>Back to top <ArrowUp size={13} /></a></div></div></footer>;
+}
