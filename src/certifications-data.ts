@@ -19,3 +19,9 @@ export type TechnologyPartner = {
 // Sample documents and protocol logos are not proof of company credentials.
 export const certificates: Certificate[] = [];
 export const technologyPartners: TechnologyPartner[] = [];
+
+// Layout previews only; these are not verified credentials.
+export const certificatePreviewSlots = Array.from({ length: 5 }, (_, index) => ({
+  id: `certificate-preview-${index + 1}`,
+  title: `Sample Certificate ${String(index + 1).padStart(2, '0')}`,
+}));

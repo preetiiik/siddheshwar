@@ -825,3 +825,9 @@ nav[aria-label] details > div > a:focus-visible {
 @media(max-width:767px) { .trust-inner { width: 88%; } .trust-section { padding: 65px 0; } .trust-hero { min-height: 610px; } .trust-hero-content { padding: 145px 0 65px; } .trust-hero nav { margin-bottom: 40px; } .trust-standards-grid { grid-template-columns: 1fr; } .trust-empty-state { align-items: flex-start; padding: 28px; gap: 20px; } .trust-empty-state h3 { font-size: 21px; } .trust-partners-section { padding-top: 0; } .trust-partner-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media(max-width:480px) { .trust-quality-grid, .trust-certificates-grid { grid-template-columns: 1fr; } .trust-empty-state { flex-direction: column; } .trust-cta-actions { flex-direction: column; } .trust-eyebrow { font-size: 9px; letter-spacing: .16em; } }
 @media(prefers-reduced-motion:reduce) { .trust-quality-card, .trust-standard-card li a svg, .trust-cta-actions a { transition: none; } .trust-quality-card:hover, .trust-standard-card li a:hover svg { transform: none; } }
+
+.trust-page .trust-certificate-section { background: #ececec; }
+.trust-page .trust-gallery-heading { margin: 0 0 58px; text-align: center; color: #555; font-size: clamp(29px,3.2vw,48px); font-weight: 400; line-height: 1.25; letter-spacing: -.025em; }
+.trust-certificate-section .certificates-grid > div { min-width: 0; }
+@media(max-width:640px) { .trust-page .trust-gallery-heading { font-size: 30px; margin-bottom: 35px; } }
+@media(max-width:360px) { .trust-certificate-section .certificates-grid { grid-template-columns: 1fr; } }
