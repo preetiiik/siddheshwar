@@ -94,7 +94,7 @@ function Reveal({
 
 function Eyebrow({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex items-center gap-3 text-[10px] md:text-xs uppercase tracking-[0.3em] text-[#1d4ed8]">
+    <div className="flex items-center gap-3 text-xs md:text-xs uppercase tracking-[0.3em] text-[#1d4ed8]">
       <span className="h-px w-7 bg-[#93c5fd]" />
       {children}
     </div>
@@ -148,7 +148,7 @@ function SceneExperience() {
               className="absolute inset-0 bg-black"
             />
             <div className="absolute bottom-8 left-8">
-              <span className="text-[10px] uppercase tracking-[0.3em] text-[#1d4ed8]">Live Scene Preview</span>
+              <span className="text-xs uppercase tracking-[0.3em] text-[#1d4ed8]">Live Scene Preview</span>
               <AnimatePresence mode="wait">
                 <motion.h3
                   key={scene.name}

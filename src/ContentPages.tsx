@@ -74,8 +74,8 @@ export function SiteNavbar() {
       const active = (page.path === '/' ? path === '/' && section === 'home' : path === page.path || path.startsWith(page.path + '/') || (path === '/' && ({ solutions: '/solutions', spaces: '/spaces', about: '/about', 'our-team': '/about', automation: '/home-automation', lighting: '/lighting', projects: '/projects', contact: '/contact' } as Record<string,string>)[section] === page.path));
       const children = page.path === '/solutions' ? [{ label: 'All Solutions', href: '/solutions' }, ...solutions.map(s => ({ label: s.title, href: `/solutions/${s.slug}` }))] : page.path === '/products' ? productGroups.map(group => ({ label: group.title, href: `/products/${group.slug}` })) : ['/home-automation', '/certifications'].includes(page.path) ? page.sections.flatMap(s => s.cards.length ? s.cards.map(c => ({ label: c.title, href: ['/home-automation', '/products'].includes(page.path) ? `${page.path}/${sectionId(c.title)}` : `${page.path}#${sectionId(c.title)}` })) : page.path === '/certifications' && s.title !== 'Quality & Integration' ? [{ label: s.title, href: `${page.path}#${sectionId(s.title)}` }] : []) : [];
       const style = page.path === '/contact'
-        ? `site-nav-contact text-[10px] uppercase tracking-[0.08em] ${active ? 'is-active' : ''}`
-        : `site-nav-link py-2 text-[10px] uppercase tracking-[0.08em] ${active ? 'is-active text-[#1d4ed8]' : 'text-slate-800'}`;
+        ? `site-nav-contact text-xs uppercase tracking-[0.08em] ${active ? 'is-active' : ''}`
+        : `site-nav-link py-2 text-xs uppercase tracking-[0.08em] ${active ? 'is-active text-[#1d4ed8]' : 'text-slate-800'}`;
       return <div key={page.path}
         className={mobile ? 'flex flex-wrap items-center justify-between' : 'site-nav-item relative flex items-center gap-1'}
         onMouseEnter={event => {

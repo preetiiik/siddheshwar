@@ -1,0 +1,66 @@
+/* Shared type scale. Values assume the browser's default 16px root size. */
+:root {
+  --type-body: 1rem;
+  --type-h1: clamp(2rem, 3.4vw, 3rem);
+  --type-h2: clamp(1.5rem, 2.2vw, 1.875rem);
+  --type-h3: clamp(1.25rem, 1.8vw, 1.5rem);
+  --type-action: 0.875rem;
+  --type-caption: 0.8125rem;
+}
+
+body { font-size: var(--type-body); line-height: 1.6; }
+
+/* The root scope takes precedence over page-specific sizes and utilities. */
+#root h1 { font-size: var(--type-h1); line-height: 1.15; }
+#root #cinematic-home-title {
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 1.05;
+}
+#root h2 { font-size: var(--type-h2); line-height: 1.25; }
+#root h3 { font-size: var(--type-h3); line-height: 1.35; }
+#root .collage-footer-links h3 {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+#root :is(h4, h5, h6) { font-size: 1.125rem; line-height: 1.4; }
+#root :is(p, li, dt, dd, label) { font-size: var(--type-body); }
+#root .collage-footer-brand > p {
+  font-size: clamp(1.25rem, 1.8vw, 1.5rem);
+  line-height: 1.2;
+}
+#root :is(a, button, summary, [role="button"]) { font-size: var(--type-action); }
+#root :is(input, textarea, select) { font-size: 1rem; line-height: 1.5; }
+
+/* Compact desktop header labels, including the contact action. */
+#root nav[aria-label="Main navigation"] > .site-nav-item > a {
+  font-size: 0.75rem;
+}
+
+/* Text inside a heading or control follows its semantic parent's size. */
+#root :is(h1, h2, h3, h4, h5, h6, button, summary) :is(span, em, strong, a),
+#root a > span { font-size: inherit; }
+
+#root :is(small, figcaption, [role="status"], [class*="eyebrow"],
+  [class*="-note"], [class*="-caption"], [class*="-breadcrumb"],
+  .solution-card-category, .scroll-hero-edition, .scroll-hero-hint > span,
+  .team-member-details > p, .team-member-details > span,
+  .home-solutions-story-heading > span, .home-solutions-intro-bottom > p,
+  .home-solutions-intro-top > p, .home-solutions-intro-top > div > span,
+  .collage-footer-legal p, .collage-footer-legal a,
+  nav[aria-label="Breadcrumb"], nav[aria-label="Breadcrumb"] a) {
+  font-size: var(--type-caption);
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  #root #cinematic-home-title {
+    font-size: clamp(2.25rem, 9vw, 3rem);
+  }
+
+  :root {
+    --type-h1: clamp(1.5rem, 5vw, 2rem);
+    --type-h2: clamp(1.25rem, 4vw, 1.5rem);
+    --type-h3: clamp(1.125rem, 3.3vw, 1.25rem);
+    --type-caption: 0.75rem;
+  }
+}
