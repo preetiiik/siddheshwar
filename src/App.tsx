@@ -209,9 +209,9 @@ function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <section id="contact" className="bg-[#FFFFFF] py-28 md:py-36">
+    <section id="contact" className="contact-section py-28 md:py-36">
       <div className="mx-auto grid max-w-[1440px] gap-16 px-6 md:px-12 lg:grid-cols-2">
-        <div>
+        <div className="contact-sticky-copy">
           <Reveal><Eyebrow>Begin Your Journey</Eyebrow></Reveal>
           <Reveal>
             <h2 className="luxury-heading mt-7 text-5xl font-semibold leading-tight md:text-7xl">
