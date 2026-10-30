@@ -44,8 +44,11 @@
   #root .home-solutions-intro { min-width: 0; }
   #root .home-solutions-story-heading { flex-wrap: wrap; }
   #root .home-services-heading > a { max-width: 100%; gap: 12px; }
-  #root .collage-footer-links { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  #root .collage-footer-links { grid-template-columns: minmax(0, 1fr); gap: 28px; }
   #root .collage-footer-links nav { min-width: 0; }
+  #root .collage-footer-links nav:last-child { grid-column: auto; }
+  #root .collage-footer-links nav:last-child a { display: block; margin-right: 0; }
+  #root .collage-footer-brand { flex-direction: column; align-items: flex-start; }
   #root .collage-footer-links .footer-solutions-cta { white-space: normal !important; }
   #root .collage-footer-legal { align-items: flex-start; gap: 16px; }
   #root .collage-footer-legal > a { max-width: 100%; flex-shrink: 1; }
