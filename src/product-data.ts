@@ -74,21 +74,21 @@ export const productCategories: Product[] = [
   },
   {
     "id": "knx-smart-touch-panels",
-    "title": "KNX Smart Touch Panels",
-    "name": "KNX Smart Touch Panels",
+    "title": "Smart Touch Panels",
+    "name": "Smart Touch Panels",
     "slug": "knx-smart-touch-panels",
     "category": "automation",
-    "shortDescription": "Manage lighting, curtains and climate from one intuitive touch panel connected to your KNX automation system.",
-    "fullDescription": "KNX Smart Touch Panels provide a convenient and centralized way to control multiple home and building automation functions. Featuring an intuitive touch interface and elegant design, these panels simplify everyday control of lighting, curtains, climate and personalized room settings.",
+    "shortDescription": "Manage lighting, curtains and climate from one intuitive touch panel connected to your automation system.",
+    "fullDescription": "Smart Touch Panels provide a convenient and centralized way to control multiple home and building automation functions. Featuring an intuitive touch interface and elegant design, these panels simplify everyday control of lighting, curtains, climate and personalized room settings.",
     "image": "/products/automation/KNN%20touch%20panels.jpeg",
-    "alt": "KNX Smart Touch Panels in a connected interior",
+    "alt": "Smart Touch Panels in a connected interior",
     "features": [
       "Touchscreen-based smart control",
       "Centralized lighting control",
       "Curtain and blind automation",
       "Temperature and HVAC control",
       "Personalized lighting scenes",
-      "Integration with compatible KNX devices",
+      "Integration with compatible devices",
       "Modern wall-mounted design"
     ],
     "applications": [
@@ -107,7 +107,7 @@ export const productCategories: Product[] = [
       "knx-smart-touch-panels"
     ],
     "products": [
-      "KNX Smart Touch Panels"
+      "Smart Touch Panels"
     ],
     "tagline": "Smart Control for Modern Living",
     "contentSource": {
@@ -209,18 +209,18 @@ export const productCategories: Product[] = [
   },
   {
     "id": "knx-switching-actuators",
-    "title": "KNX Switching Actuators",
-    "name": "KNX Switching Actuators",
+    "title": "Switching Actuators",
+    "name": "Switching Actuators",
     "slug": "knx-switching-actuators",
     "category": "automation",
-    "shortDescription": "Manage lighting and electrical circuits through centralized KNX switching for convenient control in homes and commercial buildings.",
-    "fullDescription": "KNX Switching Actuators are advanced automation modules designed to control lighting and electrical circuits in residential and commercial buildings. They provide centralized ON/OFF switching, allowing multiple electrical loads to be managed efficiently through a KNX automation system.",
+    "shortDescription": "Manage lighting and electrical circuits through centralized switching for convenient control in homes and commercial buildings.",
+    "fullDescription": "Switching Actuators are advanced automation modules designed to control lighting and electrical circuits in residential and commercial buildings. They provide centralized ON/OFF switching, allowing multiple electrical loads to be managed efficiently through an automation system.",
     "image": "/products/automation/KNX%20Switching%20Actuators.jpeg",
-    "alt": "KNX Switching Actuators in a connected interior",
+    "alt": "Switching Actuators in a connected interior",
     "features": [
       "Multi-channel switching for electrical circuits",
       "Individual and group control of connected loads",
-      "Seamless KNX system integration",
+      "Seamless system integration",
       "Automated scheduling and scene management",
       "Manual switching on supported models",
       "DIN-rail mounting for electrical panels"
@@ -241,7 +241,7 @@ export const productCategories: Product[] = [
       "knx-switching-actuators"
     ],
     "products": [
-      "KNX Switching Actuators"
+      "Switching Actuators"
     ],
     "tagline": "Smart and Reliable Electrical Control",
     "contentSource": {
@@ -314,7 +314,7 @@ export const productCategories: Product[] = [
       "Daylight Detection: Uses ambient light levels to optimize lighting operation on supported models.",
       "Automatic ON/OFF: Reduces unnecessary energy consumption through automated switching.",
       "Adjustable Detection Settings: Configurable sensitivity, detection range and time delays on compatible models.",
-      "Automation Integration: Supports integration with compatible KNX and smart building control systems."
+      "Automation Integration: Supports integration with compatible smart building control systems."
     ],
     "applications": [
       "Luxury Homes",
@@ -407,7 +407,7 @@ export const productCategories: Product[] = [
       "Energy Consumption Analysis: Analyze energy usage patterns to identify opportunities for improved efficiency.",
       "Automated Energy Control: Schedule and automate connected electrical equipment based on predefined requirements.",
       "Centralized Monitoring: Access energy consumption information through compatible control panels and monitoring interfaces.",
-      "Smart System Integration: Integrate with compatible KNX and building management systems for coordinated energy control.",
+      "Smart System Integration: Integrate with compatible building management systems for coordinated energy control.",
       "Energy Efficiency: Optimize electricity usage and minimize unnecessary energy consumption."
     ],
     "applications": [
