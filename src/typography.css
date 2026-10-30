@@ -11,13 +11,30 @@
 body { font-size: var(--type-body); line-height: 1.6; }
 
 /* The root scope takes precedence over page-specific sizes and utilities. */
+#root :is(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.035em;
+}
 #root h1 { font-size: var(--type-h1); line-height: 1.15; }
 #root #cinematic-home-title {
-  font-size: clamp(3rem, 6vw, 5.5rem);
-  line-height: 1.05;
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(48px, 7.3vw, 115px);
+  font-weight: 200;
+  line-height: 1.02;
+  letter-spacing: -0.06em;
 }
 #root h2 { font-size: var(--type-h2); line-height: 1.25; }
 #root h3 { font-size: var(--type-h3); line-height: 1.35; }
+/* Preserve the original typography of the homepage strengths labels. */
+#root .home-strength-card h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.6;
+}
 #root .collage-footer-links h3 {
   font-size: 0.875rem;
   line-height: 1.5;
@@ -39,6 +56,12 @@ body { font-size: var(--type-body); line-height: 1.6; }
 /* Text inside a heading or control follows its semantic parent's size. */
 #root :is(h1, h2, h3, h4, h5, h6, button, summary) :is(span, em, strong, a),
 #root a > span { font-size: inherit; }
+#root :is(h1, h2, h3, h4, h5, h6) :is(span, em, strong, a) {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  letter-spacing: inherit;
+}
 
 #root :is(small, figcaption, [role="status"], [class*="eyebrow"],
   [class*="-note"], [class*="-caption"], [class*="-breadcrumb"],
@@ -53,10 +76,7 @@ body { font-size: var(--type-body); line-height: 1.6; }
 }
 
 @media (max-width: 767px) {
-  #root #cinematic-home-title {
-    font-size: clamp(2.25rem, 9vw, 3rem);
-  }
-
+  #root #cinematic-home-title { font-size: clamp(42px, 10vw, 68px); }
   :root {
     --type-h1: clamp(1.5rem, 5vw, 2rem);
     --type-h2: clamp(1.25rem, 4vw, 1.5rem);

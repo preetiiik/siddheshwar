@@ -33,7 +33,7 @@ export const spaces: Space[] = [
     ],
     "featured": true,
     "featuredOrder": 0,
-    "homeDescription": "Whole-home automation, personalized lighting, curtain control and intelligent climate management."
+    "homeDescription": "Connect lighting, curtains and climate with whole-home automation designed around the way you live."
   },
   {
     "id": "apartments-flats",
@@ -59,7 +59,7 @@ export const spaces: Space[] = [
     ],
     "featured": true,
     "featuredOrder": 1,
-    "homeDescription": "Smart lighting, convenient controls and automation tailored to modern apartment living."
+    "homeDescription": "Bring smart lighting, curtain control and everyday comfort together with automation tailored to apartment living."
   },
   {
     "id": "independent-homes",
@@ -111,7 +111,7 @@ export const spaces: Space[] = [
     ],
     "featured": true,
     "featuredOrder": 2,
-    "homeDescription": "Intelligent lighting management, occupancy-based automation and efficient climate control."
+    "homeDescription": "Coordinate lighting, occupancy sensing and climate control to create comfortable workplaces with efficient everyday operation."
   },
   {
     "id": "hotels-resorts",
@@ -139,7 +139,7 @@ export const spaces: Space[] = [
     ],
     "featured": true,
     "featuredOrder": 3,
-    "homeDescription": "Guest-room automation, personalized lighting and coordinated climate and curtain control."
+    "homeDescription": "Personalize guest comfort with coordinated lighting, curtains and climate control for welcoming rooms and stays."
   },
   {
     "id": "retail-showrooms",

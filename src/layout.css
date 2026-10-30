@@ -1,0 +1,59 @@
+/* Match the navbar: 1440px outer width, with 24px / 40px inner gutters. */
+:root {
+  --site-width: 1440px;
+  --site-gutter: 24px;
+  --site-edge: max(var(--site-gutter), calc((100% - var(--site-width)) / 2 + var(--site-gutter)));
+}
+@media (min-width: 768px) { :root { --site-gutter: 40px; } }
+
+#root .site-header > div {
+  width: 100%; max-width: var(--site-width); padding-inline: var(--site-gutter);
+}
+
+/* Sections whose named inner wrapper supplies the content margins. */
+#root :is(.team-section, .certificates-section, .automation-detail,
+  .automation-detail-features, .premium-offer) { padding-inline: 0; }
+#root :is(.about-inner, .solution-inner, .trust-inner, .team-inner,
+  .certificates-inner, .automation-detail-inner, .home-strengths-inner),
+#root .automation-detail-features > div,
+#root .premium-offer > div {
+  width: calc(100% - 2 * var(--site-edge));
+  max-width: none; margin-inline: auto;
+}
+
+/* Utility-based page wrappers use the same shell as the navbar. */
+#root main section[class*="px-"],
+#root :is(.catalog-category, .catalog-detail-hero, .catalog-detail-section) {
+  padding-inline: 0;
+}
+#root main section > div:is([class*="max-w-[1440px]"], [class*="max-w-[1344px]"], [class*="max-w-7xl"]),
+#root .case-products > div[class*="px-"] {
+  width: 100%; max-width: var(--site-width); margin-inline: auto;
+  padding-inline: var(--site-gutter);
+}
+/* Keep narrower reading columns inside aligned page margins. */
+#root main section[class*="px-"] > .max-w-3xl {
+  width: calc(100% - 2 * var(--site-edge)); margin-inline: auto;
+}
+#root .automation-related {
+  max-width: none; margin-inline: 0; padding-inline: var(--site-edge);
+}
+
+/* Full-bleed photographs retain their width; their text follows the shell. */
+#root .cinematic-home-copy { left: var(--site-edge); right: var(--site-edge); }
+#root .cinematic-home-scroll { left: var(--site-edge); }
+#root .cinematic-home-note { right: var(--site-edge); }
+#root .home-solutions-intro { padding-left: var(--site-edge); }
+#root .home-solutions-stories { padding-right: var(--site-edge); }
+#root .home-strengths-grid { max-width: none; }
+
+/* Footer content shares the navbar edges without double padding. */
+#root .collage-footer-card {
+  width: 100%; max-width: var(--site-width); padding-inline: var(--site-gutter);
+}
+#root :is(.collage-footer-top, .collage-footer-bottom) { padding-inline: 0; }
+#root .collage-footer-intro { right: 0; }
+#root .collage-footer-legal { margin-inline: 0; }
+@media (max-width: 767px) {
+  #root .home-solutions-intro, #root .home-solutions-stories { padding-inline: var(--site-edge); }
+}

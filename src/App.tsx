@@ -1,10 +1,9 @@
-const ACCENT_BLUE = "#93c5fd";
-
 import { useEffect, useState } from "react";
 import { SolutionsOverview, SolutionsPage } from "./Solutions";
 import {
   motion,
   AnimatePresence,
+  useReducedMotion,
 } from "motion/react";
 import {
   ArrowUpRight,
@@ -16,6 +15,12 @@ import {
   Mail,
   Phone,
   MapPin,
+  Building2,
+  Clock3,
+  UserRound,
+  House,
+  PanelsTopLeft,
+  MessageSquareText,
 } from "lucide-react";
 
 import { ContentPage, HomeStrengths, SiteNavbar } from "./ContentPages";
@@ -38,6 +43,7 @@ import Certificates from "./Certificates";
 const scenes = [
   {
     name: "Good Morning",
+    image: "/lighting-home.png",
     icon: Sun,
     brightness: 85,
     temperature: "24°C",
@@ -46,6 +52,7 @@ const scenes = [
   },
   {
     name: "Movie Time",
+    image: "/movie%20time.png.jpeg",
     icon: Film,
     brightness: 15,
     temperature: "22°C",
@@ -54,6 +61,7 @@ const scenes = [
   },
   {
     name: "Away Mode",
+    image: "/away%20mode.png.jpeg",
     icon: ShieldCheck,
     brightness: 0,
     temperature: "23°C",
@@ -62,6 +70,7 @@ const scenes = [
   },
   {
     name: "Good Night",
+    image: "/goodnight.png.jpeg",
     icon: Moon,
     brightness: 5,
     temperature: "25°C",
@@ -103,14 +112,15 @@ function Eyebrow({ children }: { children: React.ReactNode }) {
 
 function SceneExperience() {
   const [active, setActive] = useState(0);
+  const reduced = useReducedMotion();
   const scene = scenes[active];
 
   return (
-    <section className="overflow-hidden py-28 md:py-36">
+    <section className="overflow-hidden pb-28 pt-8 md:pb-36 md:pt-10" aria-labelledby="scene-experience-title">
       <div className="mx-auto max-w-[1440px] px-6 md:px-12">
         <Reveal className="text-center">
           <div className="flex justify-center"><Eyebrow>Experience Automation</Eyebrow></div>
-          <h2 className="luxury-heading mt-7 text-4xl font-semibold md:text-6xl">
+          <h2 id="scene-experience-title" className="luxury-heading mt-7 text-4xl font-semibold md:text-6xl">
             One Touch. <span className="blue-text">Endless Possibilities.</span>
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-sm leading-7 text-slate-600">
@@ -119,32 +129,31 @@ function SceneExperience() {
           </p>
         </Reveal>
 
-        <div className="mt-14 flex flex-wrap justify-center gap-3">
+        <div className="mt-14 flex flex-wrap justify-center gap-3" role="group" aria-label="Choose an automation scene">
           {scenes.map((item, index) => {
             const Icon = item.icon;
             return (
               <button
                 key={item.name}
+                type="button"
+                aria-pressed={active === index}
+                aria-controls="scene-preview"
                 onClick={() => setActive(index)}
-                className={`flex items-center gap-3 border px-5 py-4 text-xs transition-all duration-300 ${
-                  active === index
-                    ? "border-[#93c5fd] bg-[#93c5fd] text-black"
-                    : "border-slate-300/15 text-slate-600 hover:border-[#93c5fd]/60"
-                }`}
+                className={`flex items-center gap-3 border px-5 py-4 text-xs transition-all duration-300 ${active === index ? "border-[#93c5fd] bg-[#93c5fd] text-black" : "border-slate-300/15 text-slate-600 hover:border-[#93c5fd]/60"}`}
               >
-                <Icon size={17} />
+                <Icon size={17} aria-hidden="true" />
                 {item.name}
               </button>
             );
           })}
         </div>
 
-        <div className="mt-10 grid overflow-hidden border border-slate-300/10 lg:grid-cols-[1.3fr_0.7fr]">
+        <div id="scene-preview" className="mt-10 grid overflow-hidden border border-slate-300/10 lg:grid-cols-[1.3fr_0.7fr]">
           <div className="photo-surface relative min-h-[440px] overflow-hidden">
-            <img src="/lighting-home.png" alt="Living room with warm architectural lighting for the interactive scene preview" className="absolute inset-0 h-full w-full object-cover" />
+            <img src={scene.image} alt={`${scene.name} lighting scene in a connected home`} className="absolute inset-0 h-full w-full object-cover" />
             <motion.div
-              animate={{ opacity: 0.82 - scene.brightness / 150 }}
-              transition={{ duration: 1.1 }}
+              animate={{ opacity: active === 0 ? 0.82 - scene.brightness / 150 : 0 }}
+              transition={{ duration: reduced ? 0 : 0.8 }}
               className="absolute inset-0 bg-black"
             />
             <div className="absolute bottom-8 left-8">
@@ -152,7 +161,7 @@ function SceneExperience() {
               <AnimatePresence mode="wait">
                 <motion.h3
                   key={scene.name}
-                  initial={{ opacity: 0, y: 15 }}
+                  initial={reduced ? false : { opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -15 }}
                   className="luxury-heading mt-3 text-4xl"
@@ -163,7 +172,7 @@ function SceneExperience() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center bg-[#eef4fb] p-8 md:p-12">
+          <div className="flex flex-col justify-center bg-[#eef4fb] p-8 md:p-12" aria-live="polite" aria-atomic="true">
             <span className="text-xs uppercase tracking-[0.25em] text-[#1d4ed8]">Your Environment</span>
             <p className="mt-5 min-h-14 text-sm leading-7 text-slate-600">{scene.description}</p>
 
@@ -173,10 +182,10 @@ function SceneExperience() {
                   <span className="text-slate-600">Lighting Intensity</span>
                   <span>{scene.brightness}%</span>
                 </div>
-                <div className="h-1 bg-slate-900/10">
+                <div className="h-1 bg-slate-900/10" role="progressbar" aria-label="Lighting intensity" aria-valuemin={0} aria-valuemax={100} aria-valuenow={scene.brightness}>
                   <motion.div
                     animate={{ width: `${scene.brightness}%` }}
-                    transition={{ duration: 0.8 }}
+                    transition={{ duration: reduced ? 0 : 0.8 }}
                     className="h-full bg-[#93c5fd]"
                   />
                 </div>
@@ -186,14 +195,11 @@ function SceneExperience() {
                 <span>{scene.temperature}</span>
               </div>
               <div className="flex items-center gap-2 text-xs text-[#1d4ed8]">
-                <Check size={16} /> Scene preview active
+                <Check size={16} aria-hidden="true" /> Scene preview active
               </div>
             </div>
           </div>
         </div>
-        <p className="mt-4 text-center text-xs text-slate-500">
-          Interactive concept preview. Actual capabilities depend on installed devices.
-        </p>
       </div>
     </section>
   );
@@ -217,11 +223,12 @@ function Contact() {
               Experience intelligent automation designed to make everyday living effortless. Connect with us to discuss your project.
             </p>
           </Reveal>
-          <div className="mt-12 space-y-5 text-sm text-slate-600">
-            <p>Company: Siddheshwar Smart Technologies</p><p>Business Hours: To be added</p>
-            <p className="flex items-center gap-4"><Mail size={18} color={ACCENT_BLUE} /> Email: To be added</p>
-            <p className="flex items-center gap-4"><Phone size={18} color={ACCENT_BLUE} /> Phone: To be added</p>
-            <p className="flex items-center gap-4"><MapPin size={18} color={ACCENT_BLUE} /> Address: To be added</p>
+          <div className="contact-details mt-12 space-y-5 text-sm text-slate-600">
+            <p><Building2 aria-hidden="true" /> <span>Company: Siddheshwar Smart Technologies</span></p>
+            <p><Clock3 aria-hidden="true" /> <span>Business Hours: To be added</span></p>
+            <p><Mail aria-hidden="true" /> <span>Email: To be added</span></p>
+            <p><Phone aria-hidden="true" /> <span>Phone: To be added</span></p>
+            <p><MapPin aria-hidden="true" /> <span>Address: To be added</span></p>
           </div>
         </div>
 
@@ -236,20 +243,20 @@ function Contact() {
             <p className="consultation-required">Fields marked <span aria-hidden="true">*</span> are required.</p>
             <div className="consultation-fields">
               {[
-                { label: 'Full Name', type: 'text', name: 'full-name', autoComplete: 'name', placeholder: 'Your full name' },
-                { label: 'Email Address', type: 'email', name: 'email-address', autoComplete: 'email', placeholder: 'you@example.com' },
-                { label: 'Mobile Number', type: 'tel', name: 'mobile-number', autoComplete: 'tel', placeholder: 'Your mobile number' },
-                { label: 'Project Location', type: 'text', name: 'project-location', autoComplete: 'address-level2', placeholder: 'City or project area' },
-              ].map(field => <label key={field.name} className="consultation-field" htmlFor={`consultation-${field.name}`}><span>{field.label} <span aria-hidden="true">*</span></span><input id={`consultation-${field.name}`} name={field.name} type={field.type} autoComplete={field.autoComplete} placeholder={field.placeholder} required /></label>)}
-              <label className="consultation-field consultation-wide" htmlFor="consultation-property-type"><span>Property Type <span aria-hidden="true">*</span></span><select id="consultation-property-type" name="property-type" required defaultValue=""><option value="" disabled>Select property type</option><option>Villa / Independent House</option><option>Apartment</option><option>Office / Commercial</option><option>Hotel / Hospitality</option><option>Other</option></select></label>
-              <label className="consultation-field consultation-wide" htmlFor="consultation-interest"><span>Interested Service or Product <span aria-hidden="true">*</span></span><select id="consultation-interest" name="interested-service" required defaultValue={new URLSearchParams(window.location.search).get('interest') || ''}>
+                { Icon: UserRound, label: 'Full Name', type: 'text', name: 'full-name', autoComplete: 'name', placeholder: 'Your full name' },
+                { Icon: Mail, label: 'Email Address', type: 'email', name: 'email-address', autoComplete: 'email', placeholder: 'you@example.com' },
+                { Icon: Phone, label: 'Mobile Number', type: 'tel', name: 'mobile-number', autoComplete: 'tel', placeholder: 'Your mobile number' },
+                { Icon: MapPin, label: 'Project Location', type: 'text', name: 'project-location', autoComplete: 'address-level2', placeholder: 'City or project area' },
+              ].map(field => <label key={field.name} className="consultation-field" htmlFor={`consultation-${field.name}`}><span><field.Icon size={17} aria-hidden="true" />{field.label} <span aria-hidden="true">*</span></span><input id={`consultation-${field.name}`} name={field.name} type={field.type} autoComplete={field.autoComplete} placeholder={field.placeholder} required /></label>)}
+              <label className="consultation-field consultation-wide" htmlFor="consultation-property-type"><span><House size={17} aria-hidden="true" />Property Type <span aria-hidden="true">*</span></span><select id="consultation-property-type" name="property-type" required defaultValue=""><option value="" disabled>Select property type</option><option>Villa / Independent House</option><option>Apartment</option><option>Office / Commercial</option><option>Hotel / Hospitality</option><option>Other</option></select></label>
+              <label className="consultation-field consultation-wide" htmlFor="consultation-interest"><span><PanelsTopLeft size={17} aria-hidden="true" />Interested Service or Product <span aria-hidden="true">*</span></span><select id="consultation-interest" name="interested-service" required defaultValue={new URLSearchParams(window.location.search).get('interest') || ''}>
                 <option value="" disabled>Select a service or product</option>
                 {new URLSearchParams(window.location.search).get('interest') && <option>{new URLSearchParams(window.location.search).get('interest')}</option>}
                 <optgroup label="Home Automation">{automationServices.map(service => <option key={service.slug}>{service.title}</option>)}</optgroup>
                 <optgroup label="Products">{catalogProducts.map(product => <option key={product.slug}>{product.title}</option>)}</optgroup>
                 <optgroup label="Solutions">{solutions.map(solution => <option key={solution.slug}>{solution.title}</option>)}</optgroup>
               </select></label>
-              <label className="consultation-field consultation-wide" htmlFor="consultation-requirements"><span>Project Requirements <small>(optional)</small></span><textarea id="consultation-requirements" name="project-requirements" rows={4} placeholder="Tell us about your space and what you have in mind." /></label>
+              <label className="consultation-field consultation-wide" htmlFor="consultation-requirements"><span><MessageSquareText size={17} aria-hidden="true" />Project Requirements <small>(optional)</small></span><textarea id="consultation-requirements" name="project-requirements" rows={4} placeholder="Tell us about your space and what you have in mind." /></label>
             </div>
             <button type="submit" className="consultation-submit">Request a Consultation <ArrowUpRight size={19} /></button>
             {submitted && <p role="status" className="mt-5 text-sm leading-7 text-[#1e3a8a]">This is a demo form. Connect a backend or email service to receive enquiries.</p>}

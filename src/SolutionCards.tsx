@@ -1,6 +1,6 @@
 import { useState, type ReactNode } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowRight, ChevronRight } from 'lucide-react';
 import type { Solution } from './solutions-data';
 const ease = [.22,1,.36,1] as const;
 function Reveal({ children, className = '', delay = 0 }: { children: ReactNode; className?: string; delay?: number }) {
@@ -14,6 +14,6 @@ export function SolutionImage({ solution, eager = false }: { solution: Solution;
 }
 
 export function SolutionCard({ solution, index = 0 }: { solution: Solution; index?: number }) {
-  return <Reveal delay={(index % 3) * .08} className="solution-card-reveal"><a href={`/solutions/${solution.slug}`} className="solution-card"><div className="solution-card-image"><SolutionImage solution={solution} /></div><div className="solution-card-copy"><p className="solution-card-category">{solution.category}</p><h3>{solution.title}</h3><p>{solution.shortDescription}</p><span>Explore Solution<ArrowUpRight size={18} /></span></div></a></Reveal>;
+  return <Reveal delay={(index % 3) * .08} className="solution-card-reveal"><a href={`/solutions/${solution.slug}`} className="solution-card"><div className="solution-card-image"><SolutionImage solution={solution} /></div><div className="solution-card-copy"><p className="solution-card-category">{solution.category}</p><h3>{solution.title}</h3><p>{solution.shortDescription}</p><span className="solution-card-action"><span className="solution-card-action-label">Explore Solution<ArrowRight size={16} aria-hidden="true" /></span><span className="solution-card-action-circle" aria-hidden="true"><ChevronRight size={18} /></span></span></div></a></Reveal>;
 }
 

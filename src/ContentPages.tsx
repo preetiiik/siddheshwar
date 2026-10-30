@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ArrowUpRight, ChevronDown, Menu, X } from 'lucide-react';
+import { ArrowUpRight, ChevronDown, Menu, X, UserRoundCog, Layers, House, Leaf, ShieldCheck, Expand } from 'lucide-react';
 import pages from './site-content.json';
 import solutions from './solutions-data';
 import { productGroups } from './product-data';
@@ -50,7 +50,30 @@ export function ContentPage({ path }: { path: string }) {
 
 export function HomeStrengths() {
   const section = pages[0].sections.find(s => s.title === 'Why Choose Us?')!;
-  return <section className="bg-[#eef4fb] px-6 py-24 md:px-12"><div className="mx-auto max-w-[1344px]"><p className="text-xs uppercase tracking-[0.3em] text-[#1d4ed8]">Why Choose Us?</p><h2 className="luxury-heading mt-6 text-4xl font-semibold md:text-6xl">{section.paragraphs[0]}</h2><div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{section.paragraphs[1].split('\n').map(p => <div key={p} className="why-choose-card border border-slate-300/10 p-6 text-lg">{p.replace(/^- /, '')}</div>)}</div></div></section>;
+  const features = [
+    { Icon: UserRoundCog, description: 'Automation planned around your space, lifestyle and everyday needs.' },
+    { Icon: Layers, description: 'Bring compatible lighting, climate and controls together in one connected system.' },
+    { Icon: House, description: 'Manage connected devices and everyday scenes from one convenient interface.' },
+    { Icon: Leaf, description: 'Use occupancy sensing, schedules and monitoring to reduce unnecessary energy use.' },
+    { Icon: ShieldCheck, description: 'Build on established technologies with equipment selected for compatibility and reliability.' },
+    { Icon: Expand, description: 'Plan a flexible system that can expand as your requirements evolve.' },
+  ];
+  return <section className="home-strengths" aria-labelledby="home-strengths-title">
+    <div className="home-strengths-inner">
+      <div className="home-strengths-heading">
+        <p className="home-strengths-eyebrow">Why Choose Us?</p>
+        <h2 id="home-strengths-title">Technology Designed Around <span className="blue-text">You.</span></h2>
+        <p className="home-strengths-intro">We combine thoughtful planning, technical expertise and design around your needs to create smarter, more comfortable and efficient spaces.</p>
+      </div>
+      <div className="home-strengths-grid">{section.paragraphs[1].split('\n').map((title, index) => {
+        const { Icon, description } = features[index];
+        return <article key={title} className="home-strength-card">
+          <span className="home-strength-icon"><Icon size={34} strokeWidth={1.7} aria-hidden="true" /></span>
+          <div><h3>{title.replace(/^- /, '')}</h3><p>{description}</p></div>
+        </article>;
+      })}</div>
+    </div>
+  </section>;
 }
 
 export function SiteNavbar() {

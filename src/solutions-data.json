@@ -6,7 +6,7 @@
     "category": "Residential",
     "shortDescription": "Intelligent control of lighting, curtains, climate and connected electrical systems for modern living.",
     "fullDescription": "Intelligent control of lighting, curtains, climate and connected electrical systems for modern living.\n\nThe layout starts with how each room is used and how you want to control it. Lighting, room interfaces and compatible connected equipment can be planned together around daily routines. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1600&q=85",
+    "image": "/solutions/S1.png",
     "benefits": [
       "Convenient centralized control",
       "Personalized automation scenes",
@@ -42,7 +42,7 @@
     "category": "Lighting",
     "shortDescription": "Automated lighting scenes, dimming and schedules designed for comfort and convenience.",
     "fullDescription": "Automated lighting scenes, dimming and schedules designed for comfort and convenience.\n\nThe lighting approach considers the architecture, daily activities and desired atmosphere. Fixture selection, zones and control methods are planned together so the lighting serves both the space and its users. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=85",
+    "image": "/solutions/S2.png",
     "benefits": [
       "Personalized lighting scenes",
       "Automated lighting schedules",
@@ -74,7 +74,7 @@
     "category": "Lighting",
     "shortDescription": "Premium architectural and decorative lighting solutions for elegant interiors and exteriors.",
     "fullDescription": "Premium architectural and decorative lighting solutions for elegant interiors and exteriors.\n\nThe lighting approach considers the architecture, daily activities and desired atmosphere. Fixture selection, zones and control methods are planned together so the lighting serves both the space and its users. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=85",
+    "image": "/solutions/S3.png",
     "benefits": [
       "Enhanced interior aesthetics",
       "Layered lighting design",
@@ -105,7 +105,7 @@
     "category": "Residential",
     "shortDescription": "Automated curtain and blind control using schedules, smart panels and compatible sensors.",
     "fullDescription": "Automated curtain and blind control using schedules, smart panels and compatible sensors.\n\nThe layout starts with how each room is used and how you want to control it. Lighting, room interfaces and compatible connected equipment can be planned together around daily routines. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=85",
+    "image": "/solutions/S4.png",
     "benefits": [
       "Convenient curtain operation",
       "Scheduled opening and closing",
@@ -136,7 +136,7 @@
     "category": "Residential",
     "shortDescription": "Intelligent control of compatible air-conditioning and climate systems.",
     "fullDescription": "Intelligent control of compatible air-conditioning and climate systems.\n\nThe layout starts with how each room is used and how you want to control it. Lighting, room interfaces and compatible connected equipment can be planned together around daily routines. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=85",
+    "image": "/solutions/S5.png",
     "benefits": [
       "Convenient temperature management",
       "Personalized climate settings",
@@ -167,7 +167,7 @@
     "category": "Lighting",
     "shortDescription": "Create personalized lighting environments for relaxation, entertainment, dining and everyday living.",
     "fullDescription": "Create personalized lighting environments for relaxation, entertainment, dining and everyday living.\n\nThe lighting approach considers the architecture, daily activities and desired atmosphere. Fixture selection, zones and control methods are planned together so the lighting serves both the space and its users. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1600&q=85",
+    "image": "/solutions/S6.png",
     "benefits": [
       "One-touch scene activation",
       "Personalized ambience",
@@ -199,7 +199,7 @@
     "category": "Commercial",
     "shortDescription": "Integrated lighting, climate and electrical automation for smarter workplaces.",
     "fullDescription": "Integrated lighting, climate and electrical automation for smarter workplaces.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=85",
+    "image": "/solutions/S7.png",
     "benefits": [
       "Centralized control",
       "Automated lighting schedules",
@@ -234,7 +234,7 @@
     "category": "Commercial",
     "shortDescription": "Intelligent guest-room automation designed for comfort, convenience and operational efficiency.",
     "fullDescription": "Intelligent guest-room automation designed for comfort, convenience and operational efficiency.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=85",
+    "image": "/solutions/S8.png",
     "benefits": [
       "Convenient guest-room controls",
       "Personalized room settings",
@@ -269,7 +269,7 @@
     "category": "Commercial",
     "shortDescription": "Monitor electricity usage and automate selected loads to reduce unnecessary consumption.",
     "fullDescription": "Monitor electricity usage and automate selected loads to reduce unnecessary consumption.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=1600&q=85",
+    "image": "/solutions/S9.png",
     "benefits": [
       "Better energy visibility",
       "Automated load control",
@@ -303,7 +303,7 @@
     "category": "Lighting",
     "shortDescription": "Thoughtfully designed lighting for gardens, pathways, building façades and outdoor living spaces.",
     "fullDescription": "Thoughtfully designed lighting for gardens, pathways, building façades and outdoor living spaces.\n\nThe lighting approach considers the architecture, daily activities and desired atmosphere. Fixture selection, zones and control methods are planned together so the lighting serves both the space and its users. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1600&q=85",
+    "image": "/solutions/S10.png",
     "benefits": [
       "Enhanced outdoor aesthetics",
       "Improved pathway visibility",
@@ -335,7 +335,7 @@
     "category": "Commercial",
     "shortDescription": "Centralized lighting management for zones, schedules, dimming and occupancy-based operation.",
     "fullDescription": "Centralized lighting management for zones, schedules, dimming and occupancy-based operation.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=85",
+    "image": "/solutions/S11.png",
     "benefits": [
       "Centralized lighting control",
       "Flexible lighting zones",
@@ -370,7 +370,7 @@
     "category": "Commercial",
     "shortDescription": "Coordinate compatible lighting, climate and electrical systems across larger buildings.",
     "fullDescription": "Coordinate compatible lighting, climate and electrical systems across larger buildings.\n\nThe approach considers operating hours, occupancy and the needs of the people using the building. Zones, controls and compatible equipment are coordinated around day-to-day operation. Final product selection, supported functions and integration requirements are confirmed during project planning.",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=85",
+    "image": "/solutions/S12.png",
     "benefits": [
       "Coordinated building systems",
       "Centralized management",
