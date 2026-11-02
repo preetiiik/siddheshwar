@@ -4,7 +4,7 @@ const members = [
   { name: 'Mrs. Sushmitha S Kammar', role: 'CEO', fullRole: 'Chief Executive Officer', image: '/team/Mrs.Sushmitha S Kammar .jpeg', initials: 'SK', position: 'center 30%' },
   { name: 'Mr. Siddharth S Kammar', role: 'COO', fullRole: 'Chief Operating Officer', image: '/team/Mr.Siddharth S Kammar .jpeg', initials: 'SK', position: 'center 35%' },
   { name: 'Mr. Vinay', role: 'Technical Consultant', fullRole: '', image: '/team/Mr.Vinay .jpeg', initials: 'V', position: 'center 30%' },
-  { name: 'Mr. Harish Kumar', role: 'Lighting Consultant', fullRole: '', image: '/team/Mr.Harish kumar.jpeg', initials: 'HK', position: 'center 30%' },
+  { name: 'Mr. Harish Kumar', role: 'Marketing Director', fullRole: '', image: '/team/Mr.Harish kumar.jpeg', initials: 'HK', position: 'center 30%' },
   { name: 'Mr. Karthik Radhakrishnan', role: 'Lighting Consultant', fullRole: '', image: '/team/Mr.Karthik Radhakrishnan.jpeg', initials: 'KR', position: 'center 30%' },
 ];
 
