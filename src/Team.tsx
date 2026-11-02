@@ -5,6 +5,7 @@ const members = [
   { name: 'Mr. Siddharth S Kammar', role: 'COO', fullRole: 'Chief Operating Officer', image: '/team/Mr.Siddharth S Kammar .jpeg', initials: 'SK', position: 'center 35%' },
   { name: 'Mr. Vinay', role: 'Technical Consultant', fullRole: '', image: '/team/Mr.Vinay .jpeg', initials: 'V', position: 'center 30%' },
   { name: 'Mr. Harish Kumar', role: 'Lighting Consultant', fullRole: '', image: '/team/Mr.Harish kumar.jpeg', initials: 'HK', position: 'center 30%' },
+  { name: 'Mr. Karthik Radhakrishnan', role: 'Lighting Consultant', fullRole: '', image: '/team/Mr.Karthik Radhakrishnan.jpeg', initials: 'KR', position: 'center 30%' },
 ];
 
 function Portrait({ member }: { member: typeof members[number] }) {
