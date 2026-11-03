@@ -67,13 +67,19 @@ export default function ProductShowcase() {
     <div className="mx-auto max-w-7xl px-6 pb-6 sm:px-10 lg:px-16"><div className="flex flex-col gap-10 md:flex-row md:items-end md:justify-between"><div className="max-w-md"><p className="text-sm leading-8 text-slate-600">Bring intelligent controls and thoughtful lighting together in one connected space. Explore compatible products with our team and plan a selection around your everyday needs.</p><a href="/contact" className="group mt-6 inline-flex items-end"><span className="inline-flex items-center gap-[10px] bg-[#93c5fd] px-6 py-4 text-xs font-semibold uppercase tracking-widest text-[#172554] transition-colors group-hover:bg-[#bfdbfe]">Let?s plan your space</span><span className="mb-6 flex h-6 w-6 items-center justify-center bg-[#1e3a8a] text-white transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:mb-9"><ArrowUpRight size={16} /></span></a></div><div className="min-w-0 flex-1 overflow-hidden border-t border-black/10 md:ml-12 md:border-0"><div className="case-product-marquee overflow-hidden py-5" aria-label="Touch controls, smart scenes, climate control, connected living, architectural lighting, DALI control, energy management, presence sensing"><div className="marquee-projects flex w-max" aria-hidden="true">{[0,1].map(copy => <div className="flex shrink-0" key={copy}>{marqueeItems.map(({ name, Icon }) => <div key={name} className="flex shrink-0 items-center gap-2.5 px-8"><Icon size={21} strokeWidth={1.7} /><span className="whitespace-nowrap text-sm font-medium tracking-wide text-black/80">{name}</span></div>)}</div>)}</div></div></div></div></div>
     <section className="home-led-preview" aria-labelledby="home-led-title">
       <div className="border-t border-slate-200 pt-10">
-        <p className="product-eyebrow">A CLOSER LOOK AT OUR LED COLLECTION</p>
-        <h3 id="home-led-title" className="luxury-heading text-3xl font-semibold text-[#1e3a8a] md:text-4xl">Standard &amp; Project Series</h3>
-        <p className="mt-4 max-w-2xl text-sm leading-8 text-slate-600">Sophisticated LED lighting with premium drivers, advanced optics and flicker-free illumination. Bring lasting brilliance and visual comfort to your space.</p>
+    <div className="led-series-intro">
+      <p className="product-eyebrow">ARCHITECTURAL LED LIGHTING</p>
+      <h3 id="home-led-title">Standard &amp; Project Series LED Lighting</h3>
+      <div className="led-series-copy">
+        <p>Standard Series and Project Series LED lighting transcend conventional design standards, offering a sophisticated aesthetic that enhances architectural vision.</p>
+        <p>Equipped with premium drivers, each fixture in the Project Series offers superior energy efficiency, flicker-free illumination and an extended lifespan, ensuring consistent performance and reliability. Anti-glare performance enhances visual comfort and usability. The Project Series seamlessly integrates form and function, elevating the ambience of any space while supporting sustainability and durability.</p>
+        <p>These products also feature advanced optics for outstanding performance, making them a preferred choice for discerning architects, interior designers and lighting consultants. Project Series lighting strikes a perfect balance of aesthetics and performance, elevating the ambience of any high-end living space with lasting brilliance.</p>
+      </div>
+    </div>
         <div className="mt-7 grid gap-5 sm:grid-cols-3">{[
-          { photo: 7, label: 'Collection 04', alt: 'Architectural LED downlights in a range of finishes' },
-          { photo: 6, label: 'Collection 07', alt: 'Close-up of a black LED spotlight and reflector' },
-          { photo: 13, label: 'Collection 13', alt: 'Contemporary cylindrical LED ceiling and track fixtures' },
+          { photo: 2, label: 'Collection 02', alt: 'Architectural LED fixture collection' },
+          { photo: 9, label: 'Collection 07', alt: 'Architectural LED lighting collection' },
+          { photo: 10, label: 'Collection 08', alt: 'Architectural LED fixtures in black and white finishes' },
         ].map(item => <a key={item.photo} href="/products#led-collection" className="block border border-slate-200 bg-white text-[#1e3a8a] transition-colors hover:border-blue-400">
           <img src={`/led%20photos/${item.photo}.png`} alt={item.alt} loading="lazy" decoding="async" className="h-64 w-full object-contain" />
           <span className="flex items-center justify-between gap-3 border-t border-slate-100 px-5 py-4 text-sm">{item.label}<ArrowUpRight size={17} aria-hidden="true" /></span>

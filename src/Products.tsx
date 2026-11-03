@@ -6,23 +6,16 @@ import { allProducts, catalogProducts, lightingProducts, lightingItems, productG
 import { getSolutionsUsingProduct } from './solution-products';
 
 function LedSeriesGallery() {
-  return <section id="led-collection" className="led-series" aria-labelledby="led-series-title">
-    <div className="led-series-intro">
-      <p className="product-eyebrow">ARCHITECTURAL LED LIGHTING</p>
-      <h2 id="led-series-title">Standard &amp; Project Series LED Lighting</h2>
-      <div className="led-series-copy">
-        <p>Standard Series and Project Series LED lighting transcend conventional design standards, offering a sophisticated aesthetic that enhances architectural vision.</p>
-        <p>Equipped with premium drivers, each fixture in the Project Series offers superior energy efficiency, flicker-free illumination and an extended lifespan, ensuring consistent performance and reliability. Anti-glare performance enhances visual comfort and usability. The Project Series seamlessly integrates form and function, elevating the ambience of any space while supporting sustainability and durability.</p>
-        <p>These products also feature advanced optics for outstanding performance, making them a preferred choice for discerning architects, interior designers and lighting consultants. Project Series lighting strikes a perfect balance of aesthetics and performance, elevating the ambience of any high-end living space with lasting brilliance.</p>
-      </div>
-    </div>
+  return <section id="led-collection" className="led-series" aria-labelledby="led-gallery-title">
+    <h2 id="led-gallery-title">Explore Our LED Collection</h2>
     <p className="catalog-note">Explore the collection. Select a photo to view it in full size.</p>
-    <div className="led-series-gallery">{[[1, 2, 3, 7], [4, 5, 6], [8, 9, 10, 11, 12, 13]].map((column, columnIndex) => <div className="led-series-column" key={columnIndex}>{column.map((number, index) => {
+    <div className="led-series-gallery">{[[1, 2, 8], [4, 5], [9, 10, 11, 3]].map((column, columnIndex) => <div className="led-series-column" key={columnIndex}>{column.map(number => {
       const photo = `/led%20photos/${number}.png`;
-      const collectionNumber = [0, 4, 7][columnIndex] + index + 1;
-      return <a key={photo} href={photo} target="_blank" rel="noopener noreferrer" aria-label={`View LED lighting collection photo ${collectionNumber} in full size (opens in a new tab)`}>
-        <img src={photo} alt={`Standard and Project Series LED fixture collection, photo ${collectionNumber}`} loading="lazy" decoding="async" />
-        <span>Collection {String(collectionNumber).padStart(2, '0')}<ArrowUpRight size={17} aria-hidden="true" /></span>
+      const collectionNumber = [1, 2, 3, 4, 5, 8, 9, 10, 11].indexOf(number) + 1;
+      const label = `Collection ${String(collectionNumber).padStart(2, '0')}`;
+      return <a key={photo} href={photo} target="_blank" rel="noopener noreferrer" aria-label={`View ${label} in full size (opens in a new tab)`}>
+        <img src={photo} alt={number === 1 ? 'Project Series LED linear lights and adjustable track spotlights in black' : `Standard and Project Series LED fixture collection, photo ${collectionNumber}`} loading="lazy" decoding="async" />
+        <span>{label}<ArrowUpRight size={17} aria-hidden="true" /></span>
       </a>;
     })}</div>)}</div>
     <a className="catalog-enquire" href="/contact?interest=Standard%20%26%20Project%20Series%20LED%20Lighting#contact">Enquire About LED Lighting<ArrowUpRight size={19} /></a>

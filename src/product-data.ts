@@ -733,8 +733,8 @@ export const lightingItems: Product[] = [
     "parentId": "downlights",
     "shortDescription": "Create a clean ceiling finish with recessed downlights that provide evenly distributed illumination for comfortable interior spaces.",
     "fullDescription": "Recessed Downlights are modern lighting fixtures installed directly into the ceiling, creating a clean and minimal appearance. Designed to provide efficient and evenly distributed illumination, these lights blend seamlessly with the ceiling while enhancing the overall ambience of residential and commercial interiors.",
-    "image": "/products/lighting/Recessed%20Downlights.jpeg",
-    "alt": "Recessed Downlights lighting application",
+    "image": "/led%20photos/7.png",
+    "alt": "Recessed LED downlights in white, cream, black, gold and chrome finishes",
     "features": [
       "Flush Ceiling Design: Installed within the ceiling for a neat, seamless finish without visible hanging fixtures.",
       "Energy-Efficient LED Lighting: Delivers effective brightness with reduced energy consumption and minimal maintenance.",
@@ -835,8 +835,8 @@ export const lightingItems: Product[] = [
     "parentId": "downlights",
     "shortDescription": "Highlight interiors and display areas with concentrated, uniform LED illumination that brings architectural details into clear focus.",
     "fullDescription": "COB (Chip on Board) Downlights are advanced LED lighting fixtures designed to deliver concentrated, uniform illumination with excellent visual clarity. Featuring multiple LED chips integrated into a single module, these lights provide a powerful and consistent light output, making them ideal for highlighting architectural details, interiors, and display areas.",
-    "image": "/products/lighting/COB%20Downlights.jpeg",
-    "alt": "COB Downlights lighting application",
+    "image": "/led%20photos/6.png",
+    "alt": "Black COB LED downlights with metallic trim and faceted reflectors",
     "features": [
       "Precision-Focused Lighting: Designed to direct light onto specific areas, creating attractive highlights and enhancing architectural features.",
       "High-Quality Illumination: COB LED technology produces a uniform light source, helping reduce visible individual LED points.",
@@ -890,8 +890,8 @@ export const lightingItems: Product[] = [
     "parentId": "downlights",
     "shortDescription": "Direct light onto artwork, furniture and architectural features with adjustable heads that offer flexible, focused interior illumination.",
     "fullDescription": "Adjustable Spotlights are versatile lighting fixtures designed to provide precise and directional illumination. Featuring tiltable or rotatable light heads, these fixtures allow you to control where the light falls, making them ideal for highlighting artwork, architectural details, furniture, and decorative elements. Their sleek design and flexible functionality make them a perfect addition to modern residential and commercial interiors.",
-    "image": "/products/lighting/Adjustable%20Spotlights.jpeg",
-    "alt": "Adjustable Spotlights lighting application",
+    "image": "/led%20photos/13.png",
+    "alt": "Adjustable LED spotlights with recessed, ceiling and track mounts in gold, silver, black and white finishes",
     "features": [
       "Directional Lighting Control: Adjustable light heads allow illumination to be directed toward specific areas, objects, or architectural features.",
       "Precision Accent Lighting: Ideal for highlighting artwork, wall textures, display products, and decorative interiors.",
@@ -1343,8 +1343,8 @@ export const lightingItems: Product[] = [
     "parentId": "decorative-lights",
     "shortDescription": "Transform ceilings into decorative features with distinctive lighting designs that combine creative patterns, stylish finishes and beautiful illumination.",
     "fullDescription": "Elevate your interiors with our exclusive collection of Designer Ceiling Lights, where modern innovation meets artistic elegance. Designed to enhance the beauty of your ceiling, these stylish lighting fixtures combine unique patterns, sophisticated finishes, and beautiful illumination to create an impressive atmosphere in every space.",
-    "image": "/products/lighting/Designer%20ceiling%20Light.jpeg",
-    "alt": "Designer Ceiling Lights lighting application",
+    "image": "/led%20photos/12.png",
+    "alt": "Designer ceiling lights with five recessed LED reflectors in gold and black finishes",
     "features": [
       "Unique & Artistic Designs: Creative lighting fixtures that add personality and elegance to your interiors.",
       "Modern & Contemporary Styles: Sleek designs that complement minimalist, luxurious, and modern spaces.",

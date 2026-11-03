@@ -441,11 +441,16 @@ nav[aria-label] details > div > a:focus-visible {
 .led-series-copy p { margin: 0 0 18px; }
 .led-series-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: start; margin: 28px 0 32px; }
 .led-series-column { min-width: 0; }
+.products-enquiry-photo { background: linear-gradient(rgb(10 24 45 / 75%), rgb(10 24 45 / 75%)), url('/lighting-home.png') center / cover no-repeat; }
+.products-enquiry-photo h2 { color: #fff; }
+.products-enquiry-photo p { color: #e2e8f0; }
 .home-led-preview { box-sizing: border-box; width: 100%; max-width: 1280px; margin: 0 auto; padding: 40px 64px 48px; }
 .home-led-preview > div { text-align: center; }
 .home-led-preview .product-eyebrow { margin: 0 0 18px; }
 .home-led-preview h3 { margin: 0; font-size: clamp(28px, 3vw, 40px); line-height: 1.25; }
 .home-led-preview h3 + p { margin: 18px auto 0; }
+.home-led-preview .led-series-intro { margin-inline: auto; }
+.home-led-preview .led-series-copy { margin-top: 24px; text-align: left; }
 .home-led-preview .grid { text-align: left; align-items: stretch; }
 .home-led-preview .grid > a { min-width: 0; display: flex; flex-direction: column; }
 .home-led-preview .grid img { display: block; width: 100%; height: 280px; object-fit: cover; padding: 0; box-sizing: border-box; }
