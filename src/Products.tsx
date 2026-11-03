@@ -5,6 +5,30 @@ import { ArrowLeft, ArrowUpRight, Check } from 'lucide-react';
 import { allProducts, catalogProducts, lightingProducts, lightingItems, productGroups, productHref, resolveProduct, type Product } from './product-data';
 import { getSolutionsUsingProduct } from './solution-products';
 
+function LedSeriesGallery() {
+  return <section id="led-collection" className="led-series" aria-labelledby="led-series-title">
+    <div className="led-series-intro">
+      <p className="product-eyebrow">ARCHITECTURAL LED LIGHTING</p>
+      <h2 id="led-series-title">Standard &amp; Project Series LED Lighting</h2>
+      <div className="led-series-copy">
+        <p>Standard Series and Project Series LED lighting transcend conventional design standards, offering a sophisticated aesthetic that enhances architectural vision.</p>
+        <p>Equipped with premium drivers, each fixture in the Project Series offers superior energy efficiency, flicker-free illumination and an extended lifespan, ensuring consistent performance and reliability. Anti-glare performance enhances visual comfort and usability. The Project Series seamlessly integrates form and function, elevating the ambience of any space while supporting sustainability and durability.</p>
+        <p>These products also feature advanced optics for outstanding performance, making them a preferred choice for discerning architects, interior designers and lighting consultants. Project Series lighting strikes a perfect balance of aesthetics and performance, elevating the ambience of any high-end living space with lasting brilliance.</p>
+      </div>
+    </div>
+    <p className="catalog-note">Explore the collection. Select a photo to view it in full size.</p>
+    <div className="led-series-gallery">{[[1, 2, 3, 7], [4, 5, 6], [8, 9, 10, 11, 12, 13]].map((column, columnIndex) => <div className="led-series-column" key={columnIndex}>{column.map((number, index) => {
+      const photo = `/led%20photos/${number}.png`;
+      const collectionNumber = [0, 4, 7][columnIndex] + index + 1;
+      return <a key={photo} href={photo} target="_blank" rel="noopener noreferrer" aria-label={`View LED lighting collection photo ${collectionNumber} in full size (opens in a new tab)`}>
+        <img src={photo} alt={`Standard and Project Series LED fixture collection, photo ${collectionNumber}`} loading="lazy" decoding="async" />
+        <span>Collection {String(collectionNumber).padStart(2, '0')}<ArrowUpRight size={17} aria-hidden="true" /></span>
+      </a>;
+    })}</div>)}</div>
+    <a className="catalog-enquire" href="/contact?interest=Standard%20%26%20Project%20Series%20LED%20Lighting#contact">Enquire About LED Lighting<ArrowUpRight size={19} /></a>
+  </section>;
+}
+
 export function ProductGrid({ products, dark = false, actionLabel = 'Explore Product' }: { products: Product[]; dark?: boolean; actionLabel?: string }) {
   const reduced = Boolean(useReducedMotion());
   return <div className={`product-grid ${dark ? 'product-grid-dark' : ''}`}>{products.map((product, index) => <motion.a key={product.id} href={productHref(product)} className="catalog-product-card" initial={reduced ? false : { opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .1 }} transition={{ duration: .45, delay: reduced ? 0 : (index % 4) * .07 }}><div className="catalog-product-image"><img src={product.image} alt={product.alt} loading="lazy" decoding="async" width={800} height={600} /></div><div className="catalog-product-copy"><p className="catalog-product-label">{product.category === 'automation' ? 'Automation' : product.parentId ? lightingProducts.find(item => item.id === product.parentId)?.name : 'Lighting category'}</p><h3>{product.name}</h3><p className="catalog-product-description">{product.shortDescription}</p><span>{actionLabel}<ArrowUpRight size={17} /></span></div></motion.a>)}</div>;
@@ -23,6 +47,7 @@ export function ProductCategoryCards() {
     {filter === 'lighting' && <div role="group" aria-label="Filter by lighting type" className="catalog-filters catalog-type-filters mt-5"><button type="button" aria-pressed={lightingType === 'all'} onClick={() => setLightingType('all')}>All Lighting</button>{lightingProducts.map(type => <button key={type.id} type="button" aria-pressed={lightingType === type.id} onClick={() => setLightingType(type.id)}>{type.name}</button>)}</div>}
     <div id="filtered-product-list"><ProductGrid products={products} /></div>
     <p className="catalog-note">Model options and installation requirements are confirmed for your project.</p>
+    {filter !== 'automation' && <LedSeriesGallery />}
   </div>;
 }
 
@@ -57,6 +82,7 @@ function ProductGroupListing({ group }: { group: typeof productGroups[number] })
   return <div>
     {group.slug === 'lighting' && <div className="catalog-filter-row mt-8"><div role="group" aria-label="Filter lighting by type" className="catalog-filters catalog-type-filters"><button type="button" aria-pressed={lightingType === 'all'} aria-controls="lighting-type-products" onClick={() => setLightingType('all')}>All Lighting</button>{lightingProducts.map(type => <button key={type.id} type="button" aria-pressed={lightingType === type.id} aria-controls="lighting-type-products" onClick={() => setLightingType(type.id)}>{type.name}</button>)}</div><p role="status">{products.length} lighting products</p></div>}
     <div id={group.slug === 'lighting' ? 'lighting-type-products' : undefined}><ProductGrid products={products} /></div>
+    {group.slug === 'lighting' && <LedSeriesGallery />}
   </div>;
 }
 

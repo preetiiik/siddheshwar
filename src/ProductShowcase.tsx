@@ -65,6 +65,22 @@ export default function ProductShowcase() {
       <AnimatePresence mode="wait" initial={false}><motion.div key={category} role="tabpanel" id={`product-panel-${category}`} aria-labelledby={`product-tab-${category}`} tabIndex={0} initial={reduced ? false : { opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: reduced ? 0 : .2, ease }}><div className="grid gap-4 md:grid-cols-2">{items.map((product, index) => <ShowcaseCard key={product.id} product={product} index={index} />)}</div><div className="case-product-view-all"><span>Explore lighting and automation selected around your project.</span><a href={`/products/${category}`}>View All {category === 'automation' ? 'Automation' : 'Lighting'} Products <ArrowUpRight size={17} /></a></div></motion.div></AnimatePresence>
     </div>
     <div className="mx-auto max-w-7xl px-6 pb-6 sm:px-10 lg:px-16"><div className="flex flex-col gap-10 md:flex-row md:items-end md:justify-between"><div className="max-w-md"><p className="text-sm leading-8 text-slate-600">Bring intelligent controls and thoughtful lighting together in one connected space. Explore compatible products with our team and plan a selection around your everyday needs.</p><a href="/contact" className="group mt-6 inline-flex items-end"><span className="inline-flex items-center gap-[10px] bg-[#93c5fd] px-6 py-4 text-xs font-semibold uppercase tracking-widest text-[#172554] transition-colors group-hover:bg-[#bfdbfe]">Let?s plan your space</span><span className="mb-6 flex h-6 w-6 items-center justify-center bg-[#1e3a8a] text-white transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:mb-9"><ArrowUpRight size={16} /></span></a></div><div className="min-w-0 flex-1 overflow-hidden border-t border-black/10 md:ml-12 md:border-0"><div className="case-product-marquee overflow-hidden py-5" aria-label="Touch controls, smart scenes, climate control, connected living, architectural lighting, DALI control, energy management, presence sensing"><div className="marquee-projects flex w-max" aria-hidden="true">{[0,1].map(copy => <div className="flex shrink-0" key={copy}>{marqueeItems.map(({ name, Icon }) => <div key={name} className="flex shrink-0 items-center gap-2.5 px-8"><Icon size={21} strokeWidth={1.7} /><span className="whitespace-nowrap text-sm font-medium tracking-wide text-black/80">{name}</span></div>)}</div>)}</div></div></div></div></div>
+    <section className="home-led-preview" aria-labelledby="home-led-title">
+      <div className="border-t border-slate-200 pt-10">
+        <p className="product-eyebrow">A CLOSER LOOK AT OUR LED COLLECTION</p>
+        <h3 id="home-led-title" className="luxury-heading text-3xl font-semibold text-[#1e3a8a] md:text-4xl">Standard &amp; Project Series</h3>
+        <p className="mt-4 max-w-2xl text-sm leading-8 text-slate-600">Sophisticated LED lighting with premium drivers, advanced optics and flicker-free illumination. Bring lasting brilliance and visual comfort to your space.</p>
+        <div className="mt-7 grid gap-5 sm:grid-cols-3">{[
+          { photo: 7, label: 'Collection 04', alt: 'Architectural LED downlights in a range of finishes' },
+          { photo: 6, label: 'Collection 07', alt: 'Close-up of a black LED spotlight and reflector' },
+          { photo: 13, label: 'Collection 13', alt: 'Contemporary cylindrical LED ceiling and track fixtures' },
+        ].map(item => <a key={item.photo} href="/products#led-collection" className="block border border-slate-200 bg-white text-[#1e3a8a] transition-colors hover:border-blue-400">
+          <img src={`/led%20photos/${item.photo}.png`} alt={item.alt} loading="lazy" decoding="async" className="h-64 w-full object-contain" />
+          <span className="flex items-center justify-between gap-3 border-t border-slate-100 px-5 py-4 text-sm">{item.label}<ArrowUpRight size={17} aria-hidden="true" /></span>
+        </a>)}</div>
+        <a href="/products#led-collection" className="mt-6 inline-flex items-center gap-3 text-sm font-semibold text-[#1e3a8a]">Explore the Full LED Collection<ArrowUpRight size={17} /></a>
+      </div>
+    </section>
     <div className="h-12" />
   </section>;
 }
