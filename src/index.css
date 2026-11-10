@@ -248,7 +248,7 @@ nav[aria-label] details > div > a:focus-visible {
 .certificates-section { background: #ececec; padding: 65px 5.5vw 55px; }
 .certificates-inner { max-width: 1500px; margin: auto; }
 .certificates-inner > h2 { margin: 0 0 58px; text-align: center; color: #555; font-size: clamp(29px, 3.2vw, 48px); font-weight: 400; line-height: 1.25; letter-spacing: -.025em; }
-.certificates-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 22px; }
+.certificates-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
 .certificate-card { margin: 0; min-width: 0; }
 .certificate-paper { aspect-ratio: 210 / 297; background: #fff; }
 .certificate-paper > a { display: block; width: 100%; height: 100%; }
@@ -729,6 +729,10 @@ nav[aria-label] details > div > a:focus-visible {
 @media(prefers-reduced-motion:reduce) { .about-purpose-card, .about-value-card, .about-expertise-card > img, .about-expertise-copy > span svg, .about-contact-link { transition: none; } .about-purpose-card:hover, .about-value-card:hover, .about-expertise-card:hover > img, .about-expertise-card:focus-visible > img, .about-expertise-card:hover .about-expertise-copy > span svg { transform: none; } }
 
 .catalog-browser { margin-top: 32px; }
+.catalog-filter-label { margin: 0 0 10px; color: #52647c; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.catalog-brand-filter { margin-top: 22px; }
+.catalog-brand-filter .catalog-main-filters { flex-wrap: wrap; }
+.catalog-brand-filter button:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
 .catalog-filter-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
 .catalog-filters { display: flex; flex-wrap: wrap; gap: 6px; max-width: 100%; }
 .catalog-filters button { min-height: 44px; padding: 10px 22px; border: 0; background: transparent; color: #64748b; font: 500 12px/1.5 'DM Sans',sans-serif; cursor: pointer; white-space: nowrap; transition: background .25s, color .25s, box-shadow .25s; }
@@ -1002,7 +1006,7 @@ nav[aria-label] details > div > a:focus-visible {
 .trust-partners-section { padding-top: 15px; }
 .trust-partner-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 24px; }
 .trust-partner { min-height: 125px; display: flex; align-items: center; justify-content: center; padding: 25px; background: #fff; }
-.trust-partner img { width: 100%; max-width: 190px; height: 65px; object-fit: contain; filter: grayscale(1); }
+.trust-partner img { width: 100%; max-width: 190px; height: 65px; object-fit: contain; }
 .trust-partner-empty { display: flex; align-items: flex-start; gap: 16px; padding: 25px 0; border-top: 1px solid #dce1e7; font-size: 13px; line-height: 1.9; color: #647181; }
 .trust-partner-empty > svg { flex-shrink: 0; margin-top: 4px; }
 .trust-partner-empty strong { color: #465c78; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
@@ -1041,3 +1045,26 @@ nav[aria-label] details > div > a:focus-visible {
 .trust-certificate-section .certificates-grid > div { min-width: 0; }
 @media(max-width:640px) { .trust-page .trust-gallery-heading { font-size: 30px; margin-bottom: 35px; } }
 @media(max-width:360px) { .trust-certificate-section .certificates-grid { grid-template-columns: 1fr; } }
+
+.footer-knx-partner { display: block; width: 130px; max-width: 100%; flex-shrink: 0; }
+.footer-knx-partner img { display: block; width: 100%; height: auto; }
+
+/* Preserve the complete manufacturer product sheets. */
+.catalog-product-image:has(img[src*='/ionprime/']) { background: #eeeae2; }
+.catalog-product-image img[src*='/ionprime/'] { object-fit: contain; padding: 12px; }
+.catalog-product-card:hover .catalog-product-image img[src*='/ionprime/'] { transform: none; }
+.ionprime-catalog-link { padding: 130px 6% 0; }
+.ionprime-catalog-link a { display: inline-flex; align-items: center; gap: 10px; color: #1e3a8a; font-weight: 600; }
+.ionprime-variants { overflow-x: auto; }
+.ionprime-variants table { width: 100%; border-collapse: collapse; text-align: left; }
+.ionprime-variants caption { text-align: left; padding: 16px 0; color: #647181; }
+.ionprime-variants th, .ionprime-variants td { padding: 18px 12px; border-bottom: 1px solid #cdd7e4; }
+.ionprime-variants tbody th { font-weight: 500; }
+
+.catalog-product-image:has(img[src*='/akubela/']) { background: #fff; }
+.catalog-product-image img[src*='/akubela/'] { object-fit: contain; padding: 12px; }
+.catalog-product-card:hover .catalog-product-image img[src*='/akubela/'] { transform: none; }
+.akubela-filter { margin: 32px 0; flex-wrap: wrap; gap: 20px; }
+.akubela-filter label { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.akubela-filter select { max-width: 100%; padding: 12px; border: 1px solid #cdd7e4; border-radius: 4px; background: white; color: #1e3a8a; }
+.akubela-filter a { display: inline-flex; align-items: center; gap: 8px; }

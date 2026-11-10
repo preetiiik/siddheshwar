@@ -1,3 +1,6 @@
+import { ionprimeProducts } from './ionprime-data';
+import { akubelaProducts } from './akubela-data';
+
 export type ProductCategory = 'automation' | 'lighting';
 export type Product = {
  id: string; name: string; title: string; slug: string; category: ProductCategory; parentId?: string;
@@ -8,6 +11,7 @@ export type Product = {
  specifications?: { label: string; value: string }[];
  contentSections?: { heading: string; paragraphs: string[] }[];
  closingLine?: string; contentSource?: { document: string; pages: number[] };
+ catalogUrl?: string; catalogLabel?: string; brand?: string; collection?: string; variants?: { name: string; article: string }[];
 };
 export const productCategories: Product[] = [
   {
@@ -721,7 +725,7 @@ export const productCategories: Product[] = [
     "closingLine": "Beautiful Outdoors. Brilliant Lighting."
   }
 ];
-export const automationProducts = productCategories.filter(product => product.category === 'automation');
+export const automationProducts = [...ionprimeProducts, ...akubelaProducts, ...productCategories.filter(product => product.category === 'automation')];
 export const lightingProducts = productCategories.filter(product => product.category === 'lighting');
 export const lightingItems: Product[] = [
   {
@@ -1630,8 +1634,9 @@ export const lightingItems: Product[] = [
   }
 ];
 export const catalogProducts = [...automationProducts, ...lightingItems];
-export const allProducts = [...productCategories, ...lightingItems];
+export const allProducts = [...ionprimeProducts, ...akubelaProducts, ...productCategories, ...lightingItems];
 export const productGroups = [
+ { title: 'Akubela Smart Home', slug: 'akubela', products: akubelaProducts, image: akubelaProducts[0].image, alt: 'Akubela HyPanel smart home control', description: 'Explore Akubela control panels, switches, smart locks, Matter and ZigBee devices, KNX and RS485 modules, and software platforms.' },
  { title: 'Automation Products', slug: 'automation', products: automationProducts, image: '/products/automation/Switch.jpeg', alt: 'Smart touch control panel and integrated interior lighting', description: 'Experience intelligent living with advanced automation solutions that seamlessly connect lighting, curtains, climate, energy and everyday controls.' },
  { title: 'Lighting Products', slug: 'lighting', products: lightingItems, image: '/lighting-home.png', alt: 'Warm architectural ceiling lighting in an elegant living room', description: 'Transform every space with thoughtfully designed architectural and decorative lighting that brings beauty, comfort and character.' },
 ];

@@ -1,0 +1,618 @@
+[
+  {
+    "name": "HyPanel Supreme",
+    "slug": "akubela-hypanel-supreme",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-supreme.webp",
+    "page": 28,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel Ultra",
+    "slug": "akubela-hypanel-ultra",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-ultra.webp",
+    "page": 30,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel Pro",
+    "slug": "akubela-hypanel-pro",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-pro.webp",
+    "page": 32,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel Elite 10",
+    "slug": "akubela-hypanel-elite-10",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-elite-10.webp",
+    "page": 34,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel Elite 7",
+    "slug": "akubela-hypanel-elite-7",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-elite-7.webp",
+    "page": 36,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel Lux Piano",
+    "slug": "akubela-hypanel-lux-piano",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-lux-piano.webp",
+    "page": 38,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel Lux Ring",
+    "slug": "akubela-hypanel-lux-ring",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-lux-ring.webp",
+    "page": 40,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel Lux Vase",
+    "slug": "akubela-hypanel-lux-vase",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-lux-vase.webp",
+    "page": 42,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel KeyPlus",
+    "slug": "akubela-hypanel-keyplus",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-keyplus.webp",
+    "page": 44,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel Plus",
+    "slug": "akubela-hypanel-plus",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel-plus.webp",
+    "page": 46,
+    "listPage": 1
+  },
+  {
+    "name": "HyPanel",
+    "slug": "akubela-hypanel",
+    "group": "HyPanels",
+    "image": "/products/akubela/akubela-hypanel.webp",
+    "page": 48,
+    "listPage": 1
+  },
+  {
+    "name": "Aura Series Smart Switch",
+    "slug": "akubela-aura-series-smart-switch",
+    "group": "Smart Switches",
+    "image": "/products/akubela/akubela-aura-series-smart-switch.webp",
+    "page": 51,
+    "listPage": 1
+  },
+  {
+    "name": "SL60 Smart Lock",
+    "slug": "akubela-sl60-smart-lock",
+    "group": "Smart Locks",
+    "image": "/products/akubela/akubela-sl60-smart-lock.webp",
+    "page": 53,
+    "listPage": 1
+  },
+  {
+    "name": "SL50 Smart Lock",
+    "slug": "akubela-sl50-smart-lock",
+    "group": "Smart Locks",
+    "image": "/products/akubela/akubela-sl50-smart-lock.webp",
+    "page": 54,
+    "listPage": 1
+  },
+  {
+    "name": "SL30 Smart Lock",
+    "slug": "akubela-sl30-smart-lock",
+    "group": "Smart Locks",
+    "image": "/products/akubela/akubela-sl30-smart-lock.webp",
+    "page": 55,
+    "listPage": 1
+  },
+  {
+    "name": "SL21 Smart Lock",
+    "slug": "akubela-sl21-smart-lock",
+    "group": "Smart Locks",
+    "image": "/products/akubela/akubela-sl21-smart-lock.webp",
+    "page": 56,
+    "listPage": 1
+  },
+  {
+    "name": "SL20 Smart Lock",
+    "slug": "akubela-sl20-smart-lock",
+    "group": "Smart Locks",
+    "image": "/products/akubela/akubela-sl20-smart-lock.webp",
+    "page": 57,
+    "listPage": 1
+  },
+  {
+    "name": "F2 Smart Lock",
+    "slug": "akubela-f2-smart-lock",
+    "group": "Smart Locks",
+    "image": "/products/akubela/akubela-f2-smart-lock.webp",
+    "page": 58,
+    "listPage": 1
+  },
+  {
+    "name": "C6 Smart Lock",
+    "slug": "akubela-c6-smart-lock",
+    "group": "Smart Locks",
+    "image": "/products/akubela/akubela-c6-smart-lock.webp",
+    "page": 59,
+    "listPage": 1
+  },
+  {
+    "name": "Multifunctional Gateway (G32)",
+    "slug": "akubela-multifunctional-gateway-g32",
+    "group": "Matter Add-ons",
+    "image": "/products/akubela/akubela-multifunctional-gateway-g32.webp",
+    "page": 61,
+    "listPage": 1
+  },
+  {
+    "name": "1/2 Gang Switch Module",
+    "slug": "akubela-1-2-gang-switch-module",
+    "group": "ZigBee Electrical & Switches",
+    "image": "/products/akubela/akubela-1-2-gang-switch-module.webp",
+    "page": 63,
+    "listPage": 1
+  },
+  {
+    "name": "Smart Metal Key Switch (EU Standard)",
+    "slug": "akubela-smart-metal-key-switch-eu-standard",
+    "group": "ZigBee Electrical & Switches",
+    "image": "/products/akubela/akubela-smart-metal-key-switch-eu-standard.webp",
+    "page": 63,
+    "listPage": 1
+  },
+  {
+    "name": "Smart Metal Key Switch (US Standard)",
+    "slug": "akubela-smart-metal-key-switch-us-standard",
+    "group": "ZigBee Electrical & Switches",
+    "image": "/products/akubela/akubela-smart-metal-key-switch-us-standard.webp",
+    "page": 63,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Glass Key Switch (US Standard)",
+    "slug": "akubela-smart-glass-key-switch-us-standard",
+    "group": "ZigBee Electrical & Switches",
+    "image": "/products/akubela/akubela-smart-glass-key-switch-us-standard.webp",
+    "page": 63,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Key Switch (EU Standard)",
+    "slug": "akubela-smart-key-switch-eu-standard",
+    "group": "ZigBee Electrical & Switches",
+    "image": "/products/akubela/akubela-smart-key-switch-eu-standard.webp",
+    "page": 64,
+    "listPage": 2
+  },
+  {
+    "name": "1/2/3/4 Gang Touch Switch (US Version)",
+    "slug": "akubela-1-2-3-4-gang-touch-switch-us-version",
+    "group": "ZigBee Electrical & Switches",
+    "image": "/products/akubela/akubela-1-2-3-4-gang-touch-switch-us-version.webp",
+    "page": 64,
+    "listPage": 2
+  },
+  {
+    "name": "1/2/3/4 Gang Touch Switch (EU Version)",
+    "slug": "akubela-1-2-3-4-gang-touch-switch-eu-version",
+    "group": "ZigBee Electrical & Switches",
+    "image": "/products/akubela/akubela-1-2-3-4-gang-touch-switch-eu-version.webp",
+    "page": 64,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Socket With USB",
+    "slug": "akubela-smart-socket-with-usb",
+    "group": "ZigBee Electrical & Switches",
+    "image": "/products/akubela/akubela-smart-socket-with-usb.webp",
+    "page": 64,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Plug (EU)",
+    "slug": "akubela-smart-plug-eu",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-smart-plug-eu.webp",
+    "page": 65,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Plug (UK)",
+    "slug": "akubela-smart-plug-uk",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-smart-plug-uk.webp",
+    "page": 65,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Plug (US)",
+    "slug": "akubela-smart-plug-us",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-smart-plug-us.webp",
+    "page": 65,
+    "listPage": 2
+  },
+  {
+    "name": "Central AC Controller – Indoor",
+    "slug": "akubela-central-ac-controller-indoor",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-central-ac-controller-indoor.webp",
+    "page": 65,
+    "listPage": 2
+  },
+  {
+    "name": "Central AC Controller – Outdoor",
+    "slug": "akubela-central-ac-controller-outdoor",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-central-ac-controller-outdoor.webp",
+    "page": 66,
+    "listPage": 2
+  },
+  {
+    "name": "Fan Coil Thermostat",
+    "slug": "akubela-fan-coil-thermostat",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-fan-coil-thermostat.webp",
+    "page": 66,
+    "listPage": 2
+  },
+  {
+    "name": "Heating Thermostat",
+    "slug": "akubela-heating-thermostat",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-heating-thermostat.webp",
+    "page": 66,
+    "listPage": 2
+  },
+  {
+    "name": "Temperature & Humidity Sensor",
+    "slug": "akubela-temperature-humidity-sensor",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-temperature-humidity-sensor.webp",
+    "page": 67,
+    "listPage": 2
+  },
+  {
+    "name": "Shades Motor",
+    "slug": "akubela-shades-motor",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-shades-motor.webp",
+    "page": 67,
+    "listPage": 2
+  },
+  {
+    "name": "Curtain Control Panel",
+    "slug": "akubela-curtain-control-panel",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-curtain-control-panel.webp",
+    "page": 67,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Air Quality Detector",
+    "slug": "akubela-smart-air-quality-detector",
+    "group": "ZigBee Plugs & Climate",
+    "image": "/products/akubela/akubela-smart-air-quality-detector.webp",
+    "page": 67,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Spotlight (75mm/9W)",
+    "slug": "akubela-smart-spotlight-75mm-9w",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-smart-spotlight-75mm-9w.webp",
+    "page": 68,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Spotlight (55mm/9W)",
+    "slug": "akubela-smart-spotlight-55mm-9w",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-smart-spotlight-55mm-9w.webp",
+    "page": 68,
+    "listPage": 2
+  },
+  {
+    "name": "Smart Spotlight (55mm/10W)",
+    "slug": "akubela-smart-spotlight-55mm-10w",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-smart-spotlight-55mm-10w.webp",
+    "page": 68,
+    "listPage": 2
+  },
+  {
+    "name": "ZigBee AC Triac Dimmer",
+    "slug": "akubela-zigbee-ac-triac-dimmer",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-zigbee-ac-triac-dimmer.webp",
+    "page": 68,
+    "listPage": 2
+  },
+  {
+    "name": "ZigBee LED Dimmer",
+    "slug": "akubela-zigbee-led-dimmer",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-zigbee-led-dimmer.webp",
+    "page": 69,
+    "listPage": 2
+  },
+  {
+    "name": "ZigBee CCT LED Controller",
+    "slug": "akubela-zigbee-cct-led-controller",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-zigbee-cct-led-controller.webp",
+    "page": 69,
+    "listPage": 2
+  },
+  {
+    "name": "ZigBee RGB LED Controller",
+    "slug": "akubela-zigbee-rgb-led-controller",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-zigbee-rgb-led-controller.webp",
+    "page": 69,
+    "listPage": 2
+  },
+  {
+    "name": "ZigBee RGBW LED Controller",
+    "slug": "akubela-zigbee-rgbw-led-controller",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-zigbee-rgbw-led-controller.webp",
+    "page": 70,
+    "listPage": 2
+  },
+  {
+    "name": "ZigBee RGB+CCT LED Controller",
+    "slug": "akubela-zigbee-rgb-cct-led-controller",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-zigbee-rgb-cct-led-controller.webp",
+    "page": 70,
+    "listPage": 2
+  },
+  {
+    "name": "ZigBee Constant Current LED Driver",
+    "slug": "akubela-zigbee-constant-current-led-driver",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-zigbee-constant-current-led-driver.webp",
+    "page": 70,
+    "listPage": 2
+  },
+  {
+    "name": "ZigBee Triac Dimmer Panel",
+    "slug": "akubela-zigbee-triac-dimmer-panel",
+    "group": "ZigBee Lighting",
+    "image": "/products/akubela/akubela-zigbee-triac-dimmer-panel.webp",
+    "page": 70,
+    "listPage": 2
+  },
+  {
+    "name": "Door & Window Sensor",
+    "slug": "akubela-door-window-sensor",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-door-window-sensor.webp",
+    "page": 71,
+    "listPage": 3
+  },
+  {
+    "name": "Human Presence Detector",
+    "slug": "akubela-human-presence-detector",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-human-presence-detector.webp",
+    "page": 71,
+    "listPage": 3
+  },
+  {
+    "name": "Motion Sensor",
+    "slug": "akubela-motion-sensor",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-motion-sensor.webp",
+    "page": 71,
+    "listPage": 3
+  },
+  {
+    "name": "Scene Button",
+    "slug": "akubela-scene-button",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-scene-button.webp",
+    "page": 71,
+    "listPage": 3
+  },
+  {
+    "name": "CO Sensor",
+    "slug": "akubela-co-sensor",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-co-sensor.webp",
+    "page": 72,
+    "listPage": 3
+  },
+  {
+    "name": "Smoke Sensor",
+    "slug": "akubela-smoke-sensor",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-smoke-sensor.webp",
+    "page": 72,
+    "listPage": 3
+  },
+  {
+    "name": "Gas Sensor",
+    "slug": "akubela-gas-sensor",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-gas-sensor.webp",
+    "page": 72,
+    "listPage": 3
+  },
+  {
+    "name": "Flood Sensor",
+    "slug": "akubela-flood-sensor",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-flood-sensor.webp",
+    "page": 72,
+    "listPage": 3
+  },
+  {
+    "name": "Smart Valve",
+    "slug": "akubela-smart-valve",
+    "group": "ZigBee Security & Sensors",
+    "image": "/products/akubela/akubela-smart-valve.webp",
+    "page": 73,
+    "listPage": 3
+  },
+  {
+    "name": "IR Controller (IR22)",
+    "slug": "akubela-ir-controller-ir22",
+    "group": "ZigBee Other",
+    "image": "/products/akubela/akubela-ir-controller-ir22.webp",
+    "page": 73,
+    "listPage": 3
+  },
+  {
+    "name": "Gateway (G31)",
+    "slug": "akubela-gateway-g31",
+    "group": "ZigBee Other",
+    "image": "/products/akubela/akubela-gateway-g31.webp",
+    "page": 73,
+    "listPage": 3
+  },
+  {
+    "name": "Power Module (960mA)",
+    "slug": "akubela-power-module-960ma",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-power-module-960ma.webp",
+    "page": 75,
+    "listPage": 3
+  },
+  {
+    "name": "Switch Module (8-Gang, 16A)",
+    "slug": "akubela-switch-module-8-gang-16a",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-switch-module-8-gang-16a.webp",
+    "page": 75,
+    "listPage": 3
+  },
+  {
+    "name": "Switch Module (28-Gang, 10A)",
+    "slug": "akubela-switch-module-28-gang-10a",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-switch-module-28-gang-10a.webp",
+    "page": 75,
+    "listPage": 3
+  },
+  {
+    "name": "Switch Module (8-Gang, 10A)",
+    "slug": "akubela-switch-module-8-gang-10a",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-switch-module-8-gang-10a.webp",
+    "page": 75,
+    "listPage": 3
+  },
+  {
+    "name": "2/4/6/8-Button Scene Panel (KNX)",
+    "slug": "akubela-2-4-6-8-button-scene-panel-knx",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-2-4-6-8-button-scene-panel-knx.webp",
+    "page": 76,
+    "listPage": 3
+  },
+  {
+    "name": "Temperature Control Panel with 4 Buttons",
+    "slug": "akubela-temperature-control-panel-with-4-buttons",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-temperature-control-panel-with-4-buttons.webp",
+    "page": 76,
+    "listPage": 3
+  },
+  {
+    "name": "4-Gang Curtain Module",
+    "slug": "akubela-4-gang-curtain-module",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-4-gang-curtain-module.webp",
+    "page": 76,
+    "listPage": 3
+  },
+  {
+    "name": "4 Gang 0–10V Dimmer Module",
+    "slug": "akubela-4-gang-0-10v-dimmer-module",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-4-gang-0-10v-dimmer-module.webp",
+    "page": 77,
+    "listPage": 3
+  },
+  {
+    "name": "4-Gang 300W Thyristor Dimmer Module",
+    "slug": "akubela-4-gang-300w-thyristor-dimmer-module",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-4-gang-300w-thyristor-dimmer-module.webp",
+    "page": 77,
+    "listPage": 3
+  },
+  {
+    "name": "Dual-channel DALI Gateway",
+    "slug": "akubela-dual-channel-dali-gateway",
+    "group": "KNX Add-ons",
+    "image": "/products/akubela/akubela-dual-channel-dali-gateway.webp",
+    "page": 77,
+    "listPage": 3
+  },
+  {
+    "name": "Switch Actuator (RS485)",
+    "slug": "akubela-switch-actuator-rs485",
+    "group": "RS485 Add-ons",
+    "image": "/products/akubela/akubela-switch-actuator-rs485.webp",
+    "page": 79,
+    "listPage": 3
+  },
+  {
+    "name": "IP-485 Multifunctional Gateway",
+    "slug": "akubela-ip-485-multifunctional-gateway",
+    "group": "RS485 Add-ons",
+    "image": "/products/akubela/akubela-ip-485-multifunctional-gateway.webp",
+    "page": 79,
+    "listPage": 3
+  },
+  {
+    "name": "Bela Smart Living Assistant",
+    "slug": "akubela-bela-smart-living-assistant",
+    "group": "Software Platforms",
+    "image": "/products/akubela/akubela-bela-smart-living-assistant.webp",
+    "page": 81,
+    "listPage": 3
+  },
+  {
+    "name": "BelaHome App",
+    "slug": "akubela-belahome-app",
+    "group": "Software Platforms",
+    "image": "/products/akubela/akubela-belahome-app.webp",
+    "page": 82,
+    "listPage": 4
+  },
+  {
+    "name": "BelaHome Web",
+    "slug": "akubela-belahome-web",
+    "group": "Software Platforms",
+    "image": "/products/akubela/akubela-belahome-web.webp",
+    "page": 83,
+    "listPage": 4
+  },
+  {
+    "name": "akubela Cloud",
+    "slug": "akubela-akubela-cloud",
+    "group": "Software Platforms",
+    "image": "/products/akubela/akubela-akubela-cloud.webp",
+    "page": 84,
+    "listPage": 4
+  }
+]

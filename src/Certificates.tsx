@@ -1,13 +1,9 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import { FileBadge } from 'lucide-react';
 
-const certificates = [
-  { title: 'Sample Certificate 01', image: '/certifications/certificate-01.jpg' },
-  { title: 'Sample Certificate 02', image: '/certifications/certificate-02.jpg' },
-  { title: 'Sample Certificate 03', image: '/certifications/certificate-03.jpg' },
-  { title: 'Sample Certificate 04', image: '/certifications/certificate-04.jpg' },
-  { title: 'Sample Certificate 05', image: '/certifications/certificate-05.jpg' },
-];
+import { certificates as suppliedCertificates } from './certifications-data';
+
+const certificates = suppliedCertificates.filter(certificate => certificate.verified).map(certificate => ({ title: certificate.name, image: certificate.image }));
 
 function CertificateCard({ certificate }: { certificate: typeof certificates[number] }) {
   const [missing, setMissing] = useState(false);
@@ -15,7 +11,7 @@ function CertificateCard({ certificate }: { certificate: typeof certificates[num
 }
 
 export default function Certificates({ embedded = false }: { embedded?: boolean }) {
-  const contents = <>{!embedded && <h2 id="certificates-heading">Achievement &amp; Certificates</h2>}<div className="certificates-grid">{certificates.map(certificate => <CertificateCard key={certificate.title} certificate={certificate} />)}</div><p className="certificates-note">Certificate images and verified credential details will be added once provided.</p></>;
+  const contents = <>{!embedded && <h2 id="certificates-heading">Achievement &amp; Certificates</h2>}<div className="certificates-grid">{certificates.map(certificate => <CertificateCard key={certificate.title} certificate={certificate} />)}</div><p className="certificates-note">Select a certificate to view the full-size document.</p></>;
   if (embedded) return <div className="certificates-embedded">{contents}</div>;
   return <section id="certifications" className="certificates-section" aria-labelledby="certificates-heading"><div className="certificates-inner">{contents}</div></section>;
 }
