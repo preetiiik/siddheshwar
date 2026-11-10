@@ -4,7 +4,7 @@ import { ArrowUpRight, ArrowUp } from 'lucide-react';
 const groups = [
   { title: 'EXPLORE', links: [['Home', '/'], ['About Us', '/about'], ['Products', '/products'], ['Spaces We Transform', '/spaces'], ['Certifications', '/certifications']] },
   { title: 'SOLUTIONS', links: [...solutions.slice(0, 5).map(solution => [solution.title, `/solutions/${solution.slug}`]), ['Explore All Solutions', '/solutions']] },
-  { title: 'LET’S CONNECT', links: [['Contact Us', '/contact'],  ['Meet Our Team', '/about#our-team'], ['All Solutions', '/solutions']] },
+  { title: 'LET’S CONNECT', links: [['Contact Us', '/contact'], ['Email Us', 'mailto:siddheshwarsmarttechnologies@gmail.com'],  ['Meet Our Team', '/about#our-team'], ['All Solutions', '/solutions']] },
 ];
 
 export default function Footer() {

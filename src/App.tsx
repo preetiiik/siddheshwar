@@ -226,7 +226,7 @@ function Contact() {
           <div className="contact-details mt-12 space-y-5 text-sm text-slate-600">
             <p><Building2 aria-hidden="true" /> <span>Company: Siddheshwar Smart Technologies</span></p>
             <p><Clock3 aria-hidden="true" /> <span>Business Hours: To be added</span></p>
-            <p><Mail aria-hidden="true" /> <span>Email: To be added</span></p>
+            <p><Mail aria-hidden="true" /> <span>Email: <a href="mailto:siddheshwarsmarttechnologies@gmail.com" className="break-all hover:underline">siddheshwarsmarttechnologies@gmail.com</a></span></p>
             <p><Phone aria-hidden="true" /> <span>Phone: To be added</span></p>
             <p><MapPin aria-hidden="true" /> <span>Address: To be added</span></p>
           </div>
