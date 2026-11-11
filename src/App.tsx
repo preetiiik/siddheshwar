@@ -228,7 +228,7 @@ function Contact() {
             <p><Clock3 aria-hidden="true" /> <span>Business Hours: 10 AM to 7 PM</span></p>
             <p><Mail aria-hidden="true" /> <span>Email: <a href="mailto:siddheshwarsmarttechnologies@gmail.com" className="break-all hover:underline">siddheshwarsmarttechnologies@gmail.com</a></span></p>
             <p><Phone aria-hidden="true" /> <span>Phone: <a href="tel:+917019080943" className="hover:underline">+91 70190 80943</a></span></p>
-            <p><MapPin aria-hidden="true" /> <span>Address: Hubli</span></p>
+            <p><MapPin aria-hidden="true" /> <span>Address: Siddheshwar Krupa building, opposite to Government ITI College, Vidyanagar, Hubli 580021</span></p>
           </div>
         </div>
 
