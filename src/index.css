@@ -1068,3 +1068,7 @@ nav[aria-label] details > div > a:focus-visible {
 .akubela-filter label { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
 .akubela-filter select { max-width: 100%; padding: 12px; border: 1px solid #cdd7e4; border-radius: 4px; background: white; color: #1e3a8a; }
 .akubela-filter a { display: inline-flex; align-items: center; gap: 8px; }
+
+.collage-footer-links a.footer-connect-link { display: flex; align-items: center; gap: 9px; }
+.footer-connect-link svg { flex-shrink: 0; }
+@media (max-width: 640px) { .collage-footer-links a.footer-connect-link { display: inline-flex; } }
