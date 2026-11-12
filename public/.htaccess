@@ -1,0 +1,12 @@
+# React entry point for Apache / LiteSpeed hosting (including cPanel).
+DirectoryIndex index.html
+
+RewriteEngine On
+
+# Keep real files (images, PDFs, JS and CSS) accessible.
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [END]
+
+# Page names also match asset directories, so do not exclude directories here.
+# Rewrite before Apache attempts to list those directories and returns 403.
+RewriteRule ^ index.html [END]
