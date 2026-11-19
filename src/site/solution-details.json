@@ -1,0 +1,494 @@
+[
+  {
+    "slug": "intelligent-lighting-automation",
+    "name": "Smart Lighting",
+    "label": "INTELLIGENT LIGHTING",
+    "title": "Lighting That Adapts to Your Lifestyle",
+    "intro": "Create the perfect atmosphere with intelligent lighting designed around your everyday moments.",
+    "overviewTitle": "A Better Way to Experience Light",
+    "overview": "Transform your interiors with thoughtfully designed lighting systems that bring together ambience, convenience and intelligent control.",
+    "featureTitle": "Lighting Beyond Illumination",
+    "features": [
+      "Personalised lighting scenes",
+      "Intelligent brightness adjustment",
+      "Ambient and accent lighting"
+    ],
+    "capabilityTitle": "Everything Your Lighting Can Do",
+    "capabilities": [
+      [
+        "Scene-based lighting control",
+        "Create lighting moods for different activities."
+      ],
+      [
+        "Automated brightness",
+        "Adjust lighting levels based on configured preferences."
+      ],
+      [
+        "Ambient lighting",
+        "Set the atmosphere with layered lighting experiences."
+      ],
+      [
+        "Scheduled lighting",
+        "Configure lighting routines for different times of the day."
+      ],
+      [
+        "Centralised control",
+        "Manage connected lights through supported interfaces."
+      ],
+      [
+        "Integrated automation",
+        "Coordinate lighting with curtains and other connected systems."
+      ]
+    ],
+    "processTitle": "From Control to Atmosphere",
+    "steps": [
+      [
+        "CONNECT",
+        "Integrate compatible lighting devices."
+      ],
+      [
+        "CONFIGURE",
+        "Set preferences and lighting scenes."
+      ],
+      [
+        "AUTOMATE",
+        "Create schedules and connected routines."
+      ],
+      [
+        "EXPERIENCE",
+        "Enjoy personalised lighting throughout your space."
+      ]
+    ],
+    "showcaseTitle": "Light That Shapes Every Space",
+    "applicationsTitle": "Designed for Every Environment",
+    "applications": [
+      "Luxury residences",
+      "Apartments and villas",
+      "Hotels and hospitality spaces",
+      "Offices and commercial interiors"
+    ],
+    "ctaTitle": "Let Your Space Set the Mood",
+    "ctaDescription": "Discover intelligent lighting solutions designed to complement your interiors and lifestyle.",
+    "cta": "Explore Lighting Solutions",
+    "images": [
+      "/solutions/S2.png",
+      "/solutions/S3.png",
+      "/solutions/S6.png"
+    ],
+    "alts": [
+      "Architectural accent lighting in a contemporary interior",
+      "Architectural lighting around a villa",
+      "Colourful ambient lighting in a living room"
+    ]
+  },
+  {
+    "slug": "curtain-blind-automation",
+    "name": "Smart Curtains",
+    "label": "AUTOMATED WINDOW SOLUTIONS",
+    "title": "Effortless Living, Beautifully Framed",
+    "intro": "Experience seamless window automation with curtains that respond to your comfort and daily routines.",
+    "overviewTitle": "Window Experiences, Reimagined",
+    "overview": "Bring elegance and convenience together with automated curtains and blinds that complement your interiors while making everyday living effortless.",
+    "featureTitle": "A Smarter Way to Move with Light",
+    "features": [
+      "Automated curtain movement",
+      "Scheduled opening and closing",
+      "Integrated lighting scenes"
+    ],
+    "capabilityTitle": "Designed Around Your Everyday Comfort",
+    "capabilities": [
+      [
+        "Motorised curtain control",
+        "Operate curtains through compatible control interfaces."
+      ],
+      [
+        "Scheduled operation",
+        "Set opening and closing routines."
+      ],
+      [
+        "Scene integration",
+        "Coordinate curtains with lighting and other connected systems."
+      ],
+      [
+        "Multi-window control",
+        "Manage compatible window treatments together."
+      ],
+      [
+        "Remote operation",
+        "Control curtains through supported mobile interfaces."
+      ],
+      [
+        "Lifestyle automation",
+        "Configure curtains to work with your preferred daily routines."
+      ]
+    ],
+    "processTitle": "Simplicity Behind Every Movement",
+    "steps": [
+      [
+        "INTEGRATE",
+        "Connect compatible curtain motors."
+      ],
+      [
+        "CONFIGURE",
+        "Set movement preferences and schedules."
+      ],
+      [
+        "CONNECT",
+        "Pair curtains with supported automation scenes."
+      ],
+      [
+        "CONTROL",
+        "Operate your window treatments effortlessly."
+      ]
+    ],
+    "showcaseTitle": "Designed to Move with Your Space",
+    "applicationsTitle": "Elegance Across Every Window",
+    "applications": [
+      "Luxury homes and villas",
+      "Modern apartments",
+      "Hotels and hospitality spaces",
+      "Premium office interiors"
+    ],
+    "ctaTitle": "Bring Effortless Elegance to Your Windows",
+    "ctaDescription": "Explore automated curtain solutions that combine refined interiors with everyday convenience.",
+    "cta": "Explore Curtain Solutions",
+    "images": [
+      "/solutions/S4.png",
+      "/products/automation/motorized-curtain-blind-controllers.png",
+      "/solutions/S4.png"
+    ],
+    "alts": [
+      "Floor-to-ceiling curtains in a light-filled living room",
+      "Curtain controls beside automated window treatments",
+      "Sheer curtains framing a modern living space"
+    ]
+  },
+  {
+    "slug": "security-solutions",
+    "name": "Smart Security & Video Door Phone",
+    "label": "SMART SECURITY SOLUTIONS",
+    "title": "Confidence Begins at Your Door",
+    "intro": "Protect your property with intelligent security solutions that keep you connected, informed and in control.",
+    "overviewTitle": "Protection Designed Around Your Space",
+    "overview": "Build a more secure environment with connected surveillance, smart access systems and intelligent monitoring solutions for your home or workplace.",
+    "featureTitle": "Protection That Keeps You Connected",
+    "features": [
+      "Intelligent intrusion detection",
+      "Connected video surveillance",
+      "Smart visitor management"
+    ],
+    "capabilityTitle": "Complete Protection for Your Property",
+    "capabilities": [
+      [
+        "Intrusion protection",
+        "Detect unexpected activity through connected sensors."
+      ],
+      [
+        "Video surveillance",
+        "Monitor indoor and outdoor spaces using compatible cameras."
+      ],
+      [
+        "Fire and life safety",
+        "Integrate supported smoke, heat and safety detection devices."
+      ],
+      [
+        "Video door phone",
+        "View and communicate with visitors at your entrance."
+      ],
+      [
+        "Access management",
+        "Manage entry through compatible access-control systems."
+      ],
+      [
+        "Mobile connectivity",
+        "Receive supported alerts and monitor security status remotely."
+      ]
+    ],
+    "processTitle": "From Detection to Response",
+    "steps": [
+      [
+        "DETECT",
+        "Sensors identify unexpected movement or events."
+      ],
+      [
+        "CONNECT",
+        "Devices communicate with the central security system."
+      ],
+      [
+        "ALERT",
+        "Receive relevant notifications through configured interfaces."
+      ],
+      [
+        "RESPOND",
+        "Take action using connected controls and monitoring systems."
+      ]
+    ],
+    "showcaseTitle": "Security Across Every Corner",
+    "applicationsTitle": "Security for Every Property",
+    "applications": [
+      "Luxury residences and villas",
+      "Apartments and gated communities",
+      "Corporate offices",
+      "Commercial buildings and reception areas"
+    ],
+    "ctaTitle": "Make Security a Part of Smarter Living",
+    "ctaDescription": "Find the right combination of intelligent security and access solutions for your property.",
+    "cta": "Explore Security Solutions",
+    "images": [
+      "/hero/akubela-sl60-wide.webp",
+      "/hero/akubela-sl30-wide.webp",
+      "/products/akubela/akubela-door-window-sensor.webp"
+    ],
+    "alts": [
+      "Akubela SL60 entrance lock",
+      "Akubela SL30 smart access installation",
+      "Akubela door and window sensor"
+    ]
+  },
+  {
+    "slug": "climate-hvac-automation",
+    "name": "Smart Climate Control",
+    "label": "SMART CLIMATE CONTROL",
+    "title": "Comfort That Understands Your Space",
+    "intro": "Create a comfortable indoor environment with intelligent temperature management and automated climate experiences.",
+    "overviewTitle": "Personalised Comfort, Made Effortless",
+    "overview": "Manage your indoor climate through connected thermostats and intelligent controls that adapt to your preferences and complement your lifestyle.",
+    "featureTitle": "Comfort in Every Degree",
+    "features": [
+      "Intelligent temperature management",
+      "Automated climate scheduling",
+      "Integrated comfort scenes"
+    ],
+    "capabilityTitle": "Climate Control Designed Around You",
+    "capabilities": [
+      [
+        "Temperature regulation",
+        "Set and maintain preferred indoor temperatures."
+      ],
+      [
+        "Scheduled adjustments",
+        "Configure climate preferences for different times."
+      ],
+      [
+        "Scene integration",
+        "Coordinate temperature with compatible lighting and curtain scenes."
+      ],
+      [
+        "Away mode",
+        "Configure climate settings for periods when the property is unoccupied."
+      ],
+      [
+        "Centralised control",
+        "Manage compatible climate systems through connected interfaces."
+      ],
+      [
+        "Smart integration",
+        "Connect supported thermostats and climate controllers with wider automation systems."
+      ]
+    ],
+    "processTitle": "Your Comfort, Connected",
+    "steps": [
+      [
+        "CONNECT",
+        "Integrate compatible climate controllers."
+      ],
+      [
+        "PERSONALISE",
+        "Set preferred temperatures and comfort settings."
+      ],
+      [
+        "AUTOMATE",
+        "Configure schedules and climate-based scenes."
+      ],
+      [
+        "ENJOY",
+        "Experience a more comfortable indoor environment."
+      ]
+    ],
+    "showcaseTitle": "Comfort Meets Intelligent Design",
+    "applicationsTitle": "Comfort Across Every Space",
+    "applications": [
+      "Luxury homes and villas",
+      "Apartments and residential communities",
+      "Hotels and hospitality spaces",
+      "Corporate and commercial interiors"
+    ],
+    "ctaTitle": "Create Your Ideal Indoor Environment",
+    "ctaDescription": "Explore intelligent climate solutions designed to bring comfort and convenience into your everyday life.",
+    "cta": "Explore Climate Solutions",
+    "images": [
+      "/solutions/S5.png",
+      "/products/automation/smart-climate-hvac-controllers.png",
+      "/solutions/S5.png"
+    ],
+    "alts": [
+      "Wall-mounted climate interface in a contemporary room",
+      "Climate control interface in a modern interior",
+      "A bright living room with a climate control interface"
+    ]
+  },
+  {
+    "slug": "smart-entertainment",
+    "name": "Smart Entertainment",
+    "label": "CONNECTED ENTERTAINMENT",
+    "title": "Entertainment Beyond Expectations",
+    "intro": "Bring music, media and immersive experiences together with seamlessly connected entertainment solutions.",
+    "overviewTitle": "Every Moment Deserves a Better Experience",
+    "overview": "Enhance your living spaces with integrated audio and entertainment systems that create the perfect atmosphere for relaxation, gatherings and everyday enjoyment.",
+    "featureTitle": "Entertainment That Moves with You",
+    "features": [
+      "Multi-room audio experiences",
+      "Centralised media control",
+      "Personalised entertainment scenes"
+    ],
+    "capabilityTitle": "An Immersive Entertainment Experience",
+    "capabilities": [
+      [
+        "Multi-room audio",
+        "Enjoy connected audio experiences across compatible rooms."
+      ],
+      [
+        "Centralised media control",
+        "Manage supported entertainment devices through unified interfaces."
+      ],
+      [
+        "Audio distribution",
+        "Configure audio across selected living spaces."
+      ],
+      [
+        "Scene-based entertainment",
+        "Coordinate media with lighting and ambience."
+      ],
+      [
+        "Home theatre integration",
+        "Create immersive entertainment environments."
+      ],
+      [
+        "Smart system integration",
+        "Connect entertainment with compatible home automation systems."
+      ]
+    ],
+    "processTitle": "Bringing Every Experience Together",
+    "steps": [
+      [
+        "CONNECT",
+        "Integrate compatible audio and media devices."
+      ],
+      [
+        "CONFIGURE",
+        "Set up rooms, sources and entertainment preferences."
+      ],
+      [
+        "COORDINATE",
+        "Connect entertainment with selected automation scenes."
+      ],
+      [
+        "EXPERIENCE",
+        "Enjoy seamless entertainment across your space."
+      ]
+    ],
+    "showcaseTitle": "Designed for Every Entertainment Moment",
+    "applicationsTitle": "Entertainment for Every Setting",
+    "applications": [
+      "Luxury residences",
+      "Private home theatres",
+      "Hotels and hospitality spaces",
+      "Restaurants and commercial environments"
+    ],
+    "ctaTitle": "Make Every Moment More Immersive",
+    "ctaDescription": "Discover connected entertainment experiences designed around your space and preferences.",
+    "cta": "Explore Entertainment Solutions",
+    "images": [
+      "/movie%20time.png.jpeg",
+      "/solutions/S6.png",
+      "/movie%20time.png.jpeg"
+    ],
+    "alts": [
+      "Home entertainment room with a projection screen",
+      "Ambient lighting in an entertainment space",
+      "Cinema setting in a contemporary home"
+    ]
+  },
+  {
+    "slug": "home-automation",
+    "name": "Complete Home Automation",
+    "label": "COMPLETE HOME AUTOMATION",
+    "title": "One Connected Home. Endless Possibilities.",
+    "intro": "Bring every intelligent system together for a home that responds effortlessly to the way you live.",
+    "overviewTitle": "Your Entire Home, Working in Harmony",
+    "overview": "Experience connected living through the integration of lighting, climate, curtains, entertainment and security, all designed to work together through intelligent automation.",
+    "featureTitle": "A More Connected Way to Live",
+    "features": [
+      "Unified smart home control",
+      "Cross-system automation",
+      "Personalised lifestyle experiences"
+    ],
+    "capabilityTitle": "Everything Connected. Everything in Sync.",
+    "capabilities": [
+      [
+        "Centralised control",
+        "Manage compatible smart home systems through unified interfaces."
+      ],
+      [
+        "Intelligent lighting",
+        "Control brightness, ambience and configured scenes."
+      ],
+      [
+        "Automated curtains",
+        "Coordinate window treatments with daily routines."
+      ],
+      [
+        "Climate management",
+        "Manage connected temperature settings."
+      ],
+      [
+        "Smart security",
+        "Integrate compatible security and surveillance systems."
+      ],
+      [
+        "Entertainment integration",
+        "Bring connected audio and media into your automation ecosystem."
+      ]
+    ],
+    "processTitle": "From Individual Systems to One Smart Experience",
+    "steps": [
+      [
+        "CONNECT",
+        "Bring compatible smart devices into one ecosystem."
+      ],
+      [
+        "INTEGRATE",
+        "Configure communication between supported systems."
+      ],
+      [
+        "AUTOMATE",
+        "Build personalised scenes and connected routines."
+      ],
+      [
+        "CONTROL",
+        "Experience convenient, unified control of your property."
+      ]
+    ],
+    "showcaseTitle": "A Home That Works as One",
+    "applicationsTitle": "Intelligent Living Across Every Property",
+    "applications": [
+      "Luxury villas and independent homes",
+      "Premium apartments",
+      "Gated residential communities",
+      "High-end residential and hospitality projects"
+    ],
+    "ctaTitle": "Your Smarter Home Starts Here",
+    "ctaDescription": "Discover how connected technology can transform your space into a more comfortable, convenient and intelligent environment.",
+    "cta": "Start Your Smart Home Journey",
+    "images": [
+      "/solutions/S1.png",
+      "/hero/akubela-hypanel-supreme-wide.webp",
+      "/living/intelligent-spaces-1536.webp"
+    ],
+    "alts": [
+      "Connected living environment at sunset",
+      "Akubela HyPanel Supreme control interface",
+      "Integrated control in a luxury living room"
+    ]
+  }
+]

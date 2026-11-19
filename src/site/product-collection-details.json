@@ -1,0 +1,569 @@
+[
+  {
+    "slug": "smart-keypad-switches",
+    "name": "Smart Keypad Switches",
+    "heading": "Beautiful control, at your fingertips.",
+    "intro": "Elegant wall controls bring everyday switching and connected-home routines into your interior.",
+    "overviewTitle": "Considered controls. Beautiful interiors.",
+    "overview": "Wall controls are part of the architecture. Explore keypad switches selected for their visual character, tactile interaction and the way they can support everyday room control. Finishes, button layouts and supported functions are assessed for each chosen model.",
+    "features": [
+      "Elegant wall interfaces",
+      "A choice of finishes",
+      "Everyday room control"
+    ],
+    "capabilities": [
+      [
+        "Lighting and scenes",
+        "Plan convenient switching points and configured room scenes around how each space is used."
+      ],
+      [
+        "Material coordination",
+        "Consider finishes alongside walls, door hardware and other interior details."
+      ],
+      [
+        "Thoughtful placement",
+        "Position controls where they feel natural to use, with model capabilities confirmed during planning."
+      ]
+    ],
+    "applications": [
+      [
+        "Living and dining rooms",
+        "Bring frequently used lighting and room scenes within easy reach."
+      ],
+      [
+        "Bedrooms and suites",
+        "Plan bedside and entrance controls around daily routines."
+      ],
+      [
+        "Office and hospitality interiors",
+        "Select clear, considered control points for shared spaces."
+      ]
+    ],
+    "products": [
+      {
+        "brand": "Akubela",
+        "name": "Aura Series Smart Switch",
+        "id": "akubela-aura-series-smart-switch",
+        "placeholder": false,
+        "image": "/products/akubela/akubela-aura-series-smart-switch.webp"
+      },
+      {
+        "brand": "Basalte",
+        "name": "Chopin",
+        "id": "basalte-chopin",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/basalte-chopin.svg"
+      },
+      {
+        "brand": "Basalte",
+        "name": "Deseo",
+        "id": "basalte-deseo",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/basalte-deseo.svg"
+      },
+      {
+        "brand": "Basalte",
+        "name": "Fibonacci",
+        "id": "basalte-fibonacci",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/basalte-fibonacci.svg"
+      },
+      {
+        "brand": "Basalte",
+        "name": "Sentido",
+        "id": "basalte-sentido",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/basalte-sentido.svg"
+      },
+      {
+        "brand": "MDT",
+        "name": "Pushbutton Light 55",
+        "id": "mdt-pushbutton-light-55",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/mdt-pushbutton-light-55.svg"
+      },
+      {
+        "brand": "MDT",
+        "name": "Glass Pushbutton II Smart",
+        "id": "mdt-glass-pushbutton-ii",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/mdt-glass-pushbutton-ii.svg"
+      },
+      {
+        "brand": "Moorgen",
+        "name": "2-Fold Metal Pushbutton Cover",
+        "id": "moorgen-2-fold-metal-pushbutton-cover",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/moorgen-2-fold-metal-pushbutton-cover.svg"
+      },
+      {
+        "brand": "Moorgen",
+        "name": "Smart Thermostat",
+        "id": "moorgen-smart-thermostat",
+        "image": "/products/collection-placeholders/moorgen-smart-thermostat.svg",
+        "placeholder": true
+      },
+      {
+        "brand": "Schneider Electric",
+        "name": "Unica KNX Pushbutton – 6 Key Silver",
+        "id": "schneider-electric-unica-knx-pushbutton",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/schneider-electric-unica-knx-pushbutton.svg"
+      },
+      {
+        "brand": "Schneider Electric",
+        "name": "Unica KNX Thermostat – 8 Key Metallic Silver",
+        "id": "schneider-electric-unica-knx-thermostat-8-key-metallic-silver",
+        "image": "/products/collection-placeholders/schneider-electric-unica-knx-thermostat-8-key-metallic-silver.svg",
+        "placeholder": true
+      },
+      {
+        "brand": "Theben",
+        "name": "iON Prime PB KNX",
+        "id": "theben-ionprime-pbknx",
+        "placeholder": false,
+        "image": "/products/ionprime/11_PB_Push_Button_Sensor.png"
+      }
+    ]
+  },
+  {
+    "slug": "smart-remote-controls",
+    "name": "Smart Remote Controls",
+    "heading": "Your space. A simpler way to control it.",
+    "intro": "Explore compact remote controls for convenient, intuitive interaction with your smart-home environment.",
+    "overviewTitle": "Keep everyday control close.",
+    "overview": "A handheld interface can make familiar room functions easier to reach. Explore the supplied Moorgen remote-control range, with different formats to consider for your space. Wireless operation, supported commands and system requirements are confirmed for the selected model.",
+    "features": [
+      "Compact control formats",
+      "Intuitive interaction",
+      "Convenient everyday access"
+    ],
+    "capabilities": [
+      [
+        "Room-based operation",
+        "Consider the functions you use most often and how a remote should fit into that routine."
+      ],
+      [
+        "Scene selection",
+        "Discuss configured scenes and supported commands for the selected installation."
+      ],
+      [
+        "A complementary interface",
+        "Plan remote controls alongside wall interfaces and other supported control methods."
+      ]
+    ],
+    "applications": [
+      [
+        "Living rooms",
+        "Keep selected room controls accessible from a seating area."
+      ],
+      [
+        "Private entertainment rooms",
+        "Consider a compact interface for the functions used during viewing or listening."
+      ],
+      [
+        "Bedrooms",
+        "Plan convenient access to supported settings without adding visual clutter."
+      ]
+    ],
+    "products": [
+      {
+        "brand": "Moorgen",
+        "name": "M18 Series – Smart Remote Control",
+        "id": "moorgen-m18-series-smart-remote-control",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/moorgen-m18-series-smart-remote-control.svg"
+      },
+      {
+        "brand": "Moorgen",
+        "name": "M50 Series – 8-Key Smart Remote Control",
+        "id": "moorgen-m50-series-8-key-smart-remote-control",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/moorgen-m50-series-8-key-smart-remote-control.svg"
+      },
+      {
+        "brand": "Moorgen",
+        "name": "M56 Series – 4-Key Rotary Smart Remote Control",
+        "id": "moorgen-m56-series-4-key-rotary-smart-remote-control",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/moorgen-m56-series-4-key-rotary-smart-remote-control.svg"
+      },
+      {
+        "brand": "Moorgen",
+        "name": "M78 Series – Crystal Smart Remote Control",
+        "id": "moorgen-m78-series-crystal-rotary-smart-remote-control",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/moorgen-m78-series-crystal-rotary-smart-remote-control.svg"
+      }
+    ]
+  },
+  {
+    "slug": "curtain-controllers",
+    "name": "Curtain Controllers",
+    "heading": "A beautiful rhythm of light and privacy.",
+    "intro": "Discover curtain-control products for thoughtfully planned movement, daylight and everyday comfort.",
+    "overviewTitle": "Make room for effortless movement.",
+    "overview": "Window treatments shape the character of a room. Consider automated curtain products alongside the fabric, track and window design, with movement preferences and any scheduling requirements assessed during project planning.",
+    "features": [
+      "Natural-light management",
+      "Privacy by design",
+      "Planned movement routines"
+    ],
+    "capabilities": [
+      [
+        "Window treatment planning",
+        "Select equipment around the curtain arrangement, installation conditions and chosen motor requirements."
+      ],
+      [
+        "Daily routines",
+        "Discuss opening and closing schedules where supported by the proposed system."
+      ],
+      [
+        "Coordinated atmosphere",
+        "Consider curtains alongside compatible lighting and room-control scenes."
+      ]
+    ],
+    "applications": [
+      [
+        "Floor-to-ceiling windows",
+        "Plan access and operation for larger window treatments."
+      ],
+      [
+        "Bedrooms and hotel suites",
+        "Consider daylight and privacy preferences throughout the day."
+      ],
+      [
+        "Living and meeting spaces",
+        "Coordinate window treatments with the way the room is used."
+      ]
+    ],
+    "products": [
+      {
+        "brand": "Somfy",
+        "name": "Glydea Ultra 35e RTS MTC",
+        "id": "somfy-glydea-ultra-35e-rts-mic",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/somfy-glydea-ultra-35e-rts-mic.svg"
+      },
+      {
+        "brand": "Somfy",
+        "name": "Designo 35 WT",
+        "id": "somfy-designo-35-wt",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/somfy-designo-35-wt.svg"
+      }
+    ]
+  },
+  {
+    "slug": "actuators-gateways",
+    "name": "Actuators & Gateways",
+    "heading": "Intelligent technology behind everyday comfort.",
+    "intro": "Explore actuators and gateways for planned switching, lighting regulation and shutter control.",
+    "overviewTitle": "The detail behind connected control.",
+    "overview": "Automation depends on carefully selected equipment behind the visible interfaces. Explore the supplied MDT actuator and gateway models, with electrical requirements, load suitability and integration details confirmed by the project team.",
+    "features": [
+      "Switching and regulation",
+      "Shutter-control planning",
+      "System coordination"
+    ],
+    "capabilities": [
+      [
+        "Lighting regulation",
+        "Assess dimming and lighting-control requirements against the selected equipment."
+      ],
+      [
+        "Shutter management",
+        "Consider actuator selection around the chosen shutters and control strategy."
+      ],
+      [
+        "Electrical integration",
+        "Plan cabinet space, wiring and supported communication requirements before installation."
+      ]
+    ],
+    "applications": [
+      [
+        "Residential control cabinets",
+        "Organise the equipment that supports selected room functions."
+      ],
+      [
+        "Commercial interiors",
+        "Plan coordinated control around the electrical design and usage requirements."
+      ],
+      [
+        "Lighting and shutter projects",
+        "Specify equipment as part of a considered system design."
+      ]
+    ],
+    "products": [
+      {
+        "brand": "MDT",
+        "name": "JAL Shutter Actuator",
+        "id": "mdt-jal-shutter-actuator",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/mdt-jal-shutter-actuator.svg"
+      },
+      {
+        "brand": "MDT",
+        "name": "AKD 320V Dimming Actuator",
+        "id": "mdt-akd-320v-dimming-actuator",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/mdt-akd-320v-dimming-actuator.svg"
+      },
+      {
+        "brand": "MDT",
+        "name": "DALI Control PRO64 Gateway",
+        "id": "mdt-dali-control-pro-64-gateway",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/mdt-dali-control-pro-64-gateway.svg"
+      }
+    ]
+  },
+  {
+    "slug": "smart-touch-panels",
+    "name": "Smart Touch Panels",
+    "heading": "One interface. A more considered home.",
+    "intro": "Explore touch panels for a clear, central point of interaction with compatible home systems.",
+    "overviewTitle": "Your home, brought into focus.",
+    "overview": "A well-placed control panel can bring supported room functions into one interface. Consider touchscreen navigation, panel format and positioning alongside the space, with available climate, lighting and scene controls confirmed for the selected device.",
+    "features": [
+      "Centralised interaction",
+      "Clear interface planning",
+      "A choice of panel formats"
+    ],
+    "capabilities": [
+      [
+        "Room-control interfaces",
+        "Choose an interface around the functions that matter in each room."
+      ],
+      [
+        "Temperature management",
+        "Discuss supported temperature controls and the requirements of the proposed climate system."
+      ],
+      [
+        "Connected scenes",
+        "Plan the navigation and scenes supported by the selected panel and installation."
+      ]
+    ],
+    "applications": [
+      [
+        "Main living areas",
+        "Provide a clear interaction point for supported home functions."
+      ],
+      [
+        "Bedrooms and private suites",
+        "Consider accessible room controls and an appropriate panel format."
+      ],
+      [
+        "Reception and shared spaces",
+        "Plan an interface around the people using the space."
+      ]
+    ],
+    "products": [
+      {
+        "brand": "Akubela",
+        "name": "Compact Rotary Control Panel",
+        "id": "akubela-compact-rotary-control-panel",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/akubela-compact-rotary-control-panel.svg"
+      },
+      {
+        "brand": "Akubela",
+        "name": "Desktop Smart Control Panel",
+        "id": "akubela-desktop-smart-control-panel",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/akubela-desktop-smart-control-panel.svg"
+      },
+      {
+        "brand": "Akubela",
+        "name": "Premium Central Control Panel",
+        "id": "akubela-premium-central-control-panel",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/akubela-premium-central-control-panel.svg"
+      },
+      {
+        "brand": "Akubela",
+        "name": "Premium Rotary Control Panel",
+        "id": "akubela-premium-rotary-control-panel",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/akubela-premium-rotary-control-panel.svg"
+      },
+      {
+        "brand": "Akubela",
+        "name": "Touchscreen Keypad Panel",
+        "id": "akubela-touchscreen-keypad-panel",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/akubela-touchscreen-keypad-panel.svg"
+      },
+      {
+        "brand": "Basalte",
+        "name": "Ellie",
+        "id": "basalte-ellie",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/basalte-ellie.svg"
+      },
+      {
+        "brand": "Basalte",
+        "name": "Lisa",
+        "id": "basalte-lisa",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/basalte-lisa.svg"
+      },
+      {
+        "brand": "MDT",
+        "name": "Aurelio",
+        "id": "mdt-aurelio",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/mdt-aurelio.svg"
+      },
+      {
+        "brand": "MDT",
+        "name": "Glass Pushbutton Plus",
+        "id": "mdt-glass-pushbutton-plus",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/mdt-glass-pushbutton-plus.svg"
+      },
+      {
+        "brand": "MDT",
+        "name": "Glass Room Temperature Controller",
+        "id": "mdt-glass-room-temperature-controller",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/mdt-glass-room-temperature-controller.svg"
+      },
+      {
+        "brand": "Moorgen",
+        "name": "KNX Smart Touch S10",
+        "id": "moorgen-knx-smart-touch-s10",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/moorgen-knx-smart-touch-s10.svg"
+      },
+      {
+        "brand": "Theben",
+        "name": "iON Prime CP4 KNX",
+        "id": "theben-ionprime-cph-knx",
+        "placeholder": false,
+        "image": "/products/ionprime/04_CP4_Room_Controller.png"
+      }
+    ]
+  },
+  {
+    "slug": "video-door-phones",
+    "name": "Video Door Phones (VDP)",
+    "heading": "A more connected welcome.",
+    "intro": "Explore video-door-phone products for visitor communication and considered entrance monitoring.",
+    "overviewTitle": "Know your entrance. Stay connected.",
+    "overview": "A video door phone can form part of a thoughtful entrance plan. Explore the supplied OneTouch models and discuss visitor identification, communication and access requirements, with supported functions and installation details confirmed for the chosen system.",
+    "features": [
+      "Visitor identification",
+      "Entrance communication",
+      "Access planning"
+    ],
+    "capabilities": [
+      [
+        "Visitor communication",
+        "Discuss the viewing and two-way communication functions of the selected model."
+      ],
+      [
+        "Entrance monitoring",
+        "Consider camera placement, viewing conditions and the proposed indoor interface."
+      ],
+      [
+        "Access coordination",
+        "Review any supported access-control connections as part of project planning."
+      ]
+    ],
+    "applications": [
+      [
+        "Independent homes",
+        "Plan communication between the entrance and indoor living areas."
+      ],
+      [
+        "Apartment entrances",
+        "Assess the entry arrangement and building requirements."
+      ],
+      [
+        "Small offices and reception areas",
+        "Consider visitor interaction around daily arrival patterns."
+      ]
+    ],
+    "products": [
+      {
+        "brand": "OneTouch",
+        "name": "IP Video Door Phone",
+        "id": "onetouch-ip-video-door-phone",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/onetouch-ip-video-door-phone.svg"
+      },
+      {
+        "brand": "OneTouch",
+        "name": "Video Door Phone Kit",
+        "id": "onetouch-video-door-phone-kit",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/onetouch-video-door-phone-kit.svg"
+      }
+    ]
+  },
+  {
+    "slug": "smart-door-locks",
+    "name": "Smart Door Locks",
+    "heading": "A smarter approach to arriving home.",
+    "intro": "Discover digital door-lock options for convenient entry and thoughtfully planned residential access.",
+    "overviewTitle": "Considered access starts at the door.",
+    "overview": "A door lock should suit both the entrance and the way it is used. Explore the supplied OneTouch models, with door suitability, supported entry methods and installation requirements confirmed before product selection.",
+    "features": [
+      "Digital entry options",
+      "Modern entrance design",
+      "Residential access planning"
+    ],
+    "capabilities": [
+      [
+        "Entry methods",
+        "Review the supported access methods of each selected model."
+      ],
+      [
+        "Door suitability",
+        "Assess door construction, dimensions and installation conditions before choosing hardware."
+      ],
+      [
+        "Everyday access",
+        "Plan the arrival experience around household routines and access requirements."
+      ]
+    ],
+    "applications": [
+      [
+        "Independent homes and villas",
+        "Select locking hardware around the main entrance and household needs."
+      ],
+      [
+        "Premium apartments",
+        "Review door compatibility and the requirements of the property."
+      ],
+      [
+        "Residential upgrades",
+        "Assess existing hardware and installation conditions before replacement."
+      ]
+    ],
+    "products": [
+      {
+        "brand": "OneTouch",
+        "name": "OT 630",
+        "id": "onetouch-ot-630-smart-door-lock",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/onetouch-ot-630-smart-door-lock.svg"
+      },
+      {
+        "brand": "OneTouch",
+        "name": "Smart Door Lock OT 630 Pro",
+        "id": "onetouch-ot-630-pro-smart-door-lock",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/onetouch-ot-630-pro-smart-door-lock.svg"
+      },
+      {
+        "brand": "OneTouch",
+        "name": "Digital Door Lock OT 630",
+        "id": "onetouch-digital-door-lock-ot-630",
+        "placeholder": true,
+        "image": "/products/collection-placeholders/onetouch-digital-door-lock-ot-630.svg"
+      }
+    ]
+  }
+]

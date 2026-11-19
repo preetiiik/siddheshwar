@@ -1,0 +1,351 @@
+{
+  "importedAkubela": 79,
+  "total": 116,
+  "byCategory": [
+    {
+      "id": "smart-keypad-switches",
+      "name": "Smart Keypad Switches",
+      "count": 20
+    },
+    {
+      "id": "smart-remote-controls",
+      "name": "Smart Remote Controls",
+      "count": 4
+    },
+    {
+      "id": "curtain-controllers",
+      "name": "Curtain Controllers",
+      "count": 5
+    },
+    {
+      "id": "actuators-gateways",
+      "name": "Actuators & Gateways",
+      "count": 15
+    },
+    {
+      "id": "smart-touch-panels",
+      "name": "Smart Touch Panels",
+      "count": 23
+    },
+    {
+      "id": "video-door-phones",
+      "name": "Video Door Phones (VDP)",
+      "count": 2
+    },
+    {
+      "id": "smart-door-locks",
+      "name": "Smart Door Locks",
+      "count": 10
+    },
+    {
+      "id": "smart-sensors-detectors",
+      "name": "Smart Sensors & Detectors",
+      "count": 9
+    },
+    {
+      "id": "smart-lighting-dimmers",
+      "name": "Smart Lighting & Dimmers",
+      "count": 14
+    },
+    {
+      "id": "smart-plugs-accessories",
+      "name": "Smart Plugs & Accessories",
+      "count": 5
+    },
+    {
+      "id": "climate-temperature-control",
+      "name": "Climate & Temperature Control",
+      "count": 5
+    },
+    {
+      "id": "smart-home-software-cloud",
+      "name": "Smart Home Software & Cloud",
+      "count": 4
+    }
+  ],
+  "byBrand": [
+    {
+      "brand": "Akubela",
+      "count": 84
+    },
+    {
+      "brand": "Basalte",
+      "count": 6
+    },
+    {
+      "brand": "MDT",
+      "count": 8
+    },
+    {
+      "brand": "Moorgen",
+      "count": 7
+    },
+    {
+      "brand": "OneTouch",
+      "count": 5
+    },
+    {
+      "brand": "Schneider Electric",
+      "count": 2
+    },
+    {
+      "brand": "Somfy",
+      "count": 2
+    },
+    {
+      "brand": "Theben",
+      "count": 2
+    }
+  ],
+  "mergedDuplicates": [
+    {
+      "retainedId": "akubela-aura-series-smart-switch",
+      "mergedId": "approved-akubela-aura-series-smart-switch",
+      "name": "Aura Series Smart Switch",
+      "reason": "Exact brand and verified product-name match; identical product image."
+    }
+  ],
+  "uncertainMatches": [
+    {
+      "id": "approved-akubela-compact-rotary-control-panel",
+      "name": "Compact Rotary Control Panel",
+      "reason": "Generic marketing description; insufficient manufacturer model information to match a specific HyPanel."
+    },
+    {
+      "id": "approved-akubela-desktop-smart-control-panel",
+      "name": "Desktop Smart Control Panel",
+      "reason": "Generic marketing description; insufficient manufacturer model information to match a specific HyPanel."
+    },
+    {
+      "id": "approved-akubela-premium-central-control-panel",
+      "name": "Premium Central Control Panel",
+      "reason": "Generic marketing description; insufficient manufacturer model information to match a specific HyPanel."
+    },
+    {
+      "id": "approved-akubela-premium-rotary-control-panel",
+      "name": "Premium Rotary Control Panel",
+      "reason": "Generic marketing description; insufficient manufacturer model information to match a specific HyPanel."
+    },
+    {
+      "id": "approved-akubela-touchscreen-keypad-panel",
+      "name": "Touchscreen Keypad Panel",
+      "reason": "Generic marketing description; insufficient manufacturer model information to match a specific HyPanel."
+    }
+  ],
+  "placeholderImages": [
+    {
+      "id": "approved-basalte-chopin",
+      "name": "Chopin",
+      "brand": "Basalte"
+    },
+    {
+      "id": "approved-basalte-deseo",
+      "name": "Deseo",
+      "brand": "Basalte"
+    },
+    {
+      "id": "approved-basalte-fibonacci",
+      "name": "Fibonacci",
+      "brand": "Basalte"
+    },
+    {
+      "id": "approved-basalte-sentido",
+      "name": "Sentido",
+      "brand": "Basalte"
+    },
+    {
+      "id": "approved-mdt-pushbutton-light-55",
+      "name": "Pushbutton Light 55",
+      "brand": "MDT"
+    },
+    {
+      "id": "approved-mdt-glass-pushbutton-ii",
+      "name": "Glass Pushbutton II Smart",
+      "brand": "MDT"
+    },
+    {
+      "id": "approved-moorgen-2-fold-metal-pushbutton-cover",
+      "name": "2-Fold Metal Pushbutton Cover",
+      "brand": "Moorgen"
+    },
+    {
+      "id": "approved-moorgen-smart-thermostat",
+      "name": "Smart Thermostat",
+      "brand": "Moorgen"
+    },
+    {
+      "id": "approved-schneider-electric-unica-knx-pushbutton",
+      "name": "Unica KNX Pushbutton – 6 Key Silver",
+      "brand": "Schneider Electric"
+    },
+    {
+      "id": "approved-schneider-electric-unica-knx-thermostat-8-key-metallic-silver",
+      "name": "Unica KNX Thermostat – 8 Key Metallic Silver",
+      "brand": "Schneider Electric"
+    },
+    {
+      "id": "approved-moorgen-m18-series-smart-remote-control",
+      "name": "M18 Series – Smart Remote Control",
+      "brand": "Moorgen"
+    },
+    {
+      "id": "approved-moorgen-m50-series-8-key-smart-remote-control",
+      "name": "M50 Series – 8-Key Smart Remote Control",
+      "brand": "Moorgen"
+    },
+    {
+      "id": "approved-moorgen-m56-series-4-key-rotary-smart-remote-control",
+      "name": "M56 Series – 4-Key Rotary Smart Remote Control",
+      "brand": "Moorgen"
+    },
+    {
+      "id": "approved-moorgen-m78-series-crystal-rotary-smart-remote-control",
+      "name": "M78 Series – Crystal Smart Remote Control",
+      "brand": "Moorgen"
+    },
+    {
+      "id": "approved-somfy-glydea-ultra-35e-rts-mic",
+      "name": "Glydea Ultra 35e RTS MTC",
+      "brand": "Somfy"
+    },
+    {
+      "id": "approved-somfy-designo-35-wt",
+      "name": "Designo 35 WT",
+      "brand": "Somfy"
+    },
+    {
+      "id": "approved-mdt-jal-shutter-actuator",
+      "name": "JAL Shutter Actuator",
+      "brand": "MDT"
+    },
+    {
+      "id": "approved-mdt-akd-320v-dimming-actuator",
+      "name": "AKD 320V Dimming Actuator",
+      "brand": "MDT"
+    },
+    {
+      "id": "approved-mdt-dali-control-pro-64-gateway",
+      "name": "DALI Control PRO64 Gateway",
+      "brand": "MDT"
+    },
+    {
+      "id": "approved-akubela-compact-rotary-control-panel",
+      "name": "Compact Rotary Control Panel",
+      "brand": "Akubela"
+    },
+    {
+      "id": "approved-akubela-desktop-smart-control-panel",
+      "name": "Desktop Smart Control Panel",
+      "brand": "Akubela"
+    },
+    {
+      "id": "approved-akubela-premium-central-control-panel",
+      "name": "Premium Central Control Panel",
+      "brand": "Akubela"
+    },
+    {
+      "id": "approved-akubela-premium-rotary-control-panel",
+      "name": "Premium Rotary Control Panel",
+      "brand": "Akubela"
+    },
+    {
+      "id": "approved-akubela-touchscreen-keypad-panel",
+      "name": "Touchscreen Keypad Panel",
+      "brand": "Akubela"
+    },
+    {
+      "id": "approved-basalte-ellie",
+      "name": "Ellie",
+      "brand": "Basalte"
+    },
+    {
+      "id": "approved-basalte-lisa",
+      "name": "Lisa",
+      "brand": "Basalte"
+    },
+    {
+      "id": "approved-mdt-aurelio",
+      "name": "Aurelio",
+      "brand": "MDT"
+    },
+    {
+      "id": "approved-mdt-glass-pushbutton-plus",
+      "name": "Glass Pushbutton Plus",
+      "brand": "MDT"
+    },
+    {
+      "id": "approved-mdt-glass-room-temperature-controller",
+      "name": "Glass Room Temperature Controller",
+      "brand": "MDT"
+    },
+    {
+      "id": "approved-moorgen-knx-smart-touch-s10",
+      "name": "KNX Smart Touch S10",
+      "brand": "Moorgen"
+    },
+    {
+      "id": "approved-onetouch-ip-video-door-phone",
+      "name": "IP Video Door Phone",
+      "brand": "OneTouch"
+    },
+    {
+      "id": "approved-onetouch-video-door-phone-kit",
+      "name": "Video Door Phone Kit",
+      "brand": "OneTouch"
+    },
+    {
+      "id": "approved-onetouch-ot-630-smart-door-lock",
+      "name": "OT 630",
+      "brand": "OneTouch"
+    },
+    {
+      "id": "approved-onetouch-ot-630-pro-smart-door-lock",
+      "name": "Smart Door Lock OT 630 Pro",
+      "brand": "OneTouch"
+    },
+    {
+      "id": "approved-onetouch-digital-door-lock-ot-630",
+      "name": "Digital Door Lock OT 630",
+      "brand": "OneTouch"
+    }
+  ],
+  "userSupplied": [
+    "approved-basalte-chopin",
+    "approved-basalte-deseo",
+    "approved-basalte-fibonacci",
+    "approved-basalte-sentido",
+    "approved-mdt-pushbutton-light-55",
+    "approved-mdt-glass-pushbutton-ii",
+    "approved-moorgen-2-fold-metal-pushbutton-cover",
+    "approved-moorgen-smart-thermostat",
+    "approved-schneider-electric-unica-knx-pushbutton",
+    "approved-schneider-electric-unica-knx-thermostat-8-key-metallic-silver",
+    "approved-theben-ionprime-pbknx",
+    "approved-moorgen-m18-series-smart-remote-control",
+    "approved-moorgen-m50-series-8-key-smart-remote-control",
+    "approved-moorgen-m56-series-4-key-rotary-smart-remote-control",
+    "approved-moorgen-m78-series-crystal-rotary-smart-remote-control",
+    "approved-somfy-glydea-ultra-35e-rts-mic",
+    "approved-somfy-designo-35-wt",
+    "approved-mdt-jal-shutter-actuator",
+    "approved-mdt-akd-320v-dimming-actuator",
+    "approved-mdt-dali-control-pro-64-gateway",
+    "approved-akubela-compact-rotary-control-panel",
+    "approved-akubela-desktop-smart-control-panel",
+    "approved-akubela-premium-central-control-panel",
+    "approved-akubela-premium-rotary-control-panel",
+    "approved-akubela-touchscreen-keypad-panel",
+    "approved-basalte-ellie",
+    "approved-basalte-lisa",
+    "approved-mdt-aurelio",
+    "approved-mdt-glass-pushbutton-plus",
+    "approved-mdt-glass-room-temperature-controller",
+    "approved-moorgen-knx-smart-touch-s10",
+    "approved-theben-ionprime-cph-knx",
+    "approved-onetouch-ip-video-door-phone",
+    "approved-onetouch-video-door-phone-kit",
+    "approved-onetouch-ot-630-smart-door-lock",
+    "approved-onetouch-ot-630-pro-smart-door-lock",
+    "approved-onetouch-digital-door-lock-ot-630"
+  ]
+}

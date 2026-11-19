@@ -4,7 +4,7 @@ import { ArrowUpRight, ArrowUp, MessageSquareText, Phone, Mail, Users, Layers } 
 const groups = [
   { title: 'EXPLORE', links: [['Home', '/'], ['About Us', '/about'], ['Products', '/products'], ['Spaces We Transform', '/spaces'], ['Certifications', '/certifications']] },
   { title: 'SOLUTIONS', links: [...solutions.slice(0, 5).map(solution => [solution.title, `/solutions/${solution.slug}`]), ['Explore All Solutions', '/solutions']] },
-  { title: 'LET’S CONNECT', links: [['Contact Us', '/contact'], ['Call Us', 'tel:+917019080943'], ['Email Us', 'mailto:siddheshwarsmarttechnologies@gmail.com'],  ['Meet Our Team', '/about#our-team'], ['All Solutions', '/solutions']] },
+  { title: 'LET’S CONNECT', links: [['Contact Us', '/contact'], ['Call Us', 'tel:+917019080943'], ['Email Us', 'mailto:info@ssthomeautomation.in'],  ['Meet Our Team', '/about#our-team'], ['All Solutions', '/solutions']] },
 ];
 
 const connectIcons = { 'Contact Us': MessageSquareText, 'Call Us': Phone, 'Email Us': Mail, 'Meet Our Team': Users, 'All Solutions': Layers };

@@ -3,6 +3,8 @@ import { akubelaProducts } from './akubela-data';
 
 export type ProductCategory = 'automation' | 'lighting';
 export type Product = {
+ galleryImages?: {src:string;alt:string}[];
+ primaryCategory?: string; subcategory?: string; modelNumber?: string; sourceCatalogue?: string; verificationStatus?: 'catalogue-listed' | 'user-supplied'; imageStatus?: 'actual' | 'placeholder'; productKind?: 'hardware' | 'software'; detailPath?: string;
  id: string; name: string; title: string; slug: string; category: ProductCategory; parentId?: string;
  shortDescription: string; fullDescription: string; image: string; alt: string;
  features: string[]; applications: string[];
