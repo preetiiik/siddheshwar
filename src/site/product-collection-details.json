@@ -45,35 +45,35 @@
         "name": "Aura Series Smart Switch",
         "id": "akubela-aura-series-smart-switch",
         "placeholder": false,
-        "image": "/products/akubela/akubela-aura-series-smart-switch.webp"
+        "image": "/products/all products/Aura series smart switch (Akubela).png"
       },
       {
         "brand": "Basalte",
         "name": "Chopin",
         "id": "basalte-chopin",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/basalte-chopin.svg"
+        "placeholder": false,
+        "image": "/products/all products/chopin(Basalte).png"
       },
       {
         "brand": "Basalte",
         "name": "Deseo",
         "id": "basalte-deseo",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/basalte-deseo.svg"
+        "placeholder": false,
+        "image": "/products/all products/Deseo.png"
       },
       {
         "brand": "Basalte",
         "name": "Fibonacci",
         "id": "basalte-fibonacci",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/basalte-fibonacci.svg"
+        "placeholder": false,
+        "image": "/products/all products/Fibonacci(Basalte).png"
       },
       {
         "brand": "Basalte",
         "name": "Sentido",
         "id": "basalte-sentido",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/basalte-sentido.svg"
+        "placeholder": false,
+        "image": "/products/all products/Sentido(Basalte).png"
       },
       {
         "brand": "MDT",
@@ -84,7 +84,7 @@
       },
       {
         "brand": "MDT",
-        "name": "Glass Pushbutton II Smart",
+        "name": "Glass Pushbutton II",
         "id": "mdt-glass-pushbutton-ii",
         "placeholder": true,
         "image": "/products/collection-placeholders/mdt-glass-pushbutton-ii.svg"
@@ -93,8 +93,8 @@
         "brand": "Moorgen",
         "name": "2-Fold Metal Pushbutton Cover",
         "id": "moorgen-2-fold-metal-pushbutton-cover",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/moorgen-2-fold-metal-pushbutton-cover.svg"
+        "placeholder": false,
+        "image": "/products/all products/2-Fold Metal Pushbutton Cover(Moorgen).png"
       },
       {
         "brand": "Moorgen",
@@ -107,22 +107,22 @@
         "brand": "Schneider Electric",
         "name": "Unica KNX Pushbutton – 6 Key Silver",
         "id": "schneider-electric-unica-knx-pushbutton",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/schneider-electric-unica-knx-pushbutton.svg"
+        "placeholder": false,
+        "image": "/products/all products/Unica KNX Pushbutton, 6-Key, Silver(Schneider Electric).png"
       },
       {
         "brand": "Schneider Electric",
         "name": "Unica KNX Thermostat – 8 Key Metallic Silver",
         "id": "schneider-electric-unica-knx-thermostat-8-key-metallic-silver",
-        "image": "/products/collection-placeholders/schneider-electric-unica-knx-thermostat-8-key-metallic-silver.svg",
-        "placeholder": true
+        "image": "/products/all products/Unica KNX Thermostat, 8-Key, Metallic Silver(Schneider Electric) .png",
+        "placeholder": false
       },
       {
         "brand": "Theben",
         "name": "iON Prime PB KNX",
         "id": "theben-ionprime-pbknx",
         "placeholder": false,
-        "image": "/products/ionprime/11_PB_Push_Button_Sensor.png"
+        "image": "/products/all products/iONprime PB KNX(Theben) .png"
       }
     ]
   },
@@ -171,29 +171,29 @@
         "brand": "Moorgen",
         "name": "M18 Series – Smart Remote Control",
         "id": "moorgen-m18-series-smart-remote-control",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/moorgen-m18-series-smart-remote-control.svg"
+        "placeholder": false,
+        "image": "/products/all products/Smart Remote Controls(M18).png"
       },
       {
         "brand": "Moorgen",
         "name": "M50 Series – 8-Key Smart Remote Control",
         "id": "moorgen-m50-series-8-key-smart-remote-control",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/moorgen-m50-series-8-key-smart-remote-control.svg"
+        "placeholder": false,
+        "image": "/products/all products/8-Key Smart Remote Control.png"
       },
       {
         "brand": "Moorgen",
         "name": "M56 Series – 4-Key Rotary Smart Remote Control",
         "id": "moorgen-m56-series-4-key-rotary-smart-remote-control",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/moorgen-m56-series-4-key-rotary-smart-remote-control.svg"
+        "placeholder": false,
+        "image": "/products/all products/4-Key Rotary Smart Remote Control.png"
       },
       {
         "brand": "Moorgen",
         "name": "M78 Series – Crystal Smart Remote Control",
         "id": "moorgen-m78-series-crystal-rotary-smart-remote-control",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/moorgen-m78-series-crystal-rotary-smart-remote-control.svg"
+        "placeholder": false,
+        "image": "/products/all products/·Crystal Rotary Smart Remote Control(Moorgen).png"
       }
     ]
   },
@@ -240,17 +240,17 @@
     "products": [
       {
         "brand": "Somfy",
-        "name": "Glydea Ultra 35e RTS MTC",
+        "name": "Glydea Ultra 35e RTS M IC",
         "id": "somfy-glydea-ultra-35e-rts-mic",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/somfy-glydea-ultra-35e-rts-mic.svg"
+        "placeholder": false,
+        "image": "/products/all products/GLYDEA ULTRA 35e RTS MIC(Somfy).png"
       },
       {
         "brand": "Somfy",
         "name": "Designo 35 WT",
         "id": "somfy-designo-35-wt",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/somfy-designo-35-wt.svg"
+        "placeholder": false,
+        "image": "/products/all products/Designo 35 WT(Somfy).png"
       }
     ]
   },
@@ -299,8 +299,8 @@
         "brand": "MDT",
         "name": "JAL Shutter Actuator",
         "id": "mdt-jal-shutter-actuator",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/mdt-jal-shutter-actuator.svg"
+        "placeholder": false,
+        "image": "/products/all products/(MDT) JAL Shutter Actuator.png"
       },
       {
         "brand": "MDT",
@@ -313,8 +313,8 @@
         "brand": "MDT",
         "name": "DALI Control PRO64 Gateway",
         "id": "mdt-dali-control-pro-64-gateway",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/mdt-dali-control-pro-64-gateway.svg"
+        "placeholder": false,
+        "image": "/products/all products/MDT DALI Control Gateway PRO64.png"
       }
     ]
   },
@@ -490,15 +490,15 @@
         "brand": "OneTouch",
         "name": "IP Video Door Phone",
         "id": "onetouch-ip-video-door-phone",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/onetouch-ip-video-door-phone.svg"
+        "placeholder": false,
+        "image": "/products/all products/Android Video Door Phone OT-IP-VDP-V4(Onetouch).png"
       },
       {
         "brand": "OneTouch",
         "name": "Video Door Phone Kit",
         "id": "onetouch-video-door-phone-kit",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/onetouch-video-door-phone-kit.svg"
+        "placeholder": false,
+        "image": "/products/all products/Video Door Phone Kit OT-ADP-A4(Onetouch).png.png"
       }
     ]
   },
@@ -554,15 +554,15 @@
         "brand": "OneTouch",
         "name": "Smart Door Lock OT 630 Pro",
         "id": "onetouch-ot-630-pro-smart-door-lock",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/onetouch-ot-630-pro-smart-door-lock.svg"
+        "placeholder": false,
+        "image": "/products/all products/Smart Door Lock OT 630 PRO(OT).png"
       },
       {
         "brand": "OneTouch",
         "name": "Digital Door Lock OT 630",
         "id": "onetouch-digital-door-lock-ot-630",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/onetouch-digital-door-lock-ot-630.svg"
+        "placeholder": false,
+        "image": "/products/all products/Digital Door Lock OT 630(OT).png"
       }
     ]
   }

@@ -27,3 +27,43 @@
 @media(max-width:600px) { .hpc-card { height:370px; } }
 
 .hpc-brand { margin-bottom:4px; }.hpc-category { margin-bottom:10px; }
+
+/* Editorial product cards: a quiet collection with one dark featured piece. */
+.hpc-section { background:#f6f8fb; }
+.hpc-track { align-items:stretch; padding:8px 3px 20px; }
+.hpc-card { height:430px; padding:0; overflow:hidden; text-align:left; border-color:#dce5ef; border-radius:18px; background:#fff; box-shadow:0 8px 24px rgb(27 44 75 / 5%); }
+.hpc-image { height:218px; margin:0; padding:16px; overflow:hidden; background:#f1f4f8; }
+.hpc-image img { object-fit:contain; transition:transform .5s ease; }
+.hpc-card-copy { display:flex; flex:1; flex-direction:column; min-width:0; padding:20px 20px 18px; }
+.hpc-category { display:flex; align-items:center; gap:8px; color:#315c9e; font-size:9px; font-weight:600; letter-spacing:.09em; line-height:1.4; margin:0 0 10px; }
+.hpc-category::before { content:''; width:18px; height:2px; flex:none; background:#739ad1; }
+.hpc-card h3 { display:block; height:auto; min-height:0; overflow:visible; color:#192a4e; font-size:clamp(17px,1.4vw,21px); font-weight:600; line-height:1.2; margin:0 0 7px; overflow-wrap:break-word; }
+.hpc-brand { color:#707987; font-size:12px; margin:0; }
+.hpc-view { justify-content:space-between; gap:8px; padding:13px 0 0; margin-top:auto; border-top:1px solid #e2e8f0; border-radius:0; background:transparent; color:#1c315e; font-size:12px; font-weight:600; }
+.hpc-view-arrow { display:grid; place-items:center; flex:none; width:34px; height:34px; border-radius:50%; background:#e6effa; color:#254a83; transition:background .3s,transform .3s; }
+.hpc-card:hover .hpc-view-arrow,.hpc-card:focus-visible .hpc-view-arrow { background:#d5e5f7; transform:translate(3px,-3px); }
+.hpc-card:hover .hpc-view svg { transform:none; }
+.hpc-card--landscape .hpc-image { background:#edf1f5; padding:9px; }
+.hpc-card--featured { position:relative; display:grid; grid-template-columns:minmax(0,1fr) 42%; background:#172b54; border-color:#172b54; }
+.hpc-card--featured .hpc-image { grid-column:2; grid-row:1; height:100%; padding:16px 8px; background:#203963; }
+.hpc-card--featured .hpc-card-copy { grid-column:1; grid-row:1; padding:24px 6px 20px 20px; }
+.hpc-card--featured h3 { color:#fff; font-size:clamp(20px,1.65vw,25px); }
+.hpc-card--featured .hpc-brand { color:#c4d0e2; }
+.hpc-card--featured .hpc-category { color:#bfd2f1; }
+.hpc-card--featured .hpc-view { color:#fff; border-color:rgb(255 255 255 / 25%); }
+.hpc-card--featured .hpc-view-arrow { color:#fff; border:1px solid rgb(255 255 255 / 70%); background:transparent; }
+.hpc-card--featured:hover .hpc-view-arrow,.hpc-card--featured:focus-visible .hpc-view-arrow { background:rgb(255 255 255 / 15%); }
+@media(max-width:1100px) { .hpc-card h3 { font-size:21px; }.hpc-card--featured h3 { font-size:25px; } }
+@media(max-width:600px) { .hpc-card { height:420px; }.hpc-card--featured .hpc-card-copy { padding-left:20px; }.hpc-card--featured .hpc-image { padding:16px 8px; } }
+@media(prefers-reduced-motion:reduce) { .hpc-view-arrow { transition:none; }.hpc-card:hover .hpc-view-arrow,.hpc-card:focus-visible .hpc-view-arrow { transform:none; } }
+.hpc-card--featured .hpc-image { padding:0; }
+.hpc-card--featured .hpc-image img { object-fit:cover; object-position:70% center; }
+.hpc-card--landscape .hpc-image { padding:0; }
+.hpc-card--landscape .hpc-image img { object-fit:cover; object-position:center top; }
+@media(max-width:600px) { .hpc-card--featured .hpc-image { padding:0; } }
+
+/* Restore the original showcase card typography. */
+.hpc-card h3 { color:var(--brand-ink); font-size:18px; font-weight:500; letter-spacing:-.025em; line-height:1.33; }
+.hpc-brand { color:var(--brand-secondary); font-size:12px; }
+.hpc-category { color:var(--brand-navy); font-size:9px; font-weight:400; letter-spacing:.05em; line-height:1.5; }
+.hpc-view { font-size:12px; font-weight:400; }

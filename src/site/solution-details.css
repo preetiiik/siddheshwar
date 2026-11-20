@@ -68,3 +68,14 @@
 @media(max-width:1000px) { .sd-hero { min-height:680px; }.sd-overview { gap:5%; }.sd-overview-photo>img { height:400px; }.sd-process ol,.sd-applications ul { grid-template-columns:repeat(2,minmax(0,1fr)); }.sd-applications li:nth-child(3) { border-left:0; }.sd-showcase img { height:300px; } }
 @media(max-width:650px) { .sd-section { padding-block:58px; }.sd-hero { height:auto; min-height:740px; }.sd-hero-copy { padding-top:125px; padding-bottom:45px; }.sd-hero h1 { font-size:43px; }.sd-hero-copy>p:not(.s-eyebrow) { font-size:16px; }.sd-breadcrumb { margin-bottom:45px; }.sd-hero:after { background:linear-gradient(90deg,color-mix(in srgb, var(--brand-dark) 85.10%, transparent),color-mix(in srgb, var(--brand-dark) 43.92%, transparent)),linear-gradient(0deg,color-mix(in srgb, var(--brand-dark) 69.02%, transparent),transparent); }.sd-overview { grid-template-columns:1fr; gap:35px; }.sd-reverse>div:first-child { order:0; }.sd-overview-photo>img { height:330px; }.sd-feature-grid,.sd-capability-grid,.sd-showcase-grid,.sd-page--smart-entertainment .sd-showcase-grid { grid-template-columns:1fr; }.sd-feature-grid { gap:30px; }.sd-feature-grid h3 { max-width:none; }.sd-heading { margin-bottom:30px; }.sd-showcase-grid>div:last-child { padding-top:0; }.sd-process ol { gap:35px 22px; }.sd-process p { font-size:13px; }.sd-showcase img { height:290px; }.sd-applications li { font-size:13px; padding:10px; }.sd-page .s-action { max-width:100%; font-size:11px; gap:14px; }.sd-hero-index { margin-top:35px; } }
 @media(prefers-reduced-motion:reduce) { .sd-page .s-action { transition:none; }.sd-page .s-action:hover { transform:none; } }
+
+/* Gentle emphasis for solution feature cards. */
+.sd-feature-grid > div { border-radius:0 0 14px 14px; transition:background .3s ease,border-color .3s ease,box-shadow .3s ease; }
+.sd-feature-grid svg { transition:transform .3s ease,color .3s ease; }
+@media (hover:hover) {
+ .sd-feature-grid > div:hover { background:rgba(104,152,209,.1); border-color:var(--brand-navy); box-shadow:0 10px 24px rgba(33,51,115,.08); }
+ .sd-feature-grid > div:hover svg { transform:translateY(-4px); color:var(--brand-blue); }
+}
+@media (prefers-reduced-motion:reduce) { .sd-feature-grid > div,.sd-feature-grid svg { transition:none; }.sd-feature-grid > div:hover svg { transform:none; } }
+/* Keep capability numbers and text inside the hover surface. */
+.sd-capability-grid > div { padding-inline:18px; }

@@ -12,6 +12,12 @@ export function verifiedFeatures(p:Product) {
 }
 export function featureTitle(text:string,index:number) {
  if(/touchscreen|pixels/i.test(text))return 'Touchscreen interface';
+ if(/rgb leds/i.test(text))return 'Configurable buttons and RGB indicators';
+ if(/lighting.*dimming.*blind/i.test(text))return 'Lighting, blinds and scenes';
+ if(/finishes.*configurations/i.test(text))return 'Interchangeable rocker finishes';
+ if(/rocker covers selected separately/i.test(text))return 'Separate rocker selection';
+ if(/48 functions/i.test(text))return 'Multifunction room control';
+ if(/configurable interface/i.test(text))return 'Configurable interface';
  if(/sensor/i.test(text))return 'Integrated sensing';
  if(/function|pages/i.test(text))return 'Control functions';
  if(/front|frame|cover|finish/i.test(text))return 'Materials and finishes';

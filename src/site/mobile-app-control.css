@@ -24,3 +24,8 @@
 @media(max-width:900px) { .mac-layout { grid-template-columns:1fr; gap:35px; }.mac-copy { max-width:700px; }.mac-description { max-width:650px; }.mac-stage { justify-content:center; gap:30px; padding:32px; }.mac-device { width:225px; height:456px; }.mac-feature-preview { max-width:250px; padding:23px; }.mac-stage { min-height:530px; }.mac-device svg { border-radius:28px; } }
 @media(max-width:600px) { .mac-section { padding:50px 0 40px; }.mac-copy h2 { font-size:35px; }.mac-label { font-size:11px; gap:10px; }.mac-description { font-size:14px; }.mac-controls { gap:9px; }.mac-controls button { padding:13px 11px; gap:9px; font-size:12px; }.mac-stage { flex-direction:column; gap:20px; padding:25px 18px; min-height:0; border-radius:22px; }.mac-device { width:215px; height:435px; }.mac-feature-preview { width:100%; max-width:none; min-height:155px; padding:18px; }.mac-preview-icon { float:left; margin-right:13px; margin-bottom:10px; }.mac-feature-preview h3 { font-size:22px; }.mac-feature-preview p:last-child { clear:both; }.mac-app-caption { align-items:flex-start; flex-direction:column; gap:7px; }.mac-cta { max-width:100%; padding-inline:18px; gap:13px; font-size:12px; } }
 @media(prefers-reduced-motion:reduce) { .mac-section * { transition:none!important; }.mac-cta:hover { transform:none; } }
+/* Crop the original high-resolution app-store image within the existing phone frame. */
+.mac-screen { position:relative; width:100%; height:100%; overflow:hidden; border-radius:28px; background:#111; }
+.mac-screen img { position:absolute; max-width:none; width:194.1%; height:auto; left:-46.9%; top:-14.9%; }
+@media(max-width:1150px) { .mac-screen { border-radius:25px; } }
+@media(max-width:900px) { .mac-screen { border-radius:28px; } }

@@ -1,20 +1,17 @@
 import type { Product } from '../product-data';
 export const homepageProductCategories = [
- {id:'smart-keypad-switches',name:'Smart Keypad Switches',description:'Elegant control at your fingertips.',image:'/hero/akubela-aura-series-wide.webp',alt:'Akubela Aura switches installed beside a contemporary living area'},
- {id:'smart-touch-panels',name:'Smart Touch Panels',description:'One interface. Intelligent control.',image:'/hero/akubela-hypanel-supreme-wide.webp',alt:'Akubela HyPanel Supreme touchscreen in a contemporary interior'},
- {id:'smart-door-locks',name:'Smart Door Locks',description:'Smarter access to your home.',image:'/hero/akubela-sl60-wide.webp',alt:'Akubela SL60 smart lock installed on an entrance door'},
- {id:'curtain-controllers',name:'Curtain Controllers',description:'Privacy and comfort, simplified.',image:'/products/automation/motorized-curtain-blind-controllers.png',alt:'Curtain control interface beside automated curtains and blinds in a contemporary interior'},
- {id:'smart-remote-controls',name:'Smart Remote Controls',description:'Control your space effortlessly.',image:'/products/SMART%20REMOTE%20CONTROL.jpg',alt:'Black smart remote control with silver trim and physical control buttons'},
- {id:'video-door-phones',name:'Video Door Phones (VDP)',description:"See who's at your door.",image:'/products/VDP.jpg',alt:'Video door phone entrance unit mounted beside a front door'},
- {id:'actuators-gateways',name:'Actuators & Gateways',description:'Intelligent technology behind seamless automation.',image:'/products/akubela/akubela-gateway-g31.webp',alt:'Akubela Gateway G31 automation gateway'},
+ {id:'smart-keypad-switches',name:'Smart Keypad Switches',description:'Elegant control at your fingertips.',image:'/products/all products/Smart Keypad Switch.png',alt:'Smart keypad switch with illuminated controls'},
+ {id:'smart-touch-panels',name:'Smart Touch Panels',description:'One interface. Intelligent control.',image:'/products/all products/Smart Touch Panel.png',alt:'Smart touch panel in a contemporary interior'},
+ {id:'smart-door-locks',name:'Smart Door Locks',description:'Smarter access to your home.',image:'/products/all products/Door Lock System .png',alt:'Smart door locks on an entrance door'},
+ {id:'curtain-controllers',name:'Curtain Controllers',description:'Privacy and comfort, simplified.',image:'/products/all products/Curtain Controller.png',alt:'Curtain control interface beside automated curtains and blinds in a contemporary interior'},
+ {id:'smart-remote-controls',name:'Smart Remote Controls',description:'Control your space effortlessly.',image:'/products/all products/Smart remote control.png',alt:'Smart remote control in a contemporary setting'},
+ {id:'video-door-phones',name:'Video Door Phones (VDP)',description:"See who's at your door.",image:'/products/all products/Video door phone.png',alt:'Video door phone entrance unit'},
+ {id:'actuators-gateways',name:'Actuators & Gateways',description:'Intelligent technology behind seamless automation.',image:'/products/all products/Actuator.png',alt:'Living room with integrated automation controls'},
 ] as const;
 export const catalogueCategories = [
  ...['smart-keypad-switches','smart-remote-controls','curtain-controllers','actuators-gateways','smart-touch-panels','video-door-phones','smart-door-locks'].map(id=>homepageProductCategories.find(c=>c.id===id)!),
- {id:'smart-sensors-detectors',name:'Smart Sensors & Detectors'},
- {id:'smart-lighting-dimmers',name:'Smart Lighting & Dimmers'},
- {id:'smart-plugs-accessories',name:'Smart Plugs & Accessories'},
- {id:'climate-temperature-control',name:'Climate & Temperature Control'},
- {id:'smart-home-software-cloud',name:'Smart Home Software & Cloud'},
+ {id:'knx-room-controllers',name:'KNX Room Controllers'},
+ {id:'smart-home-servers-gateways',name:'Smart Home Servers & Gateways'},
 ];
 export type HomepageProductCategory = typeof homepageProductCategories[number];
 export const categoryCataloguePath = (id:string) => `/products?category=${encodeURIComponent(id)}`;

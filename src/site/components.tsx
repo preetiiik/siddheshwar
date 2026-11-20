@@ -1,4 +1,5 @@
-import { catalogueCategories } from './product-categories';
+import { catalogueCategories, homepageProductCategories } from './product-categories';
+import { unifiedCatalogue } from './unified-catalogue';
 import approvedCollections from './product-collection-details.json';
 import { akubelaBase, akubelaItems } from './akubela/catalogue';
 import { SiteImage } from './Image';
@@ -6,12 +7,12 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { ArrowLeft, ArrowRight, ArrowUpRight, ArrowUp, Mail, Phone, MapPin, Check, ChevronDown, House, Lightbulb, ShieldCheck, Smartphone, X } from 'lucide-react';
-import { brands, company, solutions } from './data';
+import { brands, company, services, solutions } from './data';
 import type { Product } from '../product-data';
 
 export function Reveal({ children, className = '', delay = 0, direction = 'up', distance = 28 }: { children: ReactNode; className?: string; delay?: number; direction?: 'up' | 'left' | 'right'; distance?: number }) {
   const reduced = useReducedMotion();
-  return <motion.div className={className} initial={reduced ? false : { opacity: 0, x: direction === 'left' ? -distance : direction === 'right' ? distance : 0, y: direction === 'up' ? distance : 0 }} whileInView={{ opacity: 1, x: 0, y: 0 }} viewport={{ once: true, amount: .08 }} transition={{ duration: .65, delay: reduced ? 0 : delay }}>{children}</motion.div>;
+  return <motion.div className={className} initial={reduced ? false : { opacity: 0, x: direction === 'left' ? -distance : direction === 'right' ? distance : 0, y: direction === 'up' ? distance : 0 }} whileInView={{ opacity: 1, x: 0, y: 0 }} viewport={{ once: true, amount: 0, margin: '0px 0px 80px 0px' }} transition={{ duration: reduced ? 0 : .5, delay: reduced ? 0 : Math.min(delay, .18), ease: [0.22, 1, 0.36, 1] }}>{children}</motion.div>;
 }
 export function Action({ to, children, secondary = false }: { to: string; children: ReactNode; secondary?: boolean }) {
   return <Link className={`s-action ${secondary ? 's-action-outline' : ''}`} to={to}>{children}<ArrowUpRight size={17} aria-hidden="true" /></Link>;
@@ -22,6 +23,29 @@ export function SectionHeading({ label, title, text }: { label: string; title: s
 export function PageHero({ label, title, text, image }: { label: string; title: string; text: string; image?: string }) {
   return <section className={`s-page-hero ${image ? 'has-image' : ''}`}>{image && <SiteImage src={image} alt="" fetchPriority="high" />}<div className="s-container"><nav className="s-breadcrumb" aria-label="Breadcrumb"><Link to="/">Home</Link><span>/</span><span>{label}</span></nav><Reveal><p className="s-eyebrow">{label}</p><h1>{title}</h1><p className="s-lead">{text}</p></Reveal></div></section>;
 }
+function ProductMegaMenu({ onNavigate }: { onNavigate: () => void }) {
+  const [category, setCategory] = useState<string>(homepageProductCategories[0].id);
+  const [brand, setBrand] = useState('');
+  const [previewId, setPreviewId] = useState('');
+  const current = catalogueCategories.find(item => item.id === category)!;
+  const items = unifiedCatalogue.filter(product => product.primaryCategory === category);
+  const brands = [...new Set(items.map(product => product.brand).filter((name): name is string => Boolean(name)))];
+  const activeBrand = brands.includes(brand) ? brand : brands[0];
+  const visible = items.filter(product => product.brand === activeBrand);
+  const picture = visible.find(product => product.id === previewId) || visible[0];
+  const categoryPath = approvedCollections.some(item => item.slug === category) ? `/products/categories/${category}` : `/products?category=${encodeURIComponent(category)}`;
+  return <div className="s-product-mega" aria-label="Explore products">
+    <div className="s-mega-categories" aria-label="Product categories">{catalogueCategories.map(item => <button type="button" key={item.id} className={category === item.id ? 'is-active' : ''} onMouseEnter={() => { setCategory(item.id); setBrand(''); }} onFocus={() => { setCategory(item.id); setBrand(''); }} onClick={() => { setCategory(item.id); setBrand(''); }}>{item.name}</button>)}<Link to="/products" onClick={onNavigate}>View all products <ArrowUpRight size={14} /></Link></div>
+    <div className="s-mega-content"><p className="s-mega-label">{current.name}</p><p className="s-mega-description">{homepageProductCategories.find(item => item.id === category)?.description || 'Explore products selected for connected spaces.'}</p><div className="s-mega-brands" role="group" aria-label="Filter by brand">{brands.map(name => <button type="button" key={name} className={activeBrand === name ? 'is-active' : ''} aria-pressed={activeBrand === name} onMouseEnter={() => setBrand(name)} onFocus={() => setBrand(name)} onClick={() => setBrand(name)}>{name}</button>)}</div><div className="s-mega-products">{visible.map(product => <Link key={product.id} to={product.detailPath!} onMouseEnter={() => setPreviewId(product.id)} onFocus={() => setPreviewId(product.id)} onClick={onNavigate}>{product.name}<ArrowUpRight size={14} aria-hidden="true" /></Link>)}</div><Link className="s-mega-view" to={categoryPath} onClick={onNavigate}>View all in {current.name} <ArrowUpRight size={14} /></Link></div>
+    <div className="s-mega-image">{picture?.image ? <><SiteImage src={picture.image} alt={picture.alt} width={500} height={420} />{picture.imageStatus === 'placeholder' && <span className="s-mega-image-note">Illustrative artwork</span>}</> : <span>Product image coming soon</span>}</div>
+  </div>;
+}
+function InfoMegaMenu({ kind, onNavigate }: { kind: 'Solutions' | 'What We Do'; onNavigate: () => void }) {
+  const entries = kind === 'Solutions'
+    ? solutions.map(item => ({ title:item.title, description:item.description, path:`/solutions/${item.id}` }))
+    : services.map(item => ({ title:item.name, description:item.description, path:`/${item.id}` }));
+  return <div className="s-info-mega"><p className="s-info-mega-label">{kind === 'Solutions' ? 'SOLUTIONS FOR INTELLIGENT LIVING' : 'OUR EXPERTISE'}</p><div className="s-info-mega-grid">{entries.map(item => <Link key={item.path} to={item.path} onClick={onNavigate}><strong>{item.title}</strong><span>{item.description}</span></Link>)}</div></div>;
+}
 export function Navbar() {
   const location = useLocation();
   const [open, setOpen] = useState(false);
@@ -31,20 +55,25 @@ export function Navbar() {
   const dropdownTimer = useRef<number | null>(null);
   useEffect(() => () => { if (dropdownTimer.current !== null) window.clearTimeout(dropdownTimer.current); }, []);
   useEffect(() => {
-    const update = () => {
+    let threshold = 35;
+    const update = () => setScrolled(window.scrollY > threshold);
+    const measure = () => {
       const hero = document.querySelector<HTMLElement>('.s-hero');
-      const threshold = location.pathname === '/' ? (hero?.offsetHeight ?? window.innerHeight) - 100 : 35;
-      setScrolled(window.scrollY > threshold);
+      threshold = location.pathname === '/' ? (hero?.offsetHeight ?? window.innerHeight) - 100 : 35;
+      update();
     };
-    update();
+    measure();
+    const observer = new ResizeObserver(measure);
+    const hero = document.querySelector<HTMLElement>('.s-hero');
+    if (hero) observer.observe(hero);
     window.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
-    return () => { window.removeEventListener('scroll', update); window.removeEventListener('resize', update); };
+    window.addEventListener('resize', measure);
+    return () => { observer.disconnect(); window.removeEventListener('scroll', update); window.removeEventListener('resize', measure); };
   }, [location.pathname]);
   useEffect(() => {
-    let frame = 0;
+    let timer = 0;
     const inspect = () => {
-      frame = 0;
+      timer = 0;
       const logo = document.querySelector<HTMLElement>('.s-header .s-logo');
       if (!logo) return;
       const box = logo.getBoundingClientRect();
@@ -62,18 +91,18 @@ export function Navbar() {
       }
       setLogoOnLight(true);
     };
-    const schedule = () => { if (!frame) frame = requestAnimationFrame(inspect); };
+    const schedule = () => { if (!timer) timer = window.setTimeout(inspect, 100); };
     const observer = new MutationObserver(schedule);
     observer.observe(document.getElementById('main-content') || document.body, { childList:true, subtree:true });
     schedule();
     window.addEventListener('scroll', schedule, { passive:true });
     window.addEventListener('resize', schedule);
-    return () => { cancelAnimationFrame(frame); observer.disconnect(); window.removeEventListener('scroll', schedule); window.removeEventListener('resize', schedule); };
+    return () => { window.clearTimeout(timer); observer.disconnect(); window.removeEventListener('scroll', schedule); window.removeEventListener('resize', schedule); };
   }, [location.pathname]);
   useEffect(() => { if (!open) return; const previous = document.body.style.overflow; document.body.style.overflow = 'hidden'; return () => { document.body.style.overflow = previous; }; }, [open]);
   const close = () => { setOpen(false); setDropdown(null); };
   const groups = { Products: [['All Products', '/products'], ...catalogueCategories.map(c=>[c.name, approvedCollections.some(a=>a.slug===c.id)?`/products/categories/${c.id}`:`/products?category=${c.id}`])], Solutions: solutions.map(s => [s.title, `/solutions/${s.id}`]), 'What We Do': [['Automation', '/home-automation'], ['Security', '/security-safety'], ['Audio Video', '/audio-video'], ['Networking', '/networking'], ['Lighting', '/lighting']] };
-  return <header className={`s-header ${logoOnLight && !open ? 's-header--light-logo' : ''} ${location.pathname === '/' ? 's-header--home' : ''} ${scrolled || open || location.pathname !== '/' ? 'is-solid' : ''}`} onKeyDown={e => { if (e.key === 'Escape') { close(); document.getElementById('s-menu-toggle')?.focus(); } }}><div className="s-nav-wrap"><Link to="/" className="s-logo" onClick={close} aria-label="Siddheshwar home"><SiteImage src="/logo.png" alt="Siddheshwar" width={1212} height={601} /></Link><button id="s-menu-toggle" className="s-menu-toggle" type="button" aria-expanded={open} aria-controls="s-main-nav" aria-label={open ? 'Close navigation' : 'Open navigation'} onClick={() => setOpen(!open)}><span className="s-menu-content"><span className="s-menu-word">{open ? 'Close' : 'Menu'}</span><span className="s-menu-lines" aria-hidden="true"><span /><span /></span></span></button><div className="s-header-cluster"><nav id="s-main-nav" aria-label="Main navigation" className={open ? 'is-open' : ''}><NavLink to="/" onClick={close}>Home</NavLink>{Object.entries(groups).map(([name, links]) => <div className="s-dropdown" key={name} onPointerEnter={event => { if (dropdownTimer.current !== null) window.clearTimeout(dropdownTimer.current); if (event.pointerType === 'mouse' && window.matchMedia('(min-width: 901px)').matches) setDropdown(name); }} onPointerLeave={event => { if (event.pointerType === 'mouse' && window.matchMedia('(min-width: 901px)').matches) { const element = event.currentTarget; dropdownTimer.current = window.setTimeout(() => { if (!element.contains(document.activeElement)) setDropdown(current => current === name ? null : current); }, 180); } }} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setDropdown(current => current === name ? null : current); }} onKeyDown={event => { if (event.key === 'Escape') { event.stopPropagation(); setDropdown(null); event.currentTarget.querySelector<HTMLAnchorElement>('.s-dropdown-label')?.focus(); } }}><div className="s-dropdown-trigger" style={{ display: 'flex', alignItems: 'center', flexWrap: 'nowrap' }}><NavLink className="s-dropdown-label" to={name === 'Products' ? '/products' : name === 'Solutions' ? '/solutions' : '/what-we-do'} onClick={close} onKeyDown={event => { if (event.key === 'ArrowDown') { event.preventDefault(); setDropdown(name); window.setTimeout(() => document.getElementById(`nav-${name.replaceAll(' ', '-')}`)?.querySelector<HTMLAnchorElement>('a')?.focus(), 0); } }}>{name}</NavLink><button className="s-dropdown-toggle" type="button" aria-label={`${dropdown === name ? 'Close' : 'Open'} ${name} menu`} aria-expanded={dropdown === name} aria-controls={`nav-${name.replaceAll(' ', '-')}`} onClick={() => setDropdown(dropdown === name ? null : name)}><ChevronDown size={13} aria-hidden="true" /></button></div>{dropdown === name && <div id={`nav-${name.replaceAll(' ', '-')}`} className="s-dropdown-menu">{links.map(([label, to]) => <Link key={to} to={to} onClick={close}>{label}</Link>)}</div>}</div>)}<NavLink to="/about" onClick={close}>About Us</NavLink><NavLink to="/support" onClick={close}>Support</NavLink></nav><div className={`s-header-actions ${open ? 'is-open' : ''}`}><Link className="s-nav-cta" to="/contact" onClick={close}>Get in Touch<ArrowUpRight size={15} /></Link><a className="s-nav-whatsapp" href={`https://wa.me/${company.phone.replace(/[^0-9]/g, '')}`} target="_blank" rel="noopener noreferrer" aria-label="Chat with Siddheshwar on WhatsApp" onClick={close}><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.5 0 .1 5.4.1 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6a12 12 0 0 0 5.8 1.5h.1c6.6 0 12-5.4 12-12 0-3.2-1.3-6.2-3.6-8.4ZM12.1 21.9c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a10 10 0 0 1-1.5-5.3C2.2 6.5 6.6 2 12.1 2a9.9 9.9 0 0 1 9.9 9.9c0 5.5-4.4 10-9.9 10Zm5.4-7.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.8-2.1-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1-1.1 2.4s1.1 2.8 1.3 3c.1.2 2.1 3.2 5.1 4.5.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z" /></svg></a></div></div></div></header>;
+  return <header className={`s-header ${logoOnLight && !open ? 's-header--light-logo' : ''} ${location.pathname === '/' ? 's-header--home' : ''} ${scrolled || open || location.pathname !== '/' ? 'is-solid' : ''}`} onKeyDown={e => { if (e.key === 'Escape') { close(); document.getElementById('s-menu-toggle')?.focus(); } }}><div className="s-nav-wrap"><Link to="/" className="s-logo" onClick={close} aria-label="Siddheshwar home"><SiteImage src="/logo.png" alt="Siddheshwar" width={1212} height={601} /></Link><button id="s-menu-toggle" className="s-menu-toggle" type="button" aria-expanded={open} aria-controls="s-main-nav" aria-label={open ? 'Close navigation' : 'Open navigation'} onClick={() => setOpen(!open)}><span className="s-menu-content"><span className="s-menu-word">{open ? 'Close' : 'Menu'}</span><span className="s-menu-lines" aria-hidden="true"><span /><span /></span></span></button><div className="s-header-cluster"><nav id="s-main-nav" aria-label="Main navigation" className={open ? 'is-open' : ''}><NavLink to="/" onClick={close}>Home</NavLink>{Object.entries(groups).map(([name, links]) => <div className="s-dropdown" key={name} onPointerEnter={event => { if (dropdownTimer.current !== null) window.clearTimeout(dropdownTimer.current); if (event.pointerType === 'mouse' && window.matchMedia('(min-width: 901px)').matches) setDropdown(name); }} onPointerLeave={event => { if (event.pointerType === 'mouse' && window.matchMedia('(min-width: 901px)').matches) { const element = event.currentTarget; dropdownTimer.current = window.setTimeout(() => { if (!element.contains(document.activeElement)) setDropdown(current => current === name ? null : current); }, 180); } }} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setDropdown(current => current === name ? null : current); }} onKeyDown={event => { if (event.key === 'Escape') { event.stopPropagation(); setDropdown(null); event.currentTarget.querySelector<HTMLAnchorElement>('.s-dropdown-label')?.focus(); } }}><div className="s-dropdown-trigger" style={{ display: 'flex', alignItems: 'center', flexWrap: 'nowrap' }}><NavLink className="s-dropdown-label" to={name === 'Products' ? '/products' : name === 'Solutions' ? '/solutions' : '/what-we-do'} onClick={close} onKeyDown={event => { if (event.key === 'ArrowDown') { event.preventDefault(); setDropdown(name); window.setTimeout(() => document.getElementById(`nav-${name.replaceAll(' ', '-')}`)?.querySelector<HTMLAnchorElement>('a')?.focus(), 0); } }}>{name}</NavLink><button className="s-dropdown-toggle" type="button" aria-label={`${dropdown === name ? 'Close' : 'Open'} ${name} menu`} aria-expanded={dropdown === name} aria-controls={`nav-${name.replaceAll(' ', '-')}`} onClick={() => setDropdown(dropdown === name ? null : name)}><ChevronDown size={13} aria-hidden="true" /></button></div>{dropdown === name && <div id={`nav-${name.replaceAll(' ', '-')}`} className={`s-dropdown-menu${name === 'Products' ? ' s-products-dropdown' : ' s-info-dropdown'}`}>{name === 'Products' ? <ProductMegaMenu onNavigate={close} /> : <InfoMegaMenu kind={name as 'Solutions' | 'What We Do'} onNavigate={close} />}<div className="s-mega-mobile-links">{links.map(([label, to]) => <Link key={to} to={to} onClick={close}>{label}</Link>)}</div></div>}</div>)}<NavLink to="/about" onClick={close}>About Us</NavLink><NavLink to="/support" onClick={close}>Support</NavLink></nav><div className={`s-header-actions ${open ? 'is-open' : ''}`}><Link className="s-nav-cta" to="/contact" onClick={close}>Get in Touch<ArrowUpRight size={15} /></Link><a className="s-nav-whatsapp" href={`https://wa.me/${company.phone.replace(/[^0-9]/g, '')}`} target="_blank" rel="noopener noreferrer" aria-label="Chat with Siddheshwar on WhatsApp" onClick={close}><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.5 0 .1 5.4.1 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6a12 12 0 0 0 5.8 1.5h.1c6.6 0 12-5.4 12-12 0-3.2-1.3-6.2-3.6-8.4ZM12.1 21.9c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a10 10 0 0 1-1.5-5.3C2.2 6.5 6.6 2 12.1 2a9.9 9.9 0 0 1 9.9 9.9c0 5.5-4.4 10-9.9 10Zm5.4-7.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.8-2.1-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1-1.1 2.4s1.1 2.8 1.3 3c.1.2 2.1 3.2 5.1 4.5.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z" /></svg></a></div></div></div></header>;
 }
 export function Footer() {
   const groups = [{ name: 'Explore', links: [['What We Do', '/what-we-do'], ['Brands We Integrate', '/brands'], ['About Us', '/about'], ['Contact Us', '/contact'], ['Support', '/support']] }, { name: 'Products', links: catalogueCategories.slice(0, 6).map(c=>[c.name, approvedCollections.some(a=>a.slug===c.id)?`/products/categories/${c.id}`:`/products?category=${c.id}`]) }, { name: 'Solutions', links: solutions.map(s => [s.title, `/solutions/${s.id}`]) }];
@@ -84,13 +113,10 @@ export function Footer() {
   </div></footer>;
 }
 const heroSlides = [
-  { title: 'Technology meets\nbeautiful design.', text: 'Discover the Akubela HyPanel KeyPlus for your connected space.', image: '/hero/akubela-hypanel-keyplus-wide.webp', category: 'Connected interiors', name: 'Akubela HyPanel KeyPlus', id: 'keyplus', width: 1672, height: 941 },
-  { title: 'Intelligence in\nevery touch.', text: 'Explore thoughtful smart-home control with the Akubela HyPanel Supreme.', image: '/hero/akubela-hypanel-supreme-wide.webp', category: 'Smart home control', name: 'Akubela HyPanel Supreme', id: 'supreme', width: 1671, height: 941 },
-  { title: 'A brighter way\nto live.', text: 'Meet the Aura Series Smart Switch, designed to complement considered interiors.', image: '/hero/akubela-aura-series-wide.webp', category: 'Intelligent lighting', name: 'Akubela Aura Series Smart Switch', id: 'aura', width: 1672, height: 941 },
-  { title: 'Comfort. Control.\nPeace of mind.', text: 'Explore smart access for your entrance with the Akubela SL60 Smart Lock.', image: '/hero/akubela-sl60-wide.webp', category: 'Security & comfort', name: 'Akubela SL60 Smart Lock', id: 'sl60', width: 1671, height: 941 },
-  { title: 'A smarter\nwelcome home.', text: 'Bring a considered touch to your doorway with the Akubela SL30 Smart Lock.', image: '/hero/akubela-sl30-wide.webp', category: 'Smart access', name: 'Akubela SL30 Smart Lock', id: 'sl30', width: 1536, height: 1024 },
+  { title: 'A smarter\nwelcome home.', text: 'Thoughtful access and connected living, designed around your everyday routine.', image: '/hero/hero1.png', name: 'Smart door lock in a contemporary home', id: 'hero-one', width: 1672, height: 941 },
+  { title: 'Your space.\nYour way.', text: 'Create a more comfortable home with thoughtful control at your fingertips.', image: '/hero/hero2.png', name: 'Smart home control in a living room', id: 'hero-two', width: 1610, height: 977 },
+  { title: 'Comfort in\nevery detail.', text: 'Bring lighting, climate and everyday controls together in your connected space.', image: '/hero/hero3.png', name: 'Smart controls in a contemporary living space', id: 'hero-three', width: 1670, height: 941 },
 ];
-const heroSrcSet = (slide: typeof heroSlides[number]) => `${slide.image.replace('-wide', '-640')} 640w, ${slide.image.replace('-wide', '-1024')} 1024w, ${slide.image} ${slide.width}w`;
 const heroFeatures = [
   { title: 'Smart Home', caption: 'Seamless Control', Icon: House },
   { title: 'Smart Lighting', caption: 'Set Every Mood', Icon: Lightbulb },
@@ -123,6 +149,12 @@ export function HeroCarousel() {
   const reduced = useReducedMotion();
   const startX = useRef<number | null>(null);
   const [opening, setOpening] = useState(true);
+  const [splash, setSplash] = useState(true);
+  useEffect(() => {
+    if (reduced) { setSplash(false); return; }
+    const timer = window.setTimeout(() => setSplash(false), 1400);
+    return () => window.clearTimeout(timer);
+  }, [reduced]);
   const playing = !paused && !hovered && !focused && !reduced;
   const move = (direction: number) => {
     setOpening(false);
@@ -142,12 +174,10 @@ export function HeroCarousel() {
   useEffect(() => {
     const next = heroSlides[(active + 1) % heroSlides.length];
     const image = new Image();
-    image.sizes = '(max-width: 900px) 100vw, max(100vw, 178vh)';
-    image.srcset = heroSrcSet(next);
     image.src = next.image;
   }, [active]);
   const slide = heroSlides[active];
-  return <><section className="s-hero s-hero--editorial s-hero--bottom-layout" data-product={slide.id} data-playing={playing} aria-label="Smart technology highlights" aria-roledescription="carousel" tabIndex={0}
+  return <><AnimatePresence>{splash && !reduced && <motion.div className="s-home-splash" aria-hidden="true" initial={{ opacity: 1 }} exit={{ opacity: 0, y: '-8%' }} transition={{ duration: .65, ease: 'easeInOut' }}><div className="s-logo"><img src="/logo.png" alt="" /></div></motion.div>}</AnimatePresence><section className="s-hero s-hero--editorial s-hero--bottom-layout" data-product={slide.id} data-playing={playing} aria-label="Smart technology highlights" aria-roledescription="carousel" tabIndex={0}
     onMouseOver={event => setHovered(Boolean((event.target as HTMLElement).closest('a, button')))} onMouseLeave={() => setHovered(false)}
     onFocusCapture={event => setFocused((event.target as HTMLElement).matches(':focus-visible'))} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocused(false); }}
     onTouchStart={event => { startX.current = event.touches[0].clientX; }}
@@ -156,7 +186,7 @@ export function HeroCarousel() {
     onKeyDown={event => { if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); event.currentTarget.focus({ preventScroll: true }); move(event.key === 'ArrowLeft' ? -1 : 1); } }}>
     <div className="s-hero-media">
       <AnimatePresence initial={false}>
-        <motion.img key={slide.image} className={`s-hero-image s-hero-image--${slide.id}`} src={slide.image} srcSet={heroSrcSet(slide)} sizes="(max-width: 900px) 100vw, max(100vw, 178vh)" alt={slide.name}
+        <motion.img key={slide.image} className={`s-hero-image s-hero-image--${slide.id}`} src={slide.image} alt={slide.name}
           width={slide.width} height={slide.height} fetchPriority={active === 0 ? 'high' : 'auto'} decoding="async"
           initial={reduced ? false : { opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
           transition={{ duration: reduced ? 0 : 1, ease: 'easeInOut' }} />
@@ -171,7 +201,7 @@ export function HeroCarousel() {
         <motion.div className="s-hero-cta-reveal" initial={reduced || opening ? false : { opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: reduced || opening ? 0 : .65, delay: reduced || opening ? 0 : .9 }}><Action to="/products">Explore Products</Action></motion.div>
       </motion.div>
     </motion.div>
-
+    <div className="s-hero-dots" role="group" aria-label="Choose a hero slide">{heroSlides.map((item, index) => <button key={item.id} type="button" aria-label={`Show slide ${index + 1} of ${heroSlides.length}`} aria-pressed={active === index} onClick={() => { setOpening(false); setPaused(true); setActive(index); }}><span /></button>)}</div>
   </section>
     <div className="s-hero-feature-band"><ul className="s-hero-features" aria-label="Smart home capabilities">
       {heroFeatures.map(({ title, caption, Icon }) => <li key={title}>

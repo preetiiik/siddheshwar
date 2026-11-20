@@ -4,15 +4,14 @@ import solutionDetails from './solution-details.json';
 import productCollections from './product-collection-details.json';
 import PageError from './PageError';
 import { lazy, Suspense, useEffect } from 'react';
-import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter, Link, Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom';
 import { MotionConfig } from 'motion/react';
 import { Footer, Navbar } from './components';
 import { routes } from './data';
 import './site.css';
 import { akubelaTitle } from './akubela/catalogue';
-const AkubelaHome = lazy(() => import('./akubela/AkubelaPages').then(m => ({ default: m.AkubelaHome })));
-const AkubelaCategories = lazy(() => import('./akubela/AkubelaPages').then(m => ({ default: m.AkubelaCategories })));
-const AkubelaListing = lazy(() => import('./akubela/AkubelaPages').then(m => ({ default: m.AkubelaListing })));
+const OneHomePage = lazy(() => import('./OneHomePage'));
+const EphesusPage = lazy(() => import('./EphesusPage'));
 const ProductDetailPage = lazy(() => import('./ProductDetailPage'));
 const Automation = lazy(() => import('./akubela/AkubelaPages').then(m => ({ default: m.Automation })));
 
@@ -47,6 +46,15 @@ function RouteEffects() {
   }, [pathname, hash]);
   return null;
 }
+function RetiredAkubelaProduct() {
+  const { productSlug } = useParams();
+  return <Navigate replace to={productSlug === 'akubela-aura-series-smart-switch' ? '/products/akubela-aura-series-smart-switch' : '/products?brand=Akubela'} />;
+}
+function PageLoading() {
+  const { pathname } = useLocation();
+  if (pathname === '/') return <div className="s-home-splash s-home-loading" role="status" aria-label="Loading home page"><div className="s-logo"><img src="/logo.png" alt="" /></div></div>;
+  return <div className="s-loading" role="status">Preparing your connected experience?</div>;
+}
 export default function App() {
-  return <BrowserRouter><MotionConfig reducedMotion="user"><RouteEffects /><a className="s-skip" href="#main-content">Skip to content</a><Navbar /><main id="main-content"><PageError><PageTransition><Suspense fallback={<div className="s-loading" role="status">Preparing your connected experience…</div>}><Routes><Route path="/" element={<Home />} /><Route path="/what-we-do" element={<WhatWeDo />} /><Route path="/brands" element={<Brands />} /><Route path="/products" element={<Products />} /><Route path="/products/categories/:categorySlug" element={<ProductCollectionDetail />} /><Route path="/products/automation" element={<Automation />} /><Route path="/products/automation/akubela" element={<AkubelaHome />} /><Route path="/products/automation/akubela/categories" element={<AkubelaCategories />} /><Route path="/products/automation/akubela/products" element={<AkubelaListing />} /><Route path="/products/automation/akubela/categories/:categorySlug" element={<AkubelaListing />} /><Route path="/products/automation/akubela/products/:productSlug" element={<ProductDetailPage />} /><Route path="/products/:productSlug" element={<ProductDetailPage />} /><Route path="/solutions" element={<Solutions />} /><Route path="/solutions/:slug" element={<SolutionDetail />} /><Route path="/home-automation" element={<AutomationService />} /><Route path="/security-safety" element={<SecurityService />} /><Route path="/audio-video" element={<AudioVideoService />} /><Route path="/networking" element={<NetworkingService />} /><Route path="/lighting" element={<LightingService />} /><Route path="/products/lighting" element={<Products lightingOnly />} /><Route path="/about" element={<About />} /><Route path="/contact" element={<Contact />} /><Route path="/support" element={<Support />} /><Route path="*" element={<section className="s-container s-not-found"><p className="s-eyebrow">404</p><h1>This space hasn’t been connected.</h1><Link className="s-action" to="/">Return Home</Link></section>} /></Routes></Suspense></PageTransition></PageError></main><Footer /></MotionConfig></BrowserRouter>;
+  return <BrowserRouter><MotionConfig reducedMotion="user"><RouteEffects /><a className="s-skip" href="#main-content">Skip to content</a><Navbar /><main id="main-content"><PageError><PageTransition><Suspense fallback={<PageLoading />}><Routes><Route path="/" element={<Home />} /><Route path="/what-we-do" element={<WhatWeDo />} /><Route path="/brands" element={<Brands />} /><Route path="/products" element={<Products />} /><Route path="/products/categories/:categorySlug" element={<ProductCollectionDetail />} /><Route path="/products/automation" element={<Automation />} /><Route path="/products/automation/akubela/products/:productSlug" element={<RetiredAkubelaProduct />} /><Route path="/products/automation/akubela/*" element={<Navigate to="/products?brand=Akubela" replace />} /><Route path="/products/1home-server-knx" element={<OneHomePage />} /><Route path="/products/1home-server-ch" element={<OneHomePage />} /><Route path="/products/ephesus-knx-room-controller-hvac" element={<EphesusPage />} /><Route path="/products/:productSlug" element={<ProductDetailPage />} /><Route path="/solutions" element={<Solutions />} /><Route path="/solutions/:slug" element={<SolutionDetail />} /><Route path="/home-automation" element={<AutomationService />} /><Route path="/security-safety" element={<SecurityService />} /><Route path="/audio-video" element={<AudioVideoService />} /><Route path="/networking" element={<NetworkingService />} /><Route path="/lighting" element={<LightingService />} /><Route path="/products/lighting" element={<Products lightingOnly />} /><Route path="/about" element={<About />} /><Route path="/contact" element={<Contact />} /><Route path="/support" element={<Support />} /><Route path="*" element={<section className="s-container s-not-found"><p className="s-eyebrow">404</p><h1>This space hasn’t been connected.</h1><Link className="s-action" to="/">Return Home</Link></section>} /></Routes></Suspense></PageTransition></PageError></main><Footer /></MotionConfig></BrowserRouter>;
 }

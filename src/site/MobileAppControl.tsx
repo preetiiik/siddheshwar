@@ -24,10 +24,10 @@ export default function MobileAppControl() {
   </Reveal>
   <Reveal className="mac-visual" direction="right" delay={.08}>
    <div className="mac-stage"><div className="mac-scene-images" aria-hidden="true">{features.map(f=><SiteImage key={f.id} className={active===f.id?'is-active':''} src={f.image} alt="" loading="lazy" width={1000} height={900} />)}</div>
-    <div className="mac-device"><svg viewBox="282 643 174 350" preserveAspectRatio="xMidYMid meet" role="img" aria-label="BelaHome App interface from the supplied manufacturer catalogue"><image href="/products/akubela/akubela-belahome-app.webp" width="733" height="1100" /></svg></div>
+    <div className="mac-device"><div className="mac-screen"><img src="/hero/belahome-official.png" alt="BelaHome smart home app interface" width={1242} height={2208} loading="lazy" decoding="async" /></div></div>
     <div id="mobile-feature-preview" className="mac-feature-preview" aria-live="polite" aria-atomic="true"><AnimatePresence mode="wait" initial={false}><motion.div key={active} initial={reduced?false:{opacity:0,y:6}} animate={{opacity:1,y:0}} exit={reduced?undefined:{opacity:0,y:-4}} transition={{duration:reduced?0:.22}}><span className="mac-preview-icon"><Icon size={23} strokeWidth={1.4} aria-hidden="true" /></span><p className="mac-preview-label">FEATURE PREVIEW</p><h3>{selected.title}</h3><p>{selected.text}</p></motion.div></AnimatePresence></div>
    </div>
-   <div className="mac-app-caption"><span><Smartphone size={15} aria-hidden="true" />BelaHome App · supplied catalogue preview</span><Link to="/products/automation/akubela/products/akubela-belahome-app">View app information<ArrowUpRight size={14} aria-hidden="true" /></Link></div>
+   <div className="mac-app-caption"><span><Smartphone size={15} aria-hidden="true" />BelaHome App · supplied catalogue preview</span><Link to="/products?brand=Akubela">Explore Akubela products<ArrowUpRight size={14} aria-hidden="true" /></Link></div>
    <p className="mac-preview-note">Illustrative feature preview. This website does not connect to or control devices.</p>
   </Reveal>
  </div></section>;

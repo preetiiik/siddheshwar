@@ -1,50 +1,23 @@
 import { approvedProducts } from './approved-products';
-import { akubelaProducts } from '../akubela-data';
 import { catalogueCategories } from './product-categories';
-import { akubelaBase } from './akubela/catalogue';
 import type { Product } from '../product-data';
 
-// Exact manufacturer collection mappings, overridden below by primary function.
-const categoryMap:Record<string,string> = {
- 'Smart Control Panels':'smart-touch-panels',
- 'Smart Switches & Scene Panels':'smart-keypad-switches',
- 'Smart Door Locks':'smart-door-locks',
- 'Smart Sensors & Detectors':'smart-sensors-detectors',
- 'Gateways & Network Controllers':'actuators-gateways',
- 'Automation & Dimmer Modules':'actuators-gateways',
- 'Climate & Temperature Control':'climate-temperature-control',
- 'Smart Lighting':'smart-lighting-dimmers',
- 'Smart Plugs, Sockets & Motorized Accessories':'smart-plugs-accessories',
- 'Smart Home Software & Cloud':'smart-home-software-cloud',
+// Retain every product from the original selected catalogue, including Aura.
+const retained = approvedProducts.map(p => p.id === 'approved-akubela-aura-series-smart-switch'
+ ? {...p, aliases:[...p.aliases, 'akubela-aura-series-smart-switch']} : p);
+const mergedDuplicates = [{ retainedId:'approved-akubela-aura-series-smart-switch', mergedId:'akubela-aura-series-smart-switch', name:'Aura Series Smart Switch', reason:'The original selected product is retained; the imported duplicate is removed.' }];
+const ephesus:Product = {
+ id:'ephesus-knx-room-controller-hvac', slug:'ephesus-knx-room-controller-hvac', name:'EPHESUS KNX Room Controller & HVAC', title:'EPHESUS KNX Room Controller & HVAC', category:'automation', brand:'Ephesus', primaryCategory:'knx-room-controllers', collection:'KNX Room Controllers',
+ shortDescription:'A KNX-based room controller with integrated temperature, humidity and ambient light sensors, HVAC control and customisable button configurations.',
+ fullDescription:'A KNX-based room controller bringing integrated sensors, HVAC control and customisable buttons together for connected spaces.', image:'', alt:'', features:['LCD Touch Screen','Temperature & Humidity Sensors','Ambient Light Sensor','3 LED Colour Options','Handcrafted Production'], applications:[], relatedProductIds:[], aliases:[], products:[], verificationStatus:'user-supplied', productKind:'hardware', detailPath:'/products/ephesus-knx-room-controller-hvac',
 };
-export function akubelaPrimaryCategory(p:Product):string {
- if(/curtain|shades motor/i.test(p.name))return 'curtain-controllers';
- if(/temperature control panel/i.test(p.name))return 'climate-temperature-control';
- if(/dimmer|zigbee.*led (controller|driver)/i.test(p.name))return 'smart-lighting-dimmers';
- const mapped=categoryMap[p.collection || ''];
- if(!mapped)throw new Error(`Unmapped Akubela collection: ${p.collection}`);
- return mapped;
-}
-const imported:Product[]=akubelaProducts.map(p=>({...p,
- primaryCategory:akubelaPrimaryCategory(p),subcategory:p.collection,
- sourceCatalogue:'akubela Smart Home Catalogue260701.pdf',verificationStatus:'catalogue-listed',imageStatus:'actual',
- productKind:p.collection==='Smart Home Software & Cloud'?'software':'hardware',
- detailPath:`${akubelaBase}/products/${p.slug}`,
-}));
-const normalized=(value:string)=>value.normalize('NFKC').toLowerCase().replace(/[^a-z0-9]/g,'');
-export const mergedDuplicates:{retainedId:string;mergedId:string;name:string;reason:string}[]=[];
-const retained:Product[]=[];
-for(const existing of approvedProducts){
- const match=imported.find(p=>p.brand===existing.brand && normalized(p.name)===normalized(existing.name));
- if(match){
-  // Aura is an exact brand/name match with the same source image; retain the manufacturer route.
-  match.aliases=[...new Set([...match.aliases,existing.id,existing.slug])];
-  mergedDuplicates.push({retainedId:match.id,mergedId:existing.id,name:existing.name,reason:'Exact brand and verified product-name match; identical product image.'});
- }else retained.push(existing);
-}
-export const unifiedCatalogue:Product[]=[...retained,...imported].map(p=>({...p,detailPath:p.detailPath || `/products/${p.slug.replace(/^approved-/, '')}`}));
+const oneHome:Product[] = [
+ { id:'1home-server-knx', slug:'1home-server-knx', name:'1Home Server KNX', title:'1Home Server KNX', category:'automation', brand:'1Home', primaryCategory:'smart-home-servers-gateways', collection:'Smart Home Servers & Gateways', shortDescription:'A smart-home integration server connecting KNX with modern smart-home platforms, mobile applications and voice assistants.', fullDescription:'A smart-home integration server connecting KNX with modern smart-home platforms, mobile applications and voice assistants.', image:'', alt:'', features:[], applications:[], relatedProductIds:[], aliases:[], products:[], verificationStatus:'user-supplied', productKind:'hardware', detailPath:'/products/1home-server-knx' },
+ { id:'1home-server-ch', slug:'1home-server-ch', name:'1Home Server CH', title:'1Home Server CH', category:'automation', brand:'1Home', primaryCategory:'smart-home-servers-gateways', collection:'Smart Home Servers & Gateways', shortDescription:'An integration solution that synchronises KNX configurations with Crestron Home for seamless smart-home control.', fullDescription:'An integration solution that synchronises KNX configurations with Crestron Home for seamless smart-home control.', image:'', alt:'', features:[], applications:[], relatedProductIds:[], aliases:[], products:[], verificationStatus:'user-supplied', productKind:'hardware', detailPath:'/products/1home-server-ch' },
+];
+export const unifiedCatalogue:Product[]=[...retained,ephesus,...oneHome].map(p=>({...p,detailPath:p.detailPath || `/products/${p.slug.replace(/^approved-/, '')}`}));
 export const catalogueAudit={
- importedAkubela:imported.length,total:unifiedCatalogue.length,
+ importedAkubela:0,total:unifiedCatalogue.length,
  byCategory:catalogueCategories.map(c=>({id:c.id,name:c.name,count:unifiedCatalogue.filter(p=>p.primaryCategory===c.id).length})),
  byBrand:[...new Set(unifiedCatalogue.map(p=>p.brand!))].sort().map(brand=>({brand,count:unifiedCatalogue.filter(p=>p.brand===brand).length})),
  mergedDuplicates,

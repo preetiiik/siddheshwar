@@ -1,0 +1,1597 @@
+{
+  "approved-akubela-aura-series-smart-switch": {
+    "sourceName": "AKUBELA AURA SERIES SMART SWITCH",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Intelligent Switching",
+        "description": "Convenient control of connected lighting and compatible circuits.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modern Wall Interface",
+        "description": "A refined switch design for contemporary interiors.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Controls",
+        "description": "Button functions can be tailored to supported system configurations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Smart Home Integration",
+        "description": "Designed to work within a compatible automation system.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Everyday Convenience",
+        "description": "Simplifies access to frequently used room controls.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL"
+    ],
+    "verifiedFeatures": [
+      {
+        "title": "KNX Integration",
+        "description": "Connect the Aura Series directly to compatible KNX smart-home systems.",
+        "verificationStatus": "verified",
+        "source": "https://www.akubela.com/products/aura-smart-switch"
+      },
+      {
+        "title": "Modular Design",
+        "description": "Combine switch, socket and temperature-control modules in a coordinated layout.",
+        "verificationStatus": "verified",
+        "source": "https://www.akubela.com/products/aura-smart-switch"
+      },
+      {
+        "title": "Customisable Faceplate",
+        "description": "Select a faceplate arrangement suited to the space and its functions.",
+        "verificationStatus": "verified",
+        "source": "https://www.akubela.com/products/aura-smart-switch"
+      },
+      {
+        "title": "HyPanel Integration",
+        "description": "A compatible HyPanel can connect the Aura Series with supported non-KNX platforms.",
+        "verificationStatus": "verified",
+        "source": "https://www.akubela.com/products/aura-smart-switch"
+      },
+      {
+        "title": "Screw-free Design",
+        "description": "The series uses a screw-free design and a slim backbox for installation.",
+        "verificationStatus": "verified",
+        "source": "https://www.akubela.com/products/aura-smart-switch"
+      }
+    ]
+  },
+  "approved-basalte-chopin": {
+    "sourceName": "BASALTE CHOPIN",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Mechanical Lever Control",
+        "description": "Operate functions using distinctive up-and-down levers.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Tactile Interaction",
+        "description": "Physical feedback provides an intuitive control experience.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Elegant Architectural Design",
+        "description": "A sophisticated alternative to traditional wall switches.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multi-Function Control",
+        "description": "Operate configured home functions through its lever interface.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Premium Material Finishes",
+        "description": "Designed to complement high-end interiors.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [],
+    "verifiedFeatures": [
+      {
+        "title": "Mechanical Lever Control",
+        "description": "Operate functions using distinctive up-and-down levers.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/chopin"
+      },
+      {
+        "title": "Elegant Architectural Design",
+        "description": "A sophisticated alternative to traditional wall switches.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/chopin"
+      },
+      {
+        "title": "Multi-Function Control",
+        "description": "Operate configured home functions through its lever interface.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/chopin"
+      },
+      {
+        "title": "Premium Material Finishes",
+        "description": "Designed to complement high-end interiors.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/chopin"
+      }
+    ]
+  },
+  "approved-basalte-deseo": {
+    "sourceName": "BASALTE DESEO",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Touch-Sensitive Interface",
+        "description": "Control functions through a minimalist touch surface.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Room Climate Control",
+        "description": "Adjust temperature settings with an integrated thermostat.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multi-Function Operation",
+        "description": "Access other configured room functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Minimalist Display",
+        "description": "Combines visual information with a discreet wall interface.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Integrated Home Control",
+        "description": "Works within compatible smart-home configurations.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [],
+    "verifiedFeatures": [
+      {
+        "title": "Touch-Sensitive Interface",
+        "description": "Control functions through a minimalist touch surface.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/deseo"
+      },
+      {
+        "title": "Room Climate Control",
+        "description": "Adjust temperature settings with an integrated thermostat.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/deseo"
+      },
+      {
+        "title": "Multi-Function Operation",
+        "description": "Access other configured room functions.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/deseo"
+      },
+      {
+        "title": "Minimalist Display",
+        "description": "Combines visual information with a discreet wall interface.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/deseo"
+      },
+      {
+        "title": "Integrated Home Control",
+        "description": "Works within compatible smart-home configurations.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/deseo"
+      }
+    ]
+  },
+  "approved-basalte-fibonacci": {
+    "sourceName": "BASALTE FIBONACCI",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Golden-Ratio-Inspired Design",
+        "description": "A distinctive keypad design inspired by Fibonacci proportions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Touch-Based Controls",
+        "description": "Operate configured home functions through touch interaction.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Illuminated Labels",
+        "description": "Labels can illuminate when someone approaches.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Customisable Identification",
+        "description": "Interchangeable labels help identify assigned controls.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Architectural Finish Options",
+        "description": "Available in finishes suited to premium interiors.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [],
+    "verifiedFeatures": [
+      {
+        "title": "Golden-Ratio-Inspired Design",
+        "description": "A distinctive keypad design inspired by Fibonacci proportions.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/fibonacci"
+      },
+      {
+        "title": "Touch-Based Controls",
+        "description": "Operate configured home functions through touch interaction.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/fibonacci"
+      },
+      {
+        "title": "Architectural Finish Options",
+        "description": "Available in finishes suited to premium interiors.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/fibonacci"
+      }
+    ]
+  },
+  "approved-basalte-sentido": {
+    "sourceName": "BASALTE SENTIDO",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Touch-Sensitive Switching",
+        "description": "Operate lighting with a gentle touch.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Lighting Control",
+        "description": "Control compatible lighting circuits and configured scenes.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Shading Control",
+        "description": "Operate compatible blinds or curtains.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Music Integration",
+        "description": "Access compatible music-system controls.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Minimalist Design",
+        "description": "A clean wall-mounted interface for elegant interiors.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [],
+    "verifiedFeatures": [
+      {
+        "title": "Touch-Sensitive Switching",
+        "description": "Operate lighting with a gentle touch.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/sentido"
+      },
+      {
+        "title": "Lighting Control",
+        "description": "Control compatible lighting circuits and configured scenes.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/sentido"
+      },
+      {
+        "title": "Music Integration",
+        "description": "Access compatible music-system controls.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/sentido"
+      },
+      {
+        "title": "Minimalist Design",
+        "description": "A clean wall-mounted interface for elegant interiors.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/sentido"
+      }
+    ]
+  },
+  "approved-mdt-pushbutton-light-55": {
+    "sourceName": "MDT PUSHBUTTON LIGHT 55",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "KNX Switching",
+        "description": "Designed for use with KNX building-control systems.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Pushbutton Functions",
+        "description": "Assign supported switching and control operations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Lighting Operation",
+        "description": "Control configured lighting circuits.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Wall-Mounted Design",
+        "description": "Intended for integration into suitable switch installations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "55 mm Design Compatibility",
+        "description": "Designed around compatible 55 mm switch-frame systems.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-mdt-glass-pushbutton-ii": {
+    "sourceName": "MDT GLASS PUSHBUTTON II SMART",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Colour Display",
+        "description": "Provides visual feedback through its integrated display.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multifunction Controls",
+        "description": "Supports configurable KNX switching functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Status Indication",
+        "description": "Displays operating information and control states.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Integrated Temperature Sensor",
+        "description": "Available in documented product variants.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Adjustable Display Brightness",
+        "description": "Adapts display illumination for comfortable viewing.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Glass Design",
+        "description": "Premium glass-front construction.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "KNX Integration",
+        "description": "Designed for KNX automation environments.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": []
+  },
+  "approved-moorgen-2-fold-metal-pushbutton-cover": {
+    "sourceName": "MOORGEN 2-FOLD METAL PUSHBUTTON COVER",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Two-Fold Control Layout",
+        "description": "Provides a two-position pushbutton arrangement.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Metal Construction",
+        "description": "Designed with a premium metal exterior.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Tactile Button Surface",
+        "description": "Physical interface for compatible controls.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Architectural Appearance",
+        "description": "A refined visual finish for modern interiors.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modular Compatibility",
+        "description": "Intended for use with a corresponding compatible control mechanism.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW CONTROL MECHANISM",
+      "This may be a cover rather than a complete switch. Do not advertise standalone automation capabilities unless the associated mechanism is confirmed."
+    ]
+  },
+  "approved-moorgen-smart-thermostat": {
+    "sourceName": "MOORGEN SMART THERMOSTAT",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Temperature Adjustment",
+        "description": "Provides an interface for indoor temperature settings.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Room Comfort Management",
+        "description": "Designed for use with compatible climate equipment.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Wall-Mounted Control",
+        "description": "Convenient access to climate settings.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modern Interface Design",
+        "description": "A refined appearance for premium interiors.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "System Integration",
+        "description": "Intended for use within a compatible control installation.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL"
+    ]
+  },
+  "approved-schneider-electric-unica-knx-pushbutton": {
+    "sourceName": "SCHNEIDER ELECTRIC UNICA KNX PUSHBUTTON 6 KEY SILVER",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Six-Key Control Interface",
+        "description": "Multiple physical control points.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "KNX Communication",
+        "description": "Designed for KNX building automation.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Button Functions",
+        "description": "Assign compatible control operations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Lighting and Scene Operation",
+        "description": "Supports configured lighting functions where applicable.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Silver Finish",
+        "description": "Coordinates with contemporary interior fittings.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-schneider-electric-unica-knx-thermostat-8-key-metallic-silver": {
+    "sourceName": "SCHNEIDER ELECTRIC UNICA KNX THERMOSTAT 8 KEY METALLIC SILVER",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Eight-Key Interface",
+        "description": "Multiple physical control buttons.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Thermostat Function",
+        "description": "Room-temperature control.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "KNX Integration",
+        "description": "Communication with compatible building automation.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multi-Function Room Control",
+        "description": "Combines temperature adjustment with configured operations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Metallic Silver Appearance",
+        "description": "Designed for coordinated wall installations.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-theben-ionprime-pbknx": {
+    "sourceName": "THEBEN IONPRIME PB KNX",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "KNX Pushbutton Sensor",
+        "description": "Designed for KNX TP installations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Flexible Button Configurations",
+        "description": "Supports two-, four- and eight-button configurations within the product family.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Interchangeable Rockers",
+        "description": "One base unit supports different rocker arrangements.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "RGB Status Indicators",
+        "description": "Visual feedback through configurable LED indicators.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Premium Material Options",
+        "description": "Multiple colours and materials.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Control Functions",
+        "description": "Designed for KNX room automation.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [],
+    "verifiedFeatures": [
+      {
+        "title": "Configurable buttons and RGB indicators",
+        "description": "Up to 8 configurable buttons with RGB LEDs",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 14
+      },
+      {
+        "title": "Lighting, blinds and scenes",
+        "description": "Lighting, dimming, blinds and scene control",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 14
+      },
+      {
+        "title": "Integrated sensing",
+        "description": "Integrated temperature, humidity, brightness, CO? and proximity sensors",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 14
+      },
+      {
+        "title": "Interchangeable rocker finishes",
+        "description": "Seven rocker finishes in 1R, 2R and 4R configurations",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 14
+      },
+      {
+        "title": "Separate rocker selection",
+        "description": "Rocker covers selected separately",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 14
+      }
+    ]
+  },
+  "approved-moorgen-m18-series-smart-remote-control": {
+    "sourceName": "MOORGEN M18 SERIES",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Rotary Control Interface",
+        "description": "A rotating control mechanism for compatible adjustments.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Tactile Operation",
+        "description": "Physical adjustment through an intuitive knob-style interface.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Minimalist Design",
+        "description": "Compact construction for modern interiors.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Functions",
+        "description": "Intended for assigning supported smart-control operations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Convenient Everyday Control",
+        "description": "Designed to make frequently used adjustments accessible.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT",
+      "Verify whether the selected model is wall-mounted or handheld before describing it as a remote control."
+    ]
+  },
+  "approved-moorgen-m50-series-8-key-smart-remote-control": {
+    "sourceName": "MOORGEN M50 SERIES",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Eight-Key Layout",
+        "description": "Multiple dedicated control buttons.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multi-Function Operation",
+        "description": "Intended for compatible smart-home functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Ergonomic Design",
+        "description": "Handheld layout for convenient use.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Premium Construction",
+        "description": "Refined material and finish options.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Control Assignments",
+        "description": "Buttons can be associated with supported functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Convenient Room Operation",
+        "description": "Access compatible control functions from one device.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-moorgen-m56-series-4-key-rotary-smart-remote-control": {
+    "sourceName": "MOORGEN M56 SERIES",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Four-Key Control Layout",
+        "description": "Four control positions for assigned operations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Rotary Adjustment",
+        "description": "A rotating interface for compatible control functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Compact Design",
+        "description": "A streamlined control-device form factor.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multi-Function Configuration",
+        "description": "Intended for multiple smart-home commands.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Premium Appearance",
+        "description": "Designed to complement modern interior products.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-moorgen-m78-series-crystal-rotary-smart-remote-control": {
+    "sourceName": "MOORGEN M78 SERIES",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Crystal-Style Appearance",
+        "description": "Distinctive premium design treatment.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Rotary Control",
+        "description": "Physical adjustment through a rotating mechanism.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Elegant Construction",
+        "description": "Designed as a visually refined control accessory.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Smart Home Operation",
+        "description": "Intended to control assigned compatible functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Convenient Interaction",
+        "description": "Simplifies access to supported room-control settings.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-somfy-glydea-ultra-35e-rts-mic": {
+    "sourceName": "SOMFY GLYDEA ULTRA 35e RTS MIC",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Motorised Curtain Operation",
+        "description": "Electrically opens and closes curtains.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "RTS Wireless Control",
+        "description": "Uses Somfy RTS radio-control technology in the RTS version.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Quiet Curtain Movement",
+        "description": "Designed for low-noise operation.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Motorised Track Integration",
+        "description": "Works as part of a compatible curtain-track assembly.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Convenient Opening and Closing",
+        "description": "Reduces manual curtain operation.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Home Automation Applications",
+        "description": "Suitable for supported residential automation configurations.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL SUFFIX"
+    ]
+  },
+  "approved-somfy-designo-35-wt": {
+    "sourceName": "SOMFY DESIGNO 35 WT",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Motorised Curtain Control",
+        "description": "Automated opening and closing.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Wired Control Technology",
+        "description": "Intended for compatible wired switching configurations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Curtain Track Compatibility",
+        "description": "Integrates into an appropriate motorised curtain system.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Reduced Manual Operation",
+        "description": "Convenient daily curtain movement.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Residential Applications",
+        "description": "Suitable for appropriate home curtain installations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Professional Integration",
+        "description": "Can form part of a designed motorised-curtain setup.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-mdt-jal-shutter-actuator": {
+    "sourceName": "MDT JAL SHUTTER ACTUATOR",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "KNX Shutter Control",
+        "description": "Controls compatible motorised shutters or blinds.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Motor Operation",
+        "description": "Provides electrical switching for suitable shading motors.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Channels",
+        "description": "Channel options depend on the selected model.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Position Control",
+        "description": "Supports configured shading-position functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Automated Shading",
+        "description": "Enables operation through compatible KNX controls.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Building Integration",
+        "description": "Intended for KNX residential and commercial systems.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW MODEL NUMBER"
+    ]
+  },
+  "approved-mdt-akd-320v-dimming-actuator": {
+    "sourceName": "MDT AKD 320V DIMMING ACTUATOR",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Lighting Dimming",
+        "description": "Designed to adjust compatible lighting output.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "KNX Integration",
+        "description": "Communicates with compatible KNX systems.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Scene-Based Adjustment",
+        "description": "Supports configured lighting scenes where applicable.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multi-Circuit Control",
+        "description": "Channel configuration depends on the exact model.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Centralised Lighting Management",
+        "description": "Integrates dimming into a building-control system.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW MODEL CODE",
+      "Do not interpret \"320V\" as a confirmed voltage rating."
+    ]
+  },
+  "approved-mdt-dali-control-pro-64-gateway": {
+    "sourceName": "MDT DALI CONTROL PRO64 GATEWAY",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "KNX–DALI Integration",
+        "description": "Connects KNX automation with DALI lighting systems.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Digital Lighting Control",
+        "description": "Supports communication with compatible DALI control gear.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Individual and Group Control",
+        "description": "Enables organised lighting control configurations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Lighting Scene Management",
+        "description": "Supports configured lighting scenarios.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Centralised System Integration",
+        "description": "Brings DALI lighting into a KNX environment.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Professional Configuration",
+        "description": "Designed for system-integrator commissioning.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-akubela-compact-rotary-control-panel": {
+    "sourceName": "AKUBELA COMPACT ROTARY CONTROL PANEL",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Rotary Control",
+        "description": "Physical turning interface for compatible adjustments.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Compact Form Factor",
+        "description": "Space-efficient control design.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Intuitive Interaction",
+        "description": "Quick access to commonly used functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Smart Home Integration",
+        "description": "Intended for compatible connected-home controls.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modern Appearance",
+        "description": "Refined design for contemporary interiors.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL"
+    ]
+  },
+  "approved-akubela-desktop-smart-control-panel": {
+    "sourceName": "AKUBELA DESKTOP SMART CONTROL PANEL",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Desktop Placement",
+        "description": "Convenient control-device positioning on furniture or a desk.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Centralised Interface",
+        "description": "Intended for managing supported connected devices.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Accessible Controls",
+        "description": "Provides an alternative to wall-mounted control panels.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Smart Scene Access",
+        "description": "Potential access to configured smart-home scenes.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modern Control Experience",
+        "description": "An interface designed for everyday interaction.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL"
+    ]
+  },
+  "approved-akubela-premium-central-control-panel": {
+    "sourceName": "AKUBELA PREMIUM CENTRAL CONTROL PANEL",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Centralised Smart Control",
+        "description": "Brings supported home functions into one interface.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Touch-Based Operation",
+        "description": "Interactive controls for configured devices.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Room Function Management",
+        "description": "Intended to support compatible room-control functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Smart Scene Integration",
+        "description": "Potential operation of configured automation scenes.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Architectural Integration",
+        "description": "Designed for use in a connected-home environment.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL"
+    ]
+  },
+  "approved-akubela-premium-rotary-control-panel": {
+    "sourceName": "AKUBELA PREMIUM ROTARY CONTROL PANEL",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Rotary Adjustment",
+        "description": "Physical control for compatible settings.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Integrated Control Interface",
+        "description": "Combines control functions in one device.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Intuitive Operation",
+        "description": "Direct access to assigned adjustments.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Smart Home Connectivity",
+        "description": "Intended for compatible automation configurations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Premium Design",
+        "description": "Contemporary appearance for sophisticated interiors.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL"
+    ]
+  },
+  "approved-akubela-touchscreen-keypad-panel": {
+    "sourceName": "AKUBELA TOUCHSCREEN KEYPAD PANEL",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Touchscreen Interface",
+        "description": "Operate functions through an interactive display.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Keypad-Style Controls",
+        "description": "Access configured functions through on-screen controls.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Room Automation Access",
+        "description": "Intended for compatible connected-home equipment.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Customisable Function Layout",
+        "description": "Potential assignment of supported controls.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modern Wall Interface",
+        "description": "An integrated control experience for interior spaces.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL"
+    ]
+  },
+  "approved-basalte-ellie": {
+    "sourceName": "BASALTE ELLIE",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Touch Display",
+        "description": "Interactive control interface for Basalte Home.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Integrated Home Control",
+        "description": "Access to supported smart-home functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Intuitive Navigation",
+        "description": "Designed for convenient operation.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Elegant Appearance",
+        "description": "Premium architectural touchscreen design.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Basalte Home Integration",
+        "description": "Created specifically for the Basalte Home ecosystem.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": []
+  },
+  "approved-basalte-lisa": {
+    "sourceName": "BASALTE LISA",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Compact Touch Display",
+        "description": "Touchscreen functionality in a keypad-sized form factor.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Basalte Home Control",
+        "description": "Designed for compatible Basalte Home functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Minimalist Design",
+        "description": "Refined wall-mounted control interface.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Intuitive Touch Operation",
+        "description": "Navigate supported home controls through the display.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Space-Efficient Installation",
+        "description": "Compact form suited to architectural interiors.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [],
+    "verifiedFeatures": [
+      {
+        "title": "Compact Touch Display",
+        "description": "Touchscreen functionality in a keypad-sized form factor.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/lisa"
+      },
+      {
+        "title": "Basalte Home Control",
+        "description": "Designed for compatible Basalte Home functions.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/lisa"
+      },
+      {
+        "title": "Minimalist Design",
+        "description": "Refined wall-mounted control interface.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/lisa"
+      },
+      {
+        "title": "Intuitive Touch Operation",
+        "description": "Navigate supported home controls through the display.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/lisa"
+      },
+      {
+        "title": "Space-Efficient Installation",
+        "description": "Compact form suited to architectural interiors.",
+        "verificationStatus": "verified",
+        "source": "https://www.basalte.be/en/product/lisa"
+      }
+    ]
+  },
+  "approved-mdt-aurelio": {
+    "sourceName": "MDT AURELIO",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Touchscreen Operation",
+        "description": "Interactive control of compatible KNX functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Glass Interface",
+        "description": "Contemporary glass-front design.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Controls",
+        "description": "Settings and functions can be tailored during system configuration.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Room Automation Integration",
+        "description": "Designed for KNX-based room-control applications.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Visual User Interface",
+        "description": "On-screen controls for supported functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modern Architectural Styling",
+        "description": "Designed for premium wall installations.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-mdt-glass-pushbutton-plus": {
+    "sourceName": "MDT GLASS PUSHBUTTON PLUS",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Glass Control Surface",
+        "description": "Refined glass-front pushbutton design.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "KNX Communication",
+        "description": "Intended for KNX automation systems.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable Pushbuttons",
+        "description": "Assign compatible switching functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Lighting Control",
+        "description": "Operate configured lighting circuits.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Wall-Mounted Interface",
+        "description": "Suitable for compatible room-control installations.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-mdt-glass-room-temperature-controller": {
+    "sourceName": "MDT GLASS ROOM TEMPERATURE CONTROLLER",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Room Temperature Control",
+        "description": "Provides temperature-setting functionality.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "KNX Integration",
+        "description": "Works within compatible KNX systems.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Glass Front Design",
+        "description": "Contemporary wall-control appearance.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Heating and Cooling Applications",
+        "description": "Intended for compatible temperature-control configurations.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Room Comfort Management",
+        "description": "Central access to temperature-related settings.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT VARIANT"
+    ]
+  },
+  "approved-moorgen-knx-smart-touch-s10": {
+    "sourceName": "MOORGEN KNX SMART TOUCH S10",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Touch Control Interface",
+        "description": "Interactive operation through a touchscreen.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "KNX-Based Control",
+        "description": "Intended for integration into compatible KNX systems.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multi-Function Access",
+        "description": "Configured control of supported room functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Wall-Mounted Design",
+        "description": "Convenient access from a fixed location.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modern User Interface",
+        "description": "Contemporary control-panel appearance.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MANUFACTURER AND MODEL"
+    ]
+  },
+  "approved-theben-ionprime-cph-knx": {
+    "sourceName": "THEBEN IONPRIME CP4 KNX",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "KNX Room Control",
+        "description": "Designed for KNX building-automation systems.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Compact Control Panel",
+        "description": "Provides a dedicated room-control interface.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multifunction Operation",
+        "description": "Supports configurable KNX functions.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Premium Product Design",
+        "description": "Coordinates with the iONprime product family.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Wall Integration",
+        "description": "Intended for permanent room-control installation.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Configurable User Functions",
+        "description": "Control assignments can be adapted to the installation.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [],
+    "verifiedFeatures": [
+      {
+        "title": "Multifunction room control",
+        "description": "Up to 48 functions across 6 pages",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 10
+      },
+      {
+        "title": "Touchscreen interface",
+        "description": "4-inch touchscreen, 480 ? 480 pixels",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 10
+      },
+      {
+        "title": "Integrated sensing",
+        "description": "Temperature, humidity, brightness and proximity sensors",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 10
+      },
+      {
+        "title": "Configurable interface",
+        "description": "Individually configurable interface",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 10
+      },
+      {
+        "title": "Glass and aluminium construction",
+        "description": "Glass front with aluminum frame",
+        "verificationStatus": "verified",
+        "source": "iONprime_Market Launch PPT_11-2025.pdf",
+        "page": 10
+      }
+    ]
+  },
+  "approved-onetouch-ip-video-door-phone": {
+    "sourceName": "ONETOUCH IP VIDEO DOOR PHONE",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "IP-Based Communication",
+        "description": "Supports visitor communication over a compatible IP network.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Video Visitor Identification",
+        "description": "Provides a visual view of visitors through a connected video interface.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Two-Way Communication",
+        "description": "Enables conversation between occupants and visitors.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Entrance Monitoring",
+        "description": "Supports viewing the connected entrance camera.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Indoor and Outdoor Integration",
+        "description": "Intended for use with compatible door-station and indoor-monitor equipment.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Convenient Visitor Management",
+        "description": "Provides a central point for responding to visitors.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT MODEL"
+    ]
+  },
+  "approved-onetouch-video-door-phone-kit": {
+    "sourceName": "ONETOUCH VIDEO DOOR PHONE KIT",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Video Door Communication",
+        "description": "Allows occupants to see visitors at the entrance.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Two-Way Audio",
+        "description": "Enables conversation with visitors.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Door Station Integration",
+        "description": "Combines compatible entrance and indoor communication components.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Visitor Monitoring",
+        "description": "Provides live viewing through the connected camera.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Residential Access Convenience",
+        "description": "Simplifies responding to visitors without opening the door.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Integrated System Design",
+        "description": "Intended to operate as a compatible video-door-phone kit.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "REVIEW EXACT KIT MODEL"
+    ]
+  },
+  "approved-onetouch-ot-630-smart-door-lock": {
+    "sourceName": "ONETOUCH OT 630",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "3D Face Recognition",
+        "description": "Supports facial-recognition access.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Fingerprint Unlocking",
+        "description": "Provides biometric fingerprint entry.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "RFID Card Access",
+        "description": "Supports compatible RFID access cards.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Digital Access Control",
+        "description": "Offers electronic entry without relying solely on a mechanical key.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multiple Entry Methods",
+        "description": "Provides convenient alternatives for different users.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Modern Door Lock Design",
+        "description": "Combines electronic access technology with a contemporary form factor.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "CONFIRM MODEL VARIANT"
+    ]
+  },
+  "approved-onetouch-ot-630-pro-smart-door-lock": {
+    "sourceName": "ONETOUCH OT 630 PRO",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "3D Facial Recognition",
+        "description": "Hands-free facial-recognition access.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Palm-Vein Recognition",
+        "description": "Biometric authentication using palm-vein technology.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Fingerprint Access",
+        "description": "Convenient fingerprint-based unlocking.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multiple Unlocking Methods",
+        "description": "Supports several electronic entry options.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Video Door Phone Functionality",
+        "description": "Integrated visitor communication features.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Smartphone App Integration",
+        "description": "Compatible app-based features.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Advanced Access Convenience",
+        "description": "Multiple options for authorised users.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "CONFIRM EXACT MODEL"
+    ]
+  },
+  "approved-onetouch-digital-door-lock-ot-630": {
+    "sourceName": "ONETOUCH DIGITAL DOOR LOCK OT 630",
+    "verificationStatus": "needs_review",
+    "features": [
+      {
+        "title": "Electronic Door Locking",
+        "description": "Digital control of door access.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Biometric Access",
+        "description": "Supported biometric unlocking methods.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "RFID Card Entry",
+        "description": "Entry through compatible RFID cards.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Multiple Access Options",
+        "description": "Alternative unlocking methods.",
+        "verificationStatus": "needs_review"
+      },
+      {
+        "title": "Residential Security Application",
+        "description": "Designed for compatible residential doors.",
+        "verificationStatus": "needs_review"
+      }
+    ],
+    "reviewNotes": [
+      "POSSIBLE DUPLICATE OF PRODUCT 36",
+      "Verify whether this is a distinct product or an alternative listing name for OT 630."
+    ]
+  }
+}
