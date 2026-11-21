@@ -1202,3 +1202,9 @@ body .s-living-experience:before { left:auto; right:0; top:0; width:30%; height:
 }
 
 .s-team-grid .s-team-role { margin:6px 0 0; font-size:14px; line-height:1.5; color:var(--brand-secondary); }
+
+@media (max-width:900px) {
+ .s-hero--bottom-layout .s-hero-image--hero-one,
+ .s-hero--bottom-layout .s-hero-image--hero-two,
+ .s-hero--bottom-layout .s-hero-image--hero-three { object-position:right top; }
+}
