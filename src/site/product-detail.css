@@ -57,3 +57,5 @@
 @media(prefers-reduced-motion:reduce) { .dp-feature-toggle { transition:none; } }
 
 .dp-hero { min-height:100svh; display:flex; align-items:center; }
+
+.dp-hero { min-height:65svh; }

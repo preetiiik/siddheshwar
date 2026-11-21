@@ -81,3 +81,5 @@
 .sd-capability-grid > div { padding-inline:18px; }
 
 .sd-hero { min-height:100svh; height:auto; max-height:none; }
+
+.sd-hero { min-height:65svh; }

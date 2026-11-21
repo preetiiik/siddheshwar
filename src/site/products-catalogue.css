@@ -81,3 +81,5 @@
 @media(max-width:700px) { .pc-hero { min-height:465px; padding:125px 0 45px; }.pc-hero nav { margin-bottom:27px; }.pc-hero h1 { font-size:40px; }.pc-hero-image { object-position:65% center; }.pc-hero>.s-container>p:last-child { font-size:15px; } }
 
 .pc-hero { min-height:100svh; }
+
+.pc-hero { min-height:65svh; }

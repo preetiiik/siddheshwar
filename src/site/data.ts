@@ -41,11 +41,11 @@ export const brands: { name: string; logo: string; relationship: string; width: 
 ];
 export const technologyTopics = ['Intelligent control', 'Architectural lighting', 'Connected spaces', 'Thoughtful integration'];
 export const team = [
-  { name: 'Siddharth S Kammar', image: '/team/Mr.Siddharth S Kammar .jpeg' },
-  { name: 'Sushmitha S Kammar', image: '/team/Mrs.Sushmitha S Kammar .jpeg' },
-  { name: 'Karthik Radhakrishnan', image: '/team/Mr.Karthik Radhakrishnan.jpeg' },
-  { name: 'Harish Kumar', image: '/team/Mr.Harish kumar.jpeg' },
-  { name: 'Vinay', image: '/team/Mr.Vinay .jpeg' },
+  { name: 'Siddharth S Kammar', role: 'COO - Chief Operating Officer', image: '/team/Mr.Siddharth S Kammar .jpeg' },
+  { name: 'Sushmitha S Kammar', role: 'CEO', image: '/team/Mrs.Sushmitha S Kammar .jpeg' },
+  { name: 'Karthik Radhakrishnan', role: 'Lighting Consultant', image: '/team/Mr.Karthik Radhakrishnan.jpeg' },
+  { name: 'Harish Kumar', role: 'Lighting Consultant', image: '/team/Mr.Harish kumar.jpeg' },
+  { name: 'Vinay', role: 'Technical Consultant', image: '/team/Mr.Vinay .jpeg' },
 ];
 export const routes = [
   ['/', 'Home'], ['/what-we-do', 'What We Do'], ['/brands', 'Brands We Integrate'], ['/products', 'Products'], ['/solutions', 'Solutions'],

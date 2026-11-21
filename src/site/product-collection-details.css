@@ -63,3 +63,5 @@
 @media(prefers-reduced-motion:reduce) { .pd-page * { transition:none!important; }.pd-primary:hover,.pd-model:hover,.pd-model:hover img { transform:none; } }
 
 .pd-hero { min-height:100svh; height:auto; max-height:none; }
+
+.pd-hero { min-height:65svh; }

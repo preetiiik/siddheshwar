@@ -3,3 +3,5 @@
 @media(prefers-reduced-motion:reduce){.ak-page *{animation:none!important;transition:none!important;scroll-behavior:auto!important}.ak-card:hover img{transform:none}}
 
 .ak-hero { min-height:100svh; display:flex; align-items:center; }
+
+.ak-hero { min-height:65svh; }
