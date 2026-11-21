@@ -79,15 +79,15 @@
         "brand": "MDT",
         "name": "Pushbutton Light 55",
         "id": "mdt-pushbutton-light-55",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/mdt-pushbutton-light-55.svg"
+        "placeholder": false,
+        "image": "/products/all products/MDT Pushbutton Light 55.png"
       },
       {
         "brand": "MDT",
         "name": "Glass Pushbutton II",
         "id": "mdt-glass-pushbutton-ii",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/mdt-glass-pushbutton-ii.svg"
+        "placeholder": false,
+        "image": "/products/all products/MDT Glass Pushbutton II.png"
       },
       {
         "brand": "Moorgen",
@@ -100,8 +100,8 @@
         "brand": "Moorgen",
         "name": "Smart Thermostat",
         "id": "moorgen-smart-thermostat",
-        "image": "/products/collection-placeholders/moorgen-smart-thermostat.svg",
-        "placeholder": true
+        "image": "/products/all products/Moorgen Smart Thermostat.png",
+        "placeholder": false
       },
       {
         "brand": "Schneider Electric",
@@ -306,8 +306,8 @@
         "brand": "MDT",
         "name": "AKD 320V Dimming Actuator",
         "id": "mdt-akd-320v-dimming-actuator",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/mdt-akd-320v-dimming-actuator.svg"
+        "placeholder": false,
+        "image": "/products/all products/AKD 320V Dimming Actuator.png"
       },
       {
         "brand": "MDT",
@@ -363,85 +363,85 @@
         "brand": "Akubela",
         "name": "Compact Rotary Control Panel",
         "id": "akubela-compact-rotary-control-panel",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/akubela-compact-rotary-control-panel.svg"
+        "placeholder": false,
+        "image": "/products/all products/Compact Rotary Control Panel.png"
       },
       {
         "brand": "Akubela",
         "name": "Desktop Smart Control Panel",
         "id": "akubela-desktop-smart-control-panel",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/akubela-desktop-smart-control-panel.svg"
+        "placeholder": false,
+        "image": "/products/all products/Desktop Smart Control Panel.png"
       },
       {
         "brand": "Akubela",
         "name": "Premium Central Control Panel",
         "id": "akubela-premium-central-control-panel",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/akubela-premium-central-control-panel.svg"
+        "placeholder": false,
+        "image": "/products/all products/premium central control panel.png"
       },
       {
         "brand": "Akubela",
         "name": "Premium Rotary Control Panel",
         "id": "akubela-premium-rotary-control-panel",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/akubela-premium-rotary-control-panel.svg"
+        "placeholder": false,
+        "image": "/products/all products/premium rotary control panel.png"
       },
       {
         "brand": "Akubela",
         "name": "Touchscreen Keypad Panel",
         "id": "akubela-touchscreen-keypad-panel",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/akubela-touchscreen-keypad-panel.svg"
+        "placeholder": false,
+        "image": "/products/all products/touchscreen keypad panel.png"
       },
       {
         "brand": "Basalte",
         "name": "Ellie",
         "id": "basalte-ellie",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/basalte-ellie.svg"
+        "placeholder": false,
+        "image": "/products/all products/ellie.png"
       },
       {
         "brand": "Basalte",
         "name": "Lisa",
         "id": "basalte-lisa",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/basalte-lisa.svg"
+        "placeholder": false,
+        "image": "/products/all products/lisa.png"
       },
       {
         "brand": "MDT",
         "name": "Aurelio",
         "id": "mdt-aurelio",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/mdt-aurelio.svg"
+        "placeholder": false,
+        "image": "/products/all products/Aurelio.png"
       },
       {
         "brand": "MDT",
         "name": "Glass Pushbutton Plus",
         "id": "mdt-glass-pushbutton-plus",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/mdt-glass-pushbutton-plus.svg"
+        "placeholder": false,
+        "image": "/products/all products/Glass Push Button Plus.png"
       },
       {
         "brand": "MDT",
         "name": "Glass Room Temperature Controller",
         "id": "mdt-glass-room-temperature-controller",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/mdt-glass-room-temperature-controller.svg"
+        "placeholder": false,
+        "image": "/products/all products/Glass Room Temperature Controller.png"
       },
       {
         "brand": "Moorgen",
         "name": "KNX Smart Touch S10",
         "id": "moorgen-knx-smart-touch-s10",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/moorgen-knx-smart-touch-s10.svg"
+        "placeholder": false,
+        "image": "/products/all products/Moorgen KNX Smart Touch S10.png"
       },
       {
         "brand": "Theben",
         "name": "iON Prime CP4 KNX",
         "id": "theben-ionprime-cph-knx",
         "placeholder": false,
-        "image": "/products/ionprime/04_CP4_Room_Controller.png"
+        "image": "/products/all products/iONprime CP4 KNX.png"
       }
     ]
   },
@@ -547,8 +547,8 @@
         "brand": "OneTouch",
         "name": "OT 630",
         "id": "onetouch-ot-630-smart-door-lock",
-        "placeholder": true,
-        "image": "/products/collection-placeholders/onetouch-ot-630-smart-door-lock.svg"
+        "placeholder": false,
+        "image": "/products/all products/OneTouch OT 630.png"
       },
       {
         "brand": "OneTouch",

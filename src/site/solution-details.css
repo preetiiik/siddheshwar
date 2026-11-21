@@ -79,3 +79,5 @@
 @media (prefers-reduced-motion:reduce) { .sd-feature-grid > div,.sd-feature-grid svg { transition:none; }.sd-feature-grid > div:hover svg { transform:none; } }
 /* Keep capability numbers and text inside the hover surface. */
 .sd-capability-grid > div { padding-inline:18px; }
+
+.sd-hero { min-height:100svh; height:auto; max-height:none; }

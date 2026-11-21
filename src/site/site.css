@@ -1087,3 +1087,95 @@ body .s-solutions-bento:before { left:auto; right:0; bottom:0; width:34%; height
 body .hpc-section:before { right:0; top:0; width:24%; height:100%; background:linear-gradient(160deg,rgba(104,152,209,.08),transparent 75%); clip-path:polygon(44% 0,100% 0,100% 100%,0 100%); }
 body .mac-section:before { right:0; top:0; width:34%; height:100%; background:linear-gradient(145deg,rgba(104,152,209,.07),transparent 70%); clip-path:polygon(50% 0,100% 0,100% 100%,0 100%); }
 body .s-living-experience:before { left:auto; right:0; top:0; width:30%; height:100%; background:linear-gradient(145deg,rgba(104,152,209,.08),transparent 75%); clip-path:polygon(50% 0,100% 0,100% 100%,0 100%); }
+
+/* Floating glass navigation over the home hero. */
+@media(min-width:901px) {
+ .s-header--home:not(.is-solid) #s-main-nav { min-height:54px; padding:5px 12px; gap:4px; backdrop-filter:blur(24px) saturate(150%); -webkit-backdrop-filter:blur(24px) saturate(150%); }
+ .s-header--home:not(.is-solid) .s-header-cluster,.s-header--home:not(.is-solid) .s-header-actions { gap:14px; }
+ .s-header--home:not(.is-solid) .s-nav-whatsapp { width:54px; height:54px; }
+}
+@media(max-width:1100px) and (min-width:901px) { .s-header--home:not(.is-solid) .s-nav-whatsapp { width:44px; height:44px; } .s-header--home:not(.is-solid) .s-header-cluster,.s-header--home:not(.is-solid) .s-header-actions { gap:8px; } }
+@media(max-width:900px) { }
+#product-search { scroll-margin-top:120px; }
+
+/* Immersive mobile home hero. */
+@media (max-width:900px) {
+ .s-header--home:not(.is-solid) { background:transparent; border:0; }
+ .s-header--home .s-nav-wrap { position:relative; }
+ .s-header--home:not(.is-solid) .s-menu-toggle { min-width:50px; width:50px; height:50px; padding:0; border-radius:50%; color:#fff; border-color:rgba(255,255,255,.4); background:rgba(25,27,30,.42); backdrop-filter:blur(12px); }
+ .s-header--home:not(.is-solid) .s-menu-word { display:none; }
+ .s-header--home:not(.is-solid) .s-header-actions:not(.is-open) { display:flex; position:absolute; right:64px; top:50%; transform:translateY(-50%); }
+ .s-header--home:not(.is-solid) .s-header-actions:not(.is-open) .s-nav-cta { display:none; }
+ .s-header--home:not(.is-solid) .s-nav-whatsapp { width:50px; height:50px; background:rgba(25,27,30,.42); }
+ .s-hero--bottom-layout { height:auto; min-height:max(100svh, 680px); max-height:none; padding:0; display:flex; align-items:flex-end; }
+ .s-hero--bottom-layout .s-hero-media { position:absolute; inset:0; width:100%; height:100%; aspect-ratio:auto; }
+ .s-hero--bottom-layout .s-hero-image { object-fit:cover; object-position:center; }
+ .s-hero--bottom-layout .s-hero-overlay { display:block; inset:0; width:100%; background:linear-gradient(180deg,rgba(10,12,15,.52) 0%,rgba(10,12,15,.08) 30%,rgba(10,12,15,.55) 56%,rgba(10,12,15,.9) 100%); }
+ .s-hero--bottom-layout .s-hero-content { position:relative; top:auto; left:auto; right:auto; height:auto; padding-top:180px; padding-bottom:96px; display:block; }
+ .s-hero--bottom-layout .s-hero-copy { display:grid; grid-template-columns:1fr; gap:18px; max-width:440px; }
+ .s-hero--bottom-layout h1 { font-size:clamp(32px,8vw,48px); line-height:1.1; }
+ .s-hero--bottom-layout .s-hero-model { padding-top:17px; border-top:1px solid rgba(255,255,255,.3); }
+ .s-hero--bottom-layout .s-lead { margin:0; }
+ .s-hero--bottom-layout .s-hero-cta-reveal { justify-self:start; }
+ .s-hero--bottom-layout .s-hero-dots { left:24px; right:auto; bottom:25px; }
+}
+
+/* Hero pagination: illuminated active dash with quiet inactive dots. */
+.s-hero-dots { gap:7px; }
+.s-hero-dots button { width:auto; min-width:8px; height:36px; }
+.s-hero-dots button span { width:7px; height:7px; background:rgba(255,255,255,.35); }
+.s-hero-dots button[aria-pressed="true"] span { width:26px; height:5px; background:#fff; box-shadow:none; }
+
+@media (max-width:900px) {
+ .s-hero--bottom-layout .s-hero-image--hero-one { object-position:70% center; }
+ .s-hero--bottom-layout .s-hero-image--hero-two { object-position:100% center; }
+ .s-hero--bottom-layout .s-hero-image--hero-three { object-position:85% center; }
+}
+
+/* Keep the open mobile menu and its action bar anchored to the viewport. */
+@media (max-width:900px) {
+ .s-header:has(.s-header-actions.is-open) { backdrop-filter:none; -webkit-backdrop-filter:none; }
+ .s-header-actions.is-open { z-index:1; bottom:max(16px, env(safe-area-inset-bottom)); }
+}
+
+.s-mobile-nav-actions { display:none; }
+@media (max-width:900px) {
+ .s-header .s-header-actions.is-open { display:none; }
+ .s-header nav.is-open { padding-bottom:32px; }
+ .s-header nav.is-open .s-mobile-nav-actions { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:28px; padding-top:20px; border-top:1px solid rgba(255,255,255,.15); }
+ .s-header nav.is-open .s-mobile-nav-actions .s-nav-cta { margin:0; width:auto; padding:13px 22px; }
+}
+
+/* Homepage entrance: logo, progress, then a curved reveal. */
+.s-home-splash { background:#fff; color:#242424; }
+.s-home-splash-content { display:flex; flex-direction:column; align-items:center; width:min(230px,55vw); }
+.s-home-splash-content .s-logo { width:100%; }
+.s-home-splash .s-logo:after { display:none; }
+.s-home-progress { width:100%; height:2px; margin-top:30px; background:#e7e4dd; overflow:hidden; }
+.s-home-progress span { display:block; width:100%; height:100%; background:var(--brand-navy); transform-origin:left; }
+.s-home-progress-number { margin-top:12px; font-size:28px; line-height:1; font-variant-numeric:tabular-nums; font-weight:400; }
+
+.s-hero-picture { position:absolute; inset:0; display:block; }
+@media (max-width:900px) {
+ .s-hero--bottom-layout .s-hero-image--hero-one,
+ .s-hero--bottom-layout .s-hero-image--hero-two,
+ .s-hero--bottom-layout .s-hero-image--hero-three { object-position:center top; }
+}
+
+/* Keep the slide label legible over light and detailed photography. */
+.s-hero--bottom-layout .s-hero-model { color:#b9dcff; text-shadow:0 1px 2px #000,0 2px 6px #000,0 0 12px rgba(0,0,0,.9); }
+
+/* Let page heroes fill the viewport, growing when their content needs more room. */
+.s-page-hero, .s-page-hero.has-image { min-height:100svh; display:flex; align-items:center; }
+
+.s-hero-dots { gap:6px; }
+.s-hero-dots button { min-width:5px; }
+.s-hero-dots button span { width:5px; height:5px; }
+.s-hero-dots button[aria-pressed="true"] span { width:20px; height:3px; }
+
+@media (min-width:901px) { .s-hero-dots { right:max(32px, calc((100vw - 1320px) / 2)); } }
+@media (max-width:900px) { .s-hero--bottom-layout .s-hero-dots { left:auto; right:20px; } }
+
+/* Align desktop pagination with the hero container and action button. */
+@media (min-width:1101px) { .s-hero--bottom-layout .s-hero-dots { right:max(48px, calc((100vw - 1320px) / 2)); } }
+@media (min-width:1600px) { .s-hero--bottom-layout .s-hero-dots { right:max(72px, calc((100vw - 1440px) / 2)); } }

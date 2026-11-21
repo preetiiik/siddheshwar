@@ -55,3 +55,5 @@
 .dp-feature-toggle { display:inline-flex; align-items:center; gap:12px; margin-top:24px; padding:12px 18px; border:1px solid var(--brand-navy); border-radius:999px; background:transparent; color:var(--brand-navy); font-size:12px; font-weight:600; text-transform:uppercase; cursor:pointer; transition:background .25s,color .25s; }
 .dp-feature-toggle:hover,.dp-feature-toggle:focus-visible { background:var(--brand-navy); color:#fff; }
 @media(prefers-reduced-motion:reduce) { .dp-feature-toggle { transition:none; } }
+
+.dp-hero { min-height:100svh; display:flex; align-items:center; }

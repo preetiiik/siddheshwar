@@ -1,5 +1,5 @@
 ﻿import { Link, useLocation } from 'react-router-dom';
-import { ArrowDown, ArrowUpRight, Box, Cable, Cloud, Home, Network, Settings2, Smartphone, Wifi } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Cable, Cloud, Home, Network, Settings2, Smartphone, Wifi } from 'lucide-react';
 import { ContactCTA, Reveal } from './components';
 import SelectedFeatures from './SelectedFeatures';
 import './onehome.css';
@@ -20,7 +20,7 @@ const chFeatures = [
  { title:'1Home Mobile App', description:'Use the 1Home app to access supported KNX functionality.', Icon:Smartphone },
 ];
 function ImagePending({ name }: { name:string }) {
- return <div className="oh-image-pending" role="img" aria-label={`${name} image coming soon`}><Box size={40} strokeWidth={1} aria-hidden="true"/><span>{name}</span><small>Product image coming soon</small></div>;
+ return <div className="oh-image-pending"><img src={`/products/all products/${name}.png`} alt={name} loading="lazy" /></div>;
 }
 export default function OneHomePage() {
  const isCH=useLocation().pathname.endsWith('1home-server-ch');

@@ -14,7 +14,7 @@
 .s-category-tile h3 { color:var(--brand-white); font-family:var(--font-secondary); font-size:19px; font-weight:500; letter-spacing:-.02em; line-height:1.2; margin:0 0 8px; padding-right:14px; }
 .s-category-tile p { color:var(--brand-light); font-size:12px; line-height:1.6; max-width:240px; margin:0; }
 .s-category-tile-arrow { position:absolute; top:15px; right:15px; display:block; color:var(--brand-white); border:1px solid color-mix(in srgb,var(--brand-blue) 55%,transparent); border-radius:50%; width:28px; height:28px; padding:5px; background:color-mix(in srgb,var(--brand-navy) 40%,transparent); transition:transform .3s; }
-.s-category-tile--actuators-gateways>img { object-fit:contain; padding:15px 35px 100px; }
+.s-category-tile--actuators-gateways>img { object-fit:contain; object-position:center top; padding:15px 35px 100px; }
 .s-category-tile--actuators-gateways:after { background:linear-gradient(180deg,transparent 20%,color-mix(in srgb,var(--brand-ink) 3%,transparent) 40%,color-mix(in srgb,var(--brand-ink) 86%,transparent) 100%); }
 .s-category-tile.is-pending { background:radial-gradient(ellipse at 85% 0%,color-mix(in srgb,var(--brand-blue) 35%,transparent),transparent 65%),linear-gradient(140deg,var(--brand-navy),var(--brand-ink)); }
 .s-category-tile.is-pending:before { content:''; position:absolute; width:230px; height:230px; border:1px solid color-mix(in srgb,var(--brand-blue) 25%,transparent); border-radius:50%; right:-75px; top:-95px; box-shadow:0 0 0 25px color-mix(in srgb,var(--brand-blue) 8%,transparent),0 0 0 50px color-mix(in srgb,var(--brand-blue) 5%,transparent); z-index:-1; }
