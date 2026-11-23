@@ -43,4 +43,13 @@
 .s-category-tile:is(:hover,:focus-visible) :is(p,.s-category-pending-note) { max-height:100px; opacity:1; margin-top:8px; }
 .s-category-tile:is(:hover,:focus-visible) .s-category-tile-icon { max-height:32px; opacity:1; margin-bottom:10px; }
 .s-category-tile:is(:hover,:focus-visible) .s-category-tile-arrow { opacity:1; }
+@media(max-width:600px) {
+ .s-category-tile .s-category-tile-copy:before { opacity:1; }
+ .s-category-tile :is(p,.s-category-pending-note) { max-height:100px; opacity:1; margin-top:8px; }
+ .s-category-tile .s-category-tile-icon { max-height:32px; opacity:1; margin-bottom:10px; }
+ .s-category-tile .s-category-tile-arrow { opacity:1; }
+ .s-category-tile:hover { transform:none; border-color:var(--brand-line); box-shadow:0 4px 12px color-mix(in srgb,var(--brand-ink) 4%,transparent); }
+ .s-category-tile:hover>img,.s-category-tile:hover .s-category-tile-arrow { transform:none; }
+ .s-category-tile:hover .s-category-tile-icon { background:color-mix(in srgb,var(--brand-blue) 15%,transparent); }
+}
 @media(prefers-reduced-motion:reduce) { .s-category-tile:after,.s-category-tile-copy:before,.s-category-tile p,.s-category-pending-note,.s-category-tile-icon,.s-category-tile-arrow { transition:none; } }
