@@ -1295,3 +1295,12 @@ body:has(.s-team-profile-page) .s-header.s-header--light-logo .s-logo:after{disp
 .s-team-profile-card,.s-team-back{width:min(100%,600px)}
 .s-team-profile-card .s-profile-brand{height:190px;padding:18px 55px 48px}
 @media(max-width:600px){.s-team-profile-card .s-profile-brand{height:170px;padding:16px 40px 42px}}
+.s-profile-linkedin{width:36px;height:36px;display:grid;place-items:center;border-radius:50%;background:#0a66c2;color:#fff;font-family:Arial,sans-serif;font-weight:bold;text-decoration:none;box-shadow:0 3px 8px #0002}
+.s-profile-social .s-profile-instagram,.s-profile-social .s-profile-facebook{width:36px;height:36px;display:grid;place-items:center;border-radius:50%;color:#fff;box-shadow:0 3px 8px #0002}
+.s-profile-social .s-profile-instagram{background:linear-gradient(135deg,#f7a13c,#e32469,#8239bc)}
+.s-profile-social .s-profile-facebook{background:#1877f2}
+.s-profile-social a:focus-visible{outline:2px solid var(--brand-navy);outline-offset:3px}
+.s-footer-social{display:flex;gap:12px;margin-top:28px}
+.s-footer-social a{display:grid;place-items:center;width:40px;height:40px;border:1px solid var(--brand-line);border-radius:50%;color:var(--brand-light);transition:background .25s,border-color .25s}
+.s-footer-social a:hover{background:var(--brand-navy);border-color:var(--brand-navy)}
+.s-footer-bottom p,.s-footer-bottom button,.s-footer-bottom .s-footer-powered{font-size:13px}

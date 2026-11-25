@@ -1,11 +1,11 @@
-﻿import { test, expect } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 
 test('team cards open the correct standalone profile', async ({ page }) => {
   await page.goto('/about');
   await page.getByRole('link', { name: "View Karthik Radhakrishnan's profile" }).click();
   await expect(page).toHaveURL(/\/team\/karthik$/);
   await expect(page.getByRole('heading', { name: 'Karthik Radhakrishnan' })).toBeVisible();
-  await expect(page.getByText('karthik@example.com')).toBeVisible();
+  await expect(page.getByText('info@ssthomeautomation.in')).toBeVisible();
   await expect(page.getByRole('dialog')).toHaveCount(0);
   await page.getByRole('link', { name: 'Back to our team' }).click();
   await expect(page).toHaveURL(/\/about#our-team$/);
