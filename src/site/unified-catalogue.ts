@@ -15,7 +15,15 @@ const oneHome:Product[] = [
  { id:'1home-server-knx', slug:'1home-server-knx', name:'1Home Server KNX', title:'1Home Server KNX', category:'automation', brand:'1Home', primaryCategory:'smart-home-servers-gateways', collection:'Smart Home Servers & Gateways', shortDescription:'A smart-home integration server connecting KNX with modern smart-home platforms, mobile applications and voice assistants.', fullDescription:'A smart-home integration server connecting KNX with modern smart-home platforms, mobile applications and voice assistants.', image:'/products/all products/1Home Server KNX.png', alt:'1Home Server KNX', imageStatus:'actual', features:[], applications:[], relatedProductIds:[], aliases:[], products:[], verificationStatus:'user-supplied', productKind:'hardware', detailPath:'/products/1home-server-knx' },
  { id:'1home-server-ch', slug:'1home-server-ch', name:'1Home Server CH', title:'1Home Server CH', category:'automation', brand:'1Home', primaryCategory:'smart-home-servers-gateways', collection:'Smart Home Servers & Gateways', shortDescription:'An integration solution that synchronises KNX configurations with Crestron Home for seamless smart-home control.', fullDescription:'An integration solution that synchronises KNX configurations with Crestron Home for seamless smart-home control.', image:'/products/all products/1Home Server CH.png', alt:'1Home Server CH', imageStatus:'actual', features:[], applications:[], relatedProductIds:[], aliases:[], products:[], verificationStatus:'user-supplied', productKind:'hardware', detailPath:'/products/1home-server-ch' },
 ];
-export const unifiedCatalogue:Product[]=[...retained,ephesus,...oneHome].map(p=>({...p,detailPath:p.detailPath || `/products/${p.slug.replace(/^approved-/, '')}`}));
+const productGalleries: Record<string, string[]> = {
+ 'approved-moorgen-knx-smart-touch-s10': ['/products/all products/Moorgen KNX Smart Touch S10 - 1.png'],
+ 'approved-mdt-glass-pushbutton-plus': [
+  '/products/all products/Glass Push Button Plus-1.png',
+  ...Array.from({length:8}, (_, i) => `/products/all products/Glass Pushbutton Plus-${i + 2}.png`),
+  '/products/all products/Glass Pushbutton Plus-10.jpeg',
+ ],
+};
+export const unifiedCatalogue:Product[]=[...retained,ephesus,...oneHome].map(p=>({...p,detailPath:p.detailPath || `/products/${p.slug.replace(/^approved-/, '')}`,galleryImages:productGalleries[p.id]?.map((src,i)=>({src,alt:`${p.brand} ${p.name}, view ${i + 2}`})) || p.galleryImages}));
 export const catalogueAudit={
  importedAkubela:0,total:unifiedCatalogue.length,
  byCategory:catalogueCategories.map(c=>({id:c.id,name:c.name,count:unifiedCatalogue.filter(p=>p.primaryCategory===c.id).length})),

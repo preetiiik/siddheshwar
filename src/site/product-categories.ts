@@ -9,7 +9,7 @@ export const homepageProductCategories = [
  {id:'actuators-gateways',name:'Actuators & Gateways',description:'Intelligent technology behind seamless automation.',image:'/products/all products/Actuator.png',alt:'Living room with integrated automation controls'},
 ] as const;
 export const catalogueCategories = [
- ...['smart-keypad-switches','smart-remote-controls','curtain-controllers','actuators-gateways','smart-touch-panels','video-door-phones','smart-door-locks'].map(id=>homepageProductCategories.find(c=>c.id===id)!),
+ ...['smart-touch-panels','smart-keypad-switches','smart-remote-controls','curtain-controllers','actuators-gateways','video-door-phones','smart-door-locks'].map(id=>homepageProductCategories.find(c=>c.id===id)!),
  {id:'knx-room-controllers',name:'KNX Room Controllers'},
  {id:'smart-home-servers-gateways',name:'Smart Home Servers & Gateways'},
 ];
